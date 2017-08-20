@@ -3,7 +3,10 @@
 == 2017 ==
 
 === August ===
+<<<<<<< HEAD
     * [[2017-08-20]]
+=======
+>>>>>>> branch 'master' of https://github.com/autumnc/autumnc.github.io.git
     * [[2017-08-19]]
     * [[2017-08-10]]
     * [[2017-08-02]]
