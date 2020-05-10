@@ -14,13 +14,16 @@ header{
     display: block;
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 nav{
     text-transform: uppercase;
     font-size: 30px;
     text-decoration: none;
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #bar{
@@ -35,7 +38,6 @@ nav{
     font-family: "Menlo", sans-serif;
     font-size:17px;
     text-transform: uppercase;
-    text-align: center;
     list-style-type: none;
     padding-left: 0;
     padding-bottom: 25px;
