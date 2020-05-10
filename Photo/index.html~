@@ -6,7 +6,7 @@
 <!-- 2020-05-10 Sun 23:16 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>我的博客</title>
+<title>图片测试</title>
 <meta name="generator" content="Org mode" />
 <link rel="stylesheet" type="text/css" href="/static/css/default.css" />
 </head>
@@ -22,34 +22,26 @@
 </header>
 </div>
 <div id="content">
-<h1 class="title">我的博客</h1>
-<div class="HTML">
+<h1 class="title">图片测试</h1>
 <p>
-&lt;style&gt;
-h1.title {
-display: none
-}
-&lt;/style&gt;
+Emacs logo：
 </p>
 
-</div>
 
-<div class="HTML">
-<p>
-&lt;script&gt;
-&lt;/script&gt;
-&lt;gcse:search&gt;&lt;/gcse:search&gt;
+<div class="figure">
+<p><img src="images/emacs.png" alt="emacs.png" />
 </p>
-
 </div>
 
 <p>
-<a href="math.html">数学公式</a>
+Org mode logo：
 </p>
 
-<p>
-<a href="Blog/%E6%96%87%E7%AB%A01.html">文章1</a>
+
+<div class="figure">
+<p><img src="images/orgmode.png" alt="orgmode.png" />
 </p>
+</div>
 </div>
 <div id="postamble" class="status">
 <footer>
