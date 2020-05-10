@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2020-05-10 Sun 23:43 -->
+<!-- 2020-05-10 Sun 23:16 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>我的博客</title>
@@ -43,27 +43,13 @@ display: none
 
 </div>
 
-<div id="outline-container-org6a4cc83" class="outline-2">
-<h2 id="org6a4cc83">读书笔记</h2>
-<div class="outline-text-2" id="text-org6a4cc83">
-</div>
-<div id="outline-container-org3c58186" class="outline-3">
-<h3 id="org3c58186"><a href="Blog/%E9%81%93%E6%95%99%E6%9C%AF%E6%B3%95.html">道教术法</a></h3>
-</div>
+<p>
+<a href="math.html">数学公式</a>
+</p>
 
-<div id="outline-container-org170873e" class="outline-3">
-<h3 id="org170873e"><a href="Blog/%E6%B1%89%E4%B9%A6.html">汉书</a></h3>
-</div>
-</div>
-
-<div id="outline-container-org5680297" class="outline-2">
-<h2 id="org5680297">牢骚</h2>
-<div class="outline-text-2" id="text-org5680297">
-</div>
-<div id="outline-container-org147c96d" class="outline-3">
-<h3 id="org147c96d">诗歌</h3>
-</div>
-</div>
+<p>
+<a href="Blog/%E6%96%87%E7%AB%A01.html">文章1</a>
+</p>
 </div>
 <div id="postamble" class="status">
 <footer>
