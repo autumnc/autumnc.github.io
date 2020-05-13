@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2020-05-14 Thu 00:02 -->
+<!-- 2020-05-14 Thu 00:41 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>汉书百官公卿表</title>
@@ -24,32 +24,424 @@
 </div>
 <div id="content">
 <h1 class="title">汉书百官公卿表</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orga25d2d6">1. 三公</a>
+<ul>
+<li><a href="#org53d7ffa">1.1. 相国、丞相（大司徒）</a></li>
+<li><a href="#org335c7f2">1.2. 太尉（大司马、将军）</a></li>
+<li><a href="#org15412ae">1.3. 御史大夫（大司空、御史中丞）</a></li>
+<li><a href="#orgc3c3fdc">1.4. 太傅、太师、太保（古官三公）</a></li>
+</ul>
+</li>
+<li><a href="#orgbff7d2a">2. 九卿</a>
+<ul>
+<li><a href="#org97a8d6c">2.1. 奉常（太常、秩宗）</a>
+<ul>
+<li><a href="#org191ce19">2.1.1. 六令丞</a>
+<ul>
+<li><a href="#org3e40f9a">2.1.1.1. 太乐</a></li>
+<li><a href="#org1ced1d2">2.1.1.2. 太祝</a></li>
+<li><a href="#org7fdfac6">2.1.1.3. 太宰</a></li>
+<li><a href="#orgb7970a5">2.1.1.4. 太史</a></li>
+<li><a href="#org693f14d">2.1.1.5. 太卜</a></li>
+<li><a href="#org735efeb">2.1.1.6. 太医</a></li>
+</ul>
+</li>
+<li><a href="#org778c8cf">2.1.2. 两长丞</a>
+<ul>
+<li><a href="#org4325e07">2.1.2.1. 都水</a></li>
+<li><a href="#org0005f1d">2.1.2.2. 均官</a></li>
+</ul>
+</li>
+<li><a href="#org484fcc3">2.1.3. 诸庙寝园食官令长丞</a></li>
+<li><a href="#orgdd49b2f">2.1.4. 雍五畤相关</a>
+<ul>
+<li><a href="#org69c6a46">2.1.4.1. 雍太宰</a></li>
+<li><a href="#org4d62eb2">2.1.4.2. 雍太祝</a></li>
+<li><a href="#org1bdaac6">2.1.4.3. 五畤尉</a></li>
+</ul>
+</li>
+<li><a href="#org9a1a9e8">2.1.5. 博士</a></li>
+<li><a href="#org75525c1">2.1.6. 诸陵县</a></li>
+</ul>
+</li>
+<li><a href="#org5985f70">2.2. 郎中令（光禄勋）</a>
+<ul>
+<li><a href="#org8b4f242">2.2.1. 大夫</a>
+<ul>
+<li><a href="#org42ca34c">2.2.1.1. 太中大夫</a></li>
+<li><a href="#orgfa0049b">2.2.1.2. 中大夫</a></li>
+<li><a href="#org959474e">2.2.1.3. 谏大夫</a></li>
+</ul>
+</li>
+<li><a href="#org4476c17">2.2.2. 郎</a>
+<ul>
+<li><a href="#orga7b4dc0">2.2.2.1. 议郎</a></li>
+<li><a href="#orgdf2bb73">2.2.2.2. 中郎</a></li>
+<li><a href="#orgf44d1ee">2.2.2.3. 侍郎</a></li>
+<li><a href="#org2a6fc4d">2.2.2.4. 郎中</a></li>
+</ul>
+</li>
+<li><a href="#orgb20e0e5">2.2.3. 谒者</a>
+<ul>
+<li><a href="#org92c69e1">2.2.3.1. 谒者仆射</a></li>
+</ul>
+</li>
+<li><a href="#org51e9e19">2.2.4. 期门（虎贲郎）</a>
+<ul>
+<li><a href="#org9efb0bd">2.2.4.1. 期门仆射</a></li>
+<li><a href="#org8cf6321">2.2.4.2. 虎贲中郎将</a></li>
+</ul>
+</li>
+<li><a href="#orgc22c694">2.2.5. 羽林</a></li>
+</ul>
+</li>
+<li><a href="#org6f321c3">2.3. 卫尉（中大夫令）</a>
+<ul>
+<li><a href="#orga6000e3">2.3.1. 公车司马</a></li>
+<li><a href="#org4b3078d">2.3.2. 卫士</a></li>
+<li><a href="#orgfa6b768">2.3.3. 旅贲</a></li>
+<li><a href="#orge5aa596">2.3.4. 诸屯卫候</a></li>
+<li><a href="#org643cb80">2.3.5. 司马二十二官</a></li>
+<li><a href="#org021309b">2.3.6. 长乐卫尉</a></li>
+<li><a href="#org87e0e49">2.3.7. 建章卫尉</a></li>
+<li><a href="#org18d2516">2.3.8. 甘泉卫尉</a></li>
+</ul>
+</li>
+<li><a href="#org29f963b">2.4. 太仆</a>
+<ul>
+<li><a href="#org402f37e">2.4.1. 太厩</a></li>
+<li><a href="#orge347a2a">2.4.2. 未央</a></li>
+<li><a href="#org1caab99">2.4.3. 家马（挏马）</a>
+<ul>
+<li><a href="#org2fa6ae5">2.4.3.1. 车府</a></li>
+<li><a href="#org5807869">2.4.3.2. 路</a></li>
+<li><a href="#org5e5f8e6">2.4.3.3. 骑马</a></li>
+<li><a href="#org23ab61c">2.4.3.4. 骏马</a></li>
+</ul>
+</li>
+<li><a href="#orgcd88fe1">2.4.4. 五监长丞</a></li>
+<li><a href="#org9618c90">2.4.5. 边郡六牧师苑令</a></li>
+<li><a href="#orgc3f63b4">2.4.6. 牧橐令丞</a></li>
+<li><a href="#org0ca6a12">2.4.7. 昆蹄令丞</a></li>
+<li><a href="#orgb597b4c">2.4.8. 中太仆</a></li>
+</ul>
+</li>
+<li><a href="#orgf79523a">2.5. 廷尉（大理、作士）</a></li>
+<li><a href="#org1a08efa">2.6. 典客（大行令、大鸿胪、典乐）</a>
+<ul>
+<li><a href="#org903b5d4">2.6.1. 行人</a></li>
+<li><a href="#org09852d3">2.6.2. 译官</a></li>
+<li><a href="#orgedce4d8">2.6.3. 别火</a></li>
+<li><a href="#org40a47e4">2.6.4. 郡邸长丞</a></li>
+</ul>
+</li>
+<li><a href="#org94721c2">2.7. 宗正</a>
+<ul>
+<li><a href="#org7921e4f">2.7.1. 都司空令丞</a></li>
+<li><a href="#org8e78158">2.7.2. 内官长丞</a></li>
+<li><a href="#orgfb40001">2.7.3. 公主家令</a></li>
+<li><a href="#orgb9e0a6a">2.7.4. 公主门尉</a></li>
+</ul>
+</li>
+<li><a href="#org43286e5">2.8. 治粟内史（大农令、大司农）</a>
+<ul>
+<li><a href="#orgfaf5e11">2.8.1. 五令丞</a>
+<ul>
+<li><a href="#orgffab769">2.8.1.1. 太仓</a></li>
+<li><a href="#org8177062">2.8.1.2. 均输</a></li>
+<li><a href="#org21e7b2e">2.8.1.3. 平准</a></li>
+<li><a href="#org4db4bf1">2.8.1.4. 都内</a></li>
+<li><a href="#org686bcb3">2.8.1.5. 籍田</a></li>
+</ul>
+</li>
+<li><a href="#org5597e79">2.8.2. 两长丞</a>
+<ul>
+<li><a href="#org7f351c6">2.8.2.1. 干官</a></li>
+<li><a href="#org2890aa1">2.8.2.2. 铁市</a></li>
+</ul>
+</li>
+<li><a href="#orgd2df96c">2.8.3. 郡国诸仓</a></li>
+<li><a href="#org533a043">2.8.4. 农监</a></li>
+<li><a href="#org01b5080">2.8.5. 都水六十五官长丞</a></li>
+<li><a href="#org7b80046">2.8.6. 搜粟都尉</a></li>
+</ul>
+</li>
+<li><a href="#org1067bd2">2.9. 少府</a>
+<ul>
+<li><a href="#org21e8409">2.9.1. 十六官令丞</a>
+<ul>
+<li><a href="#orgd727460">2.9.1.1. 尚书</a></li>
+<li><a href="#org6298c76">2.9.1.2. 符节</a></li>
+<li><a href="#orga68d3e7">2.9.1.3. 太医</a></li>
+<li><a href="#orgd74f6b1">2.9.1.4. 太官</a></li>
+<li><a href="#org1109722">2.9.1.5. 汤官</a></li>
+<li><a href="#org4bc6857">2.9.1.6. 导官</a></li>
+<li><a href="#org4bd6588">2.9.1.7. 乐府</a></li>
+<li><a href="#orga3349ad">2.9.1.8. 若庐</a></li>
+<li><a href="#orgd443e7c">2.9.1.9. 考工室</a></li>
+<li><a href="#org9df40e0">2.9.1.10. 左弋</a></li>
+<li><a href="#orge389652">2.9.1.11. 居室</a></li>
+<li><a href="#org39bdd6e">2.9.1.12. 甘泉居室</a></li>
+<li><a href="#org9cbca2f">2.9.1.13. 左右司空</a></li>
+<li><a href="#org22c1aea">2.9.1.14. 东织</a></li>
+<li><a href="#orgc2fdd62">2.9.1.15. 西织</a></li>
+<li><a href="#org1cdfc91">2.9.1.16. 东园匠</a></li>
+</ul>
+</li>
+<li><a href="#org6d86ee6">2.9.2. 三长丞</a>
+<ul>
+<li><a href="#orgbb510db">2.9.2.1. 庖人</a></li>
+<li><a href="#orga4faebc">2.9.2.2. 都水</a></li>
+<li><a href="#orgba36f41">2.9.2.3. 均官</a></li>
+</ul>
+</li>
+<li><a href="#orgebe6e0e">2.9.3. 上林中十池监</a></li>
+<li><a href="#org824ca5c">2.9.4. 八官食丞</a>
+<ul>
+<li><a href="#orgfaf3d24">2.9.4.1. 中书谒者令</a></li>
+<li><a href="#org09be6ac">2.9.4.2. 黄门令</a></li>
+<li><a href="#org40ad1e6">2.9.4.3. 鉤盾令</a></li>
+<li><a href="#org16a9fd4">2.9.4.4. 尚方令</a></li>
+<li><a href="#orgc95efd9">2.9.4.5. 御府令</a></li>
+<li><a href="#org92e703d">2.9.4.6. 永巷令</a></li>
+<li><a href="#org3f1e457">2.9.4.7. 内者令</a></li>
+<li><a href="#orga0dec86">2.9.4.8. 宦者令</a></li>
+</ul>
+</li>
+<li><a href="#org46778f7">2.9.5. 仆射</a></li>
+<li><a href="#org02253ff">2.9.6. 署长</a></li>
+<li><a href="#org552e431">2.9.7. 中黄门</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org312bc1b">3. 中尉（执金吾）</a>
+<ul>
+<li><a href="#org6a1497e">3.1. 四令丞</a>
+<ul>
+<li><a href="#org9964de0">3.1.1. 中垒</a></li>
+<li><a href="#orgcb99b92">3.1.2. 寺互</a></li>
+<li><a href="#org701f56e">3.1.3. 武库</a></li>
+<li><a href="#org472224d">3.1.4. 都船</a></li>
+</ul>
+</li>
+<li><a href="#org1090f3c">3.2. 式道左右中侯</a></li>
+<li><a href="#orge59eaf9">3.3. 侯丞</a></li>
+<li><a href="#org36805ad">3.4. 左右京辅都尉</a></li>
+<li><a href="#org11f004e">3.5. 尉丞兵卒</a></li>
+</ul>
+</li>
+<li><a href="#org215f78f">4. 太子太傅、少傅</a>
+<ul>
+<li><a href="#orge635a37">4.1. 太子门大夫</a></li>
+<li><a href="#org7008c5f">4.2. 率更令</a></li>
+<li><a href="#org0378f2b">4.3. 家令</a></li>
+<li><a href="#org8ce005b">4.4. 家府</a></li>
+<li><a href="#orga77b642">4.5. 仆</a></li>
+<li><a href="#org0131db5">4.6. 庶子</a></li>
+<li><a href="#orga4cb633">4.7. 先马</a></li>
+<li><a href="#org6af49fc">4.8. 舍人</a></li>
+</ul>
+</li>
+<li><a href="#org0fe60c7">5. 将作少府（将作大匠）</a>
+<ul>
+<li><a href="#org7a09b7d">5.1. 七令丞</a>
+<ul>
+<li><a href="#orge7bebb0">5.1.1. 石库</a></li>
+<li><a href="#org545edd0">5.1.2. 东园主章</a></li>
+<li><a href="#org416850a">5.1.3. 左右前后中校</a></li>
+</ul>
+</li>
+<li><a href="#org43fc18b">5.2. 主章长丞</a></li>
+</ul>
+</li>
+<li><a href="#orge1b698c">6. 詹事</a>
+<ul>
+<li><a href="#org484509b">6.1. 太子率更</a></li>
+<li><a href="#orge529082">6.2. 家令</a></li>
+<li><a href="#org30cb9ee">6.3. 仆</a></li>
+<li><a href="#org9b754c9">6.4. 中盾</a></li>
+<li><a href="#orgba7ec01">6.5. 卫率</a></li>
+<li><a href="#org7e50a35">6.6. 厨厩长丞</a></li>
+<li><a href="#org64d3718">6.7. 诸宦官</a></li>
+<li><a href="#orgd062db1">6.8. 长信詹事</a></li>
+</ul>
+</li>
+<li><a href="#orge6eff86">7. 将行（大长秋）</a></li>
+<li><a href="#orgb8ff165">8. 典属国</a>
+<ul>
+<li><a href="#orgbaadec3">8.1. 九译令</a></li>
+</ul>
+</li>
+<li><a href="#org97feee9">9. 水衡都尉</a>
+<ul>
+<li><a href="#org9854554">9.1. 九官令丞</a>
+<ul>
+<li><a href="#orgc660944">9.1.1. 上林</a></li>
+<li><a href="#org1a498e9">9.1.2. 均输</a></li>
+<li><a href="#orge5fa697">9.1.3. 御羞</a></li>
+<li><a href="#org6d3e5d3">9.1.4. 禁圃</a></li>
+<li><a href="#org6ac2a39">9.1.5. 楫櫂</a></li>
+<li><a href="#org95f67c7">9.1.6. 钟官</a></li>
+<li><a href="#org9f4c620">9.1.7. 技巧</a></li>
+<li><a href="#org27a7ee2">9.1.8. 六厩</a></li>
+<li><a href="#org85ee704">9.1.9. 辩铜</a></li>
+</ul>
+</li>
+<li><a href="#orgc9244d1">9.2. 衡官</a></li>
+<li><a href="#orga4da8e0">9.3. 水司空</a></li>
+<li><a href="#orgf19a53e">9.4. 都水农仓</a></li>
+<li><a href="#orgb682363">9.5. 甘泉上林都水七官丞</a></li>
+</ul>
+</li>
+<li><a href="#org5964511">10. 三辅</a>
+<ul>
+<li><a href="#orgb3c3e08">10.1. 内史</a>
+<ul>
+<li><a href="#org728ee4e">10.1.1. 左内史（左冯翊）</a>
+<ul>
+<li><a href="#org24b8ff4">10.1.1.1. 廪栖令丞尉</a></li>
+<li><a href="#org2878e9a">10.1.1.2. 左都水</a></li>
+<li><a href="#org285fb20">10.1.1.3. 铁官</a></li>
+<li><a href="#orged7de25">10.1.1.4. 云垒</a></li>
+<li><a href="#org26e1fb1">10.1.1.5. 长安四市四长丞</a></li>
+</ul>
+</li>
+<li><a href="#org46089ec">10.1.2. 右内史（京兆尹）</a>
+<ul>
+<li><a href="#orgbacf834">10.1.2.1. 两令丞</a></li>
+<li><a href="#org7e6e347">10.1.2.2. 两长丞</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org98d7942">10.2. 主爵中尉（都尉、右扶风）</a>
+<ul>
+<li><a href="#org8cae034">10.2.1. 掌畜令丞</a></li>
+<li><a href="#org4318f58">10.2.2. 四长丞</a>
+<ul>
+<li><a href="#orga92f013">10.2.2.1. 右都水</a></li>
+<li><a href="#orgee9b7bd">10.2.2.2. 铁官</a></li>
+<li><a href="#org594c38b">10.2.2.3. 厩</a></li>
+<li><a href="#orgdc0f366">10.2.2.4. 雍厨</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org63ecdb2">11. 武职</a>
+<ul>
+<li><a href="#orgce0a3fa">11.1. 前后左右将军</a></li>
+<li><a href="#orgfb5d386">11.2. 护军都尉（司寇）</a></li>
+<li><a href="#org6bdaf0a">11.3. 司隶校尉</a></li>
+<li><a href="#org55242f2">11.4. 城门校尉</a></li>
+<li><a href="#orgdef1cdf">11.5. 八校尉</a>
+<ul>
+<li><a href="#org929e779">11.5.1. 中垒校尉</a></li>
+<li><a href="#orgef9ebf2">11.5.2. 屯骑校尉</a></li>
+<li><a href="#org2c0dadc">11.5.3. 步兵校尉</a></li>
+<li><a href="#orge4180e8">11.5.4. 越骑校尉越骑。</a></li>
+<li><a href="#org76998e3">11.5.5. 长水校尉</a></li>
+<li><a href="#orgface564">11.5.6. 胡骑校尉</a></li>
+<li><a href="#org0093ac4">11.5.7. 射声校尉</a></li>
+<li><a href="#org46877ed">11.5.8. 虎贲校尉</a></li>
+</ul>
+</li>
+<li><a href="#org2f1ef38">11.6. 西域都护加官</a></li>
+<li><a href="#orgbde443f">11.7. 戊已校尉</a></li>
+<li><a href="#org20227aa">11.8. 奉车都尉</a></li>
+<li><a href="#org1dafdae">11.9. 驸马都尉</a></li>
+</ul>
+</li>
+<li><a href="#org24aba2c">12. 中朝官（内朝官）</a>
+<ul>
+<li><a href="#orgb3a4608">12.1. 侍中</a></li>
+<li><a href="#org6a0f983">12.2. 左右曹诸吏</a></li>
+<li><a href="#org4e22efd">12.3. 散骑</a></li>
+<li><a href="#orgd79940a">12.4. 中常侍</a></li>
+<li><a href="#org693f61e">12.5. 给事中</a></li>
+</ul>
+</li>
+<li><a href="#orgc9367d9">13. 监御史（刺史、牧）</a></li>
+<li><a href="#org0a9f5df">14. 郡县</a>
+<ul>
+<li><a href="#orge7113ff">14.1. 郡</a>
+<ul>
+<li><a href="#org234fa02">14.1.1. 郡守（太守）</a></li>
+<li><a href="#orgd5d8a32">14.1.2. 郡尉（都尉）</a></li>
+</ul>
+</li>
+<li><a href="#org3d6a720">14.2. 边郡</a>
+<ul>
+<li><a href="#org3d98899">14.2.1. 关都尉</a>
+<ul>
+<li><a href="#orgf1b28d4">14.2.1.1. 关长</a></li>
+<li><a href="#org6009097">14.2.1.2. 关尉</a></li>
+<li><a href="#orgc28ead2">14.2.1.3. 关丞</a></li>
+</ul>
+</li>
+<li><a href="#orgec2fb4a">14.2.2. 农都尉</a></li>
+<li><a href="#org06633ad">14.2.3. 属国都尉</a></li>
+</ul>
+</li>
+<li><a href="#org5796960">14.3. 县</a>
+<ul>
+<li><a href="#orgb1b8513">14.3.1. 县令、县长</a>
+<ul>
+<li><a href="#org9eefca2">14.3.1.1. 长吏</a></li>
+<li><a href="#org5b210c5">14.3.1.2. 少吏</a></li>
+</ul>
+</li>
+<li><a href="#org74f07ec">14.3.2. 亭长</a>
+<ul>
+<li><a href="#org226c33a">14.3.2.1. 乡</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org9138526">14.4. 国、邑、道</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
 
 <div id="outline-container-orga25d2d6" class="outline-2">
-<h2 id="orga25d2d6">三公</h2>
-<div class="outline-text-2" id="text-orga25d2d6">
+<h2 id="orga25d2d6"><span class="section-number-2">1</span> 三公</h2>
+<div class="outline-text-2" id="text-1">
 </div>
 <div id="outline-container-org53d7ffa" class="outline-3">
-<h3 id="org53d7ffa">相国、丞相（大司徒）</h3>
-<div class="outline-text-3" id="text-org53d7ffa">
+<h3 id="org53d7ffa"><span class="section-number-3">1.1</span> 相国、丞相（大司徒）</h3>
+<div class="outline-text-3" id="text-1-1">
 <p>
 秦官​金印紫绶，掌丞天子助理万机。​有两长史，秩千石​秦有左右，高帝即位，置一丞相，十一年更名相国，绿绶。孝惠、高后置左右丞相，文帝二年复置一丞相。​哀帝元寿二年更名大司徒。
 </p>
 </div>
 </div>
 <div id="outline-container-org335c7f2" class="outline-3">
-<h3 id="org335c7f2">太尉（大司马、将军）</h3>
-<div class="outline-text-3" id="text-org335c7f2">
+<h3 id="org335c7f2"><span class="section-number-3">1.2</span> 太尉（大司马、将军）</h3>
+<div class="outline-text-3" id="text-1-2">
 <p>
 秦官​金印紫授，掌武事。​有长史，秩千石。​武帝建元二年省。元狩四年初置大司马，以冠将军之号，宣帝地节三年置大司马，不冠将军，亦元印绶官属。成帝绥和元年初赐在司马金印紫绶，置官属，禄比丞相，去将军。哀帝建平二年复去大司马印绶、官属，冠将军如故。元寿二年复赐大司马印绶，置官属，去将军，位在司徒上。
-**御史大夫（大司空、御史中丞）
+</p>
+</div>
+</div>
+<div id="outline-container-org15412ae" class="outline-3">
+<h3 id="org15412ae"><span class="section-number-3">1.3</span> 御史大夫（大司空、御史中丞）</h3>
+<div class="outline-text-3" id="text-1-3">
+<p>
 秦官​位上卿，银印青绶，掌副丞相。一曰中丞，在殿中兰台，掌图籍秘书，外督部刺史，内领侍御史员十五人，受公卿奏事，举劾按章。​有两丞，秩千石。​成帝绶和元年更名大司空，金印紫绶，禄比丞相，置长史如中丞，官职如故。哀帝建平二年复为御史大夫，元寿二年复为大司空，御史中丞更名御史长史。
 </p>
 </div>
 </div>
 <div id="outline-container-orgc3c3fdc" class="outline-3">
-<h3 id="orgc3c3fdc">太傅、太师、太保（古官三公）</h3>
-<div class="outline-text-3" id="text-orgc3c3fdc">
+<h3 id="orgc3c3fdc"><span class="section-number-3">1.4</span> 太傅、太师、太保（古官三公）</h3>
+<div class="outline-text-3" id="text-1-4">
 <p>
 古官​金印紫绶。​太傅，高后元年初置。后省，八年复置。哀帝元寿二年复置。位在三公上。太师、太保，平帝元始元年皆初置。太师位在太傅上，太保次太傅。
 </p>
@@ -57,84 +449,84 @@
 </div>
 </div>
 <div id="outline-container-orgbff7d2a" class="outline-2">
-<h2 id="orgbff7d2a">九卿</h2>
-<div class="outline-text-2" id="text-orgbff7d2a">
+<h2 id="orgbff7d2a"><span class="section-number-2">2</span> 九卿</h2>
+<div class="outline-text-2" id="text-2">
 </div>
 <div id="outline-container-org97a8d6c" class="outline-3">
-<h3 id="org97a8d6c">奉常（太常、秩宗）</h3>
-<div class="outline-text-3" id="text-org97a8d6c">
+<h3 id="org97a8d6c"><span class="section-number-3">2.1</span> 奉常（太常、秩宗）</h3>
+<div class="outline-text-3" id="text-2-1">
 <p>
 秦官​掌宗庙礼仪，有丞。​景帝中六年更名太常。王莽改太常曰秩宗。
 </p>
 </div>
 <div id="outline-container-org191ce19" class="outline-4">
-<h4 id="org191ce19">六令丞</h4>
-<div class="outline-text-4" id="text-org191ce19">
+<h4 id="org191ce19"><span class="section-number-4">2.1.1</span> 六令丞</h4>
+<div class="outline-text-4" id="text-2-1-1">
 </div>
 <div id="outline-container-org3e40f9a" class="outline-5">
-<h5 id="org3e40f9a">太乐</h5>
-<div class="outline-text-5" id="text-org3e40f9a">
+<h5 id="org3e40f9a"><span class="section-number-5">2.1.1.1</span> 太乐</h5>
+<div class="outline-text-5" id="text-2-1-1-1">
 <p>
 掌伎乐
 </p>
 </div>
 </div>
 <div id="outline-container-org1ced1d2" class="outline-5">
-<h5 id="org1ced1d2">太祝</h5>
-<div class="outline-text-5" id="text-org1ced1d2">
+<h5 id="org1ced1d2"><span class="section-number-5">2.1.1.2</span> 太祝</h5>
+<div class="outline-text-5" id="text-2-1-1-2">
 <p>
 掌祭祀​景帝中六年更名太祝为祠祀，武帝太初元年更曰庙祀，初置太卜。
 </p>
 </div>
 </div>
 <div id="outline-container-org7fdfac6" class="outline-5">
-<h5 id="org7fdfac6">太宰</h5>
-<div class="outline-text-5" id="text-org7fdfac6">
+<h5 id="org7fdfac6"><span class="section-number-5">2.1.1.3</span> 太宰</h5>
+<div class="outline-text-5" id="text-2-1-1-3">
 <p>
 掌膳食
 </p>
 </div>
 </div>
 <div id="outline-container-orgb7970a5" class="outline-5">
-<h5 id="orgb7970a5">太史</h5>
-<div class="outline-text-5" id="text-orgb7970a5">
+<h5 id="orgb7970a5"><span class="section-number-5">2.1.1.4</span> 太史</h5>
+<div class="outline-text-5" id="text-2-1-1-4">
 <p>
 掌天时星历
 </p>
 </div>
 </div>
 <div id="outline-container-org693f14d" class="outline-5">
-<h5 id="org693f14d">太卜</h5>
-<div class="outline-text-5" id="text-org693f14d">
+<h5 id="org693f14d"><span class="section-number-5">2.1.1.5</span> 太卜</h5>
+<div class="outline-text-5" id="text-2-1-1-5">
 <p>
 掌占卜
 </p>
 </div>
 </div>
-<div id="outline-container-org199a5c4" class="outline-5">
-<h5 id="org199a5c4">太医</h5>
-<div class="outline-text-5" id="text-org199a5c4">
+<div id="outline-container-org735efeb" class="outline-5">
+<h5 id="org735efeb"><span class="section-number-5">2.1.1.6</span> 太医</h5>
+<div class="outline-text-5" id="text-2-1-1-6">
 <p>
 掌医药
 </p>
 </div>
 </div>
 </div>
-<div id="outline-container-org19cc33d" class="outline-4">
-<h4 id="org19cc33d">两长丞</h4>
-<div class="outline-text-4" id="text-org19cc33d">
+<div id="outline-container-org778c8cf" class="outline-4">
+<h4 id="org778c8cf"><span class="section-number-4">2.1.2</span> 两长丞</h4>
+<div class="outline-text-4" id="text-2-1-2">
 </div>
-<div id="outline-container-org7355aaa" class="outline-5">
-<h5 id="org7355aaa">都水</h5>
-<div class="outline-text-5" id="text-org7355aaa">
+<div id="outline-container-org4325e07" class="outline-5">
+<h5 id="org4325e07"><span class="section-number-5">2.1.2.1</span> 都水</h5>
+<div class="outline-text-5" id="text-2-1-2-1">
 <p>
 总掌治水
 </p>
 </div>
 </div>
-<div id="outline-container-org82fe4f9" class="outline-5">
-<h5 id="org82fe4f9">均官</h5>
-<div class="outline-text-5" id="text-org82fe4f9">
+<div id="outline-container-org0005f1d" class="outline-5">
+<h5 id="org0005f1d"><span class="section-number-5">2.1.2.2</span> 均官</h5>
+<div class="outline-text-5" id="text-2-1-2-2">
 <p>
 掌均输
 </p>
@@ -142,33 +534,33 @@
 </div>
 </div>
 <div id="outline-container-org484fcc3" class="outline-4">
-<h4 id="org484fcc3">诸庙寝园食官令长丞</h4>
+<h4 id="org484fcc3"><span class="section-number-4">2.1.3</span> 诸庙寝园食官令长丞</h4>
 </div>
 <div id="outline-container-orgdd49b2f" class="outline-4">
-<h4 id="orgdd49b2f">雍五畤相关</h4>
-<div class="outline-text-4" id="text-orgdd49b2f">
+<h4 id="orgdd49b2f"><span class="section-number-4">2.1.4</span> 雍五畤相关</h4>
+<div class="outline-text-4" id="text-2-1-4">
 </div>
 <div id="outline-container-org69c6a46" class="outline-5">
-<h5 id="org69c6a46">雍太宰</h5>
+<h5 id="org69c6a46"><span class="section-number-5">2.1.4.1</span> 雍太宰</h5>
 </div>
 <div id="outline-container-org4d62eb2" class="outline-5">
-<h5 id="org4d62eb2">雍太祝</h5>
+<h5 id="org4d62eb2"><span class="section-number-5">2.1.4.2</span> 雍太祝</h5>
 </div>
 <div id="outline-container-org1bdaac6" class="outline-5">
-<h5 id="org1bdaac6">五畤尉</h5>
+<h5 id="org1bdaac6"><span class="section-number-5">2.1.4.3</span> 五畤尉</h5>
 </div>
 </div>
 <div id="outline-container-org9a1a9e8" class="outline-4">
-<h4 id="org9a1a9e8">博士</h4>
-<div class="outline-text-4" id="text-org9a1a9e8">
+<h4 id="org9a1a9e8"><span class="section-number-4">2.1.5</span> 博士</h4>
+<div class="outline-text-4" id="text-2-1-5">
 <p>
 秦官​博古通今，备顾问，传授儒学。​​秩比六百石，员多至数十人。武帝建元五年初置《五经》博士，宣帝黄龙元年稍增员十二人。
 </p>
 </div>
 </div>
 <div id="outline-container-org75525c1" class="outline-4">
-<h4 id="org75525c1">诸陵县</h4>
-<div class="outline-text-4" id="text-org75525c1">
+<h4 id="org75525c1"><span class="section-number-4">2.1.6</span> 诸陵县</h4>
+<div class="outline-text-4" id="text-2-1-6">
 <p>
 掌陵寝诸事​元帝永光元年分诸陵邑属三辅。
 </p>
@@ -176,38 +568,38 @@
 </div>
 </div>
 <div id="outline-container-org5985f70" class="outline-3">
-<h3 id="org5985f70">郎中令（光禄勋）</h3>
-<div class="outline-text-3" id="text-org5985f70">
+<h3 id="org5985f70"><span class="section-number-3">2.2</span> 郎中令（光禄勋）</h3>
+<div class="outline-text-3" id="text-2-2">
 <p>
 秦官​掌宫殿掖门户，有丞。​武帝太初元年更名光禄勋。
 </p>
 </div>
 <div id="outline-container-org8b4f242" class="outline-4">
-<h4 id="org8b4f242">大夫</h4>
-<div class="outline-text-4" id="text-org8b4f242">
+<h4 id="org8b4f242"><span class="section-number-4">2.2.1</span> 大夫</h4>
+<div class="outline-text-4" id="text-2-2-1">
 <p>
 掌论议，有太中大夫、中大夫、谏大夫，皆无员，多至数十人。
 </p>
 </div>
 <div id="outline-container-org42ca34c" class="outline-5">
-<h5 id="org42ca34c">太中大夫</h5>
-<div class="outline-text-5" id="text-org42ca34c">
+<h5 id="org42ca34c"><span class="section-number-5">2.2.1.1</span> 太中大夫</h5>
+<div class="outline-text-5" id="text-2-2-1-1">
 <p>
 太中大夫秩比千石
 </p>
 </div>
 </div>
 <div id="outline-container-orgfa0049b" class="outline-5">
-<h5 id="orgfa0049b">中大夫</h5>
-<div class="outline-text-5" id="text-orgfa0049b">
+<h5 id="orgfa0049b"><span class="section-number-5">2.2.1.2</span> 中大夫</h5>
+<div class="outline-text-5" id="text-2-2-1-2">
 <p>
 太初元年更名中大夫为光禄大夫，秩比二千石
 </p>
 </div>
 </div>
 <div id="outline-container-org959474e" class="outline-5">
-<h5 id="org959474e">谏大夫</h5>
-<div class="outline-text-5" id="text-org959474e">
+<h5 id="org959474e"><span class="section-number-5">2.2.1.3</span> 谏大夫</h5>
+<div class="outline-text-5" id="text-2-2-1-3">
 <p>
 武帝元狩五年初置谏大夫，秩比八百石
 </p>
@@ -215,73 +607,73 @@
 </div>
 </div>
 <div id="outline-container-org4476c17" class="outline-4">
-<h4 id="org4476c17">郎</h4>
-<div class="outline-text-4" id="text-org4476c17">
+<h4 id="org4476c17"><span class="section-number-4">2.2.2</span> 郎</h4>
+<div class="outline-text-4" id="text-2-2-2">
 <p>
 掌守门户，出充车骑，有议郎、中郎、侍郎、郎中，皆无员，多至千人。
 </p>
 </div>
 <div id="outline-container-orga7b4dc0" class="outline-5">
-<h5 id="orga7b4dc0">议郎</h5>
-<div class="outline-text-5" id="text-orga7b4dc0">
+<h5 id="orga7b4dc0"><span class="section-number-5">2.2.2.1</span> 议郎</h5>
+<div class="outline-text-5" id="text-2-2-2-1">
 <p>
 秩比六百石
 </p>
 </div>
 </div>
 <div id="outline-container-orgdf2bb73" class="outline-5">
-<h5 id="orgdf2bb73">中郎</h5>
-<div class="outline-text-5" id="text-orgdf2bb73">
+<h5 id="orgdf2bb73"><span class="section-number-5">2.2.2.2</span> 中郎</h5>
+<div class="outline-text-5" id="text-2-2-2-2">
 <p>
 秩比六百石
 </p>
 </div>
-<ul class="org-ul">
+<ol class="org-ol">
 <li><a id="org2fbee5c"></a>五官、左、右三将<br />
-<div class="outline-text-6" id="text-org2fbee5c">
+<div class="outline-text-6" id="text-2-2-2-2-1">
 <p>
 秩皆比二千石
 </p>
 </div>
 </li>
-</ul>
+</ol>
 </div>
 <div id="outline-container-orgf44d1ee" class="outline-5">
-<h5 id="orgf44d1ee">侍郎</h5>
-<div class="outline-text-5" id="text-orgf44d1ee">
+<h5 id="orgf44d1ee"><span class="section-number-5">2.2.2.3</span> 侍郎</h5>
+<div class="outline-text-5" id="text-2-2-2-3">
 <p>
 秩比四百石
 </p>
 </div>
 </div>
 <div id="outline-container-org2a6fc4d" class="outline-5">
-<h5 id="org2a6fc4d">郎中</h5>
-<div class="outline-text-5" id="text-org2a6fc4d">
+<h5 id="org2a6fc4d"><span class="section-number-5">2.2.2.4</span> 郎中</h5>
+<div class="outline-text-5" id="text-2-2-2-4">
 <p>
 秩比三百石
 </p>
 </div>
-<ul class="org-ul">
+<ol class="org-ol">
 <li><a id="orge3aae80"></a>车、户、骑三将<br />
-<div class="outline-text-6" id="text-orge3aae80">
+<div class="outline-text-6" id="text-2-2-2-4-1">
 <p>
 秩皆比千石
 </p>
 </div>
 </li>
-</ul>
+</ol>
 </div>
 </div>
 <div id="outline-container-orgb20e0e5" class="outline-4">
-<h4 id="orgb20e0e5">谒者</h4>
-<div class="outline-text-4" id="text-orgb20e0e5">
+<h4 id="orgb20e0e5"><span class="section-number-4">2.2.3</span> 谒者</h4>
+<div class="outline-text-4" id="text-2-2-3">
 <p>
 掌宾讚受事​员七十人，秩比六百石
 </p>
 </div>
 <div id="outline-container-org92c69e1" class="outline-5">
-<h5 id="org92c69e1">谒者仆射</h5>
-<div class="outline-text-5" id="text-org92c69e1">
+<h5 id="org92c69e1"><span class="section-number-5">2.2.3.1</span> 谒者仆射</h5>
+<div class="outline-text-5" id="text-2-2-3-1">
 <p>
 秩比千石
 </p>
@@ -289,23 +681,23 @@
 </div>
 </div>
 <div id="outline-container-org51e9e19" class="outline-4">
-<h4 id="org51e9e19">期门（虎贲郎）</h4>
-<div class="outline-text-4" id="text-org51e9e19">
+<h4 id="org51e9e19"><span class="section-number-4">2.2.4</span> 期门（虎贲郎）</h4>
+<div class="outline-text-4" id="text-2-2-4">
 <p>
 掌执兵送从。​比郎，无员，多至千人。武帝建元三年初置，平帝元始元年更名虎贲郎。
 </p>
 </div>
 <div id="outline-container-org9efb0bd" class="outline-5">
-<h5 id="org9efb0bd">期门仆射</h5>
-<div class="outline-text-5" id="text-org9efb0bd">
+<h5 id="org9efb0bd"><span class="section-number-5">2.2.4.1</span> 期门仆射</h5>
+<div class="outline-text-5" id="text-2-2-4-1">
 <p>
 秩比千石
 </p>
 </div>
 </div>
 <div id="outline-container-org8cf6321" class="outline-5">
-<h5 id="org8cf6321">虎贲中郎将</h5>
-<div class="outline-text-5" id="text-org8cf6321">
+<h5 id="org8cf6321"><span class="section-number-5">2.2.4.2</span> 虎贲中郎将</h5>
+<div class="outline-text-5" id="text-2-2-4-2">
 <p>
 秩比二千石
 </p>
@@ -313,8 +705,8 @@
 </div>
 </div>
 <div id="outline-container-orgc22c694" class="outline-4">
-<h4 id="orgc22c694">羽林</h4>
-<div class="outline-text-4" id="text-orgc22c694">
+<h4 id="orgc22c694"><span class="section-number-4">2.2.5</span> 羽林</h4>
+<div class="outline-text-4" id="text-2-2-5">
 <p>
 掌送从，次期门。​羽林有令丞。​武帝太初元年初置，名曰建章营骑，后更名羽林骑。又取从军死事之子孙养羽林，官教以五兵，号曰羽林孤儿。宣帝令中郎将、骑都尉监羽林，秩比二千石。
 </p>
@@ -322,126 +714,126 @@
 </div>
 </div>
 <div id="outline-container-org6f321c3" class="outline-3">
-<h3 id="org6f321c3">卫尉（中大夫令）</h3>
-<div class="outline-text-3" id="text-org6f321c3">
+<h3 id="org6f321c3"><span class="section-number-3">2.3</span> 卫尉（中大夫令）</h3>
+<div class="outline-text-3" id="text-2-3">
 <p>
 秦官​掌宫门卫屯兵，有丞。​景帝初更名中大夫令，后元年复为卫尉。
 </p>
 </div>
 <div id="outline-container-orga6000e3" class="outline-4">
-<h4 id="orga6000e3">公车司马</h4>
+<h4 id="orga6000e3"><span class="section-number-4">2.3.1</span> 公车司马</h4>
 </div>
 <div id="outline-container-org4b3078d" class="outline-4">
-<h4 id="org4b3078d">卫士</h4>
+<h4 id="org4b3078d"><span class="section-number-4">2.3.2</span> 卫士</h4>
 </div>
 <div id="outline-container-orgfa6b768" class="outline-4">
-<h4 id="orgfa6b768">旅贲</h4>
+<h4 id="orgfa6b768"><span class="section-number-4">2.3.3</span> 旅贲</h4>
 </div>
 <div id="outline-container-orge5aa596" class="outline-4">
-<h4 id="orge5aa596">诸屯卫候</h4>
+<h4 id="orge5aa596"><span class="section-number-4">2.3.4</span> 诸屯卫候</h4>
 </div>
 <div id="outline-container-org643cb80" class="outline-4">
-<h4 id="org643cb80">司马二十二官</h4>
+<h4 id="org643cb80"><span class="section-number-4">2.3.5</span> 司马二十二官</h4>
 </div>
 <div id="outline-container-org021309b" class="outline-4">
-<h4 id="org021309b">长乐卫尉</h4>
+<h4 id="org021309b"><span class="section-number-4">2.3.6</span> 长乐卫尉</h4>
 </div>
 <div id="outline-container-org87e0e49" class="outline-4">
-<h4 id="org87e0e49">建章卫尉</h4>
+<h4 id="org87e0e49"><span class="section-number-4">2.3.7</span> 建章卫尉</h4>
 </div>
 <div id="outline-container-org18d2516" class="outline-4">
-<h4 id="org18d2516">甘泉卫尉</h4>
+<h4 id="org18d2516"><span class="section-number-4">2.3.8</span> 甘泉卫尉</h4>
 </div>
 </div>
 <div id="outline-container-org29f963b" class="outline-3">
-<h3 id="org29f963b">太仆</h3>
-<div class="outline-text-3" id="text-org29f963b">
+<h3 id="org29f963b"><span class="section-number-3">2.4</span> 太仆</h3>
+<div class="outline-text-3" id="text-2-4">
 <p>
 秦官​掌舆马，有两丞。​​秩中二千石。
 </p>
 </div>
 <div id="outline-container-org402f37e" class="outline-4">
-<h4 id="org402f37e">太厩</h4>
-<div class="outline-text-4" id="text-org402f37e">
+<h4 id="org402f37e"><span class="section-number-4">2.4.1</span> 太厩</h4>
+<div class="outline-text-4" id="text-2-4-1">
 <p>
 五丞一尉
 </p>
 </div>
 </div>
 <div id="outline-container-orge347a2a" class="outline-4">
-<h4 id="orge347a2a">未央</h4>
-<div class="outline-text-4" id="text-orge347a2a">
+<h4 id="orge347a2a"><span class="section-number-4">2.4.2</span> 未央</h4>
+<div class="outline-text-4" id="text-2-4-2">
 <p>
 五丞一尉​未央厩令
 </p>
 </div>
 </div>
 <div id="outline-container-org1caab99" class="outline-4">
-<h4 id="org1caab99">家马（挏马）</h4>
-<div class="outline-text-4" id="text-org1caab99">
+<h4 id="org1caab99"><span class="section-number-4">2.4.3</span> 家马（挏马）</h4>
+<div class="outline-text-4" id="text-2-4-3">
 <p>
 五丞一尉​主供天子私用，非大祀戎事军国所需，故谓之家马也。​武帝太初元年更名家马为挏马，初置路。
 四令丞
 </p>
 </div>
 <div id="outline-container-org2fa6ae5" class="outline-5">
-<h5 id="org2fa6ae5">车府</h5>
+<h5 id="org2fa6ae5"><span class="section-number-5">2.4.3.1</span> 车府</h5>
 </div>
 <div id="outline-container-org5807869" class="outline-5">
-<h5 id="org5807869">路</h5>
-<div class="outline-text-5" id="text-org5807869">
+<h5 id="org5807869"><span class="section-number-5">2.4.3.2</span> 路</h5>
+<div class="outline-text-5" id="text-2-4-3-2">
 <p>
 厩名​，在未央宫。
 </p>
 </div>
 </div>
 <div id="outline-container-org5e5f8e6" class="outline-5">
-<h5 id="org5e5f8e6">骑马</h5>
-<div class="outline-text-5" id="text-org5e5f8e6">
+<h5 id="org5e5f8e6"><span class="section-number-5">2.4.3.3</span> 骑马</h5>
+<div class="outline-text-5" id="text-2-4-3-3">
 <p>
 厩名​，在长安城外。
 </p>
 </div>
 </div>
 <div id="outline-container-org23ab61c" class="outline-5">
-<h5 id="org23ab61c">骏马</h5>
+<h5 id="org23ab61c"><span class="section-number-5">2.4.3.4</span> 骏马</h5>
 </div>
 </div>
 <div id="outline-container-orgcd88fe1" class="outline-4">
-<h4 id="orgcd88fe1">五监长丞</h4>
-<div class="outline-text-4" id="text-orgcd88fe1">
+<h4 id="orgcd88fe1"><span class="section-number-4">2.4.4</span> 五监长丞</h4>
+<div class="outline-text-4" id="text-2-4-4">
 <p>
 龙马、闲驹、橐泉、騊駼、承华龙马，大宛厩也。闲驹，养马之所​。橐泉，厩名，在橐泉宫下。騊駼，厩名，在长安城外。承华，厩名。
 </p>
 </div>
 </div>
 <div id="outline-container-org9618c90" class="outline-4">
-<h4 id="org9618c90">边郡六牧师苑令</h4>
-<div class="outline-text-4" id="text-org9618c90">
+<h4 id="org9618c90"><span class="section-number-4">2.4.5</span> 边郡六牧师苑令</h4>
+<div class="outline-text-4" id="text-2-4-5">
 <p>
 陇西、天水、安定、北地、上郡、西河六郡
 </p>
 </div>
 </div>
 <div id="outline-container-orgc3f63b4" class="outline-4">
-<h4 id="orgc3f63b4">牧橐令丞</h4>
-<div class="outline-text-4" id="text-orgc3f63b4">
+<h4 id="orgc3f63b4"><span class="section-number-4">2.4.6</span> 牧橐令丞</h4>
+<div class="outline-text-4" id="text-2-4-6">
 <p>
 牧养骆驼
 </p>
 </div>
 </div>
 <div id="outline-container-org0ca6a12" class="outline-4">
-<h4 id="org0ca6a12">昆蹄令丞</h4>
-<div class="outline-text-4" id="text-org0ca6a12">
+<h4 id="org0ca6a12"><span class="section-number-4">2.4.7</span> 昆蹄令丞</h4>
+<div class="outline-text-4" id="text-2-4-7">
 <p>
 良马厩
 </p>
 </div>
 </div>
 <div id="outline-container-orgb597b4c" class="outline-4">
-<h4 id="orgb597b4c">中太仆</h4>
-<div class="outline-text-4" id="text-orgb597b4c">
+<h4 id="orgb597b4c"><span class="section-number-4">2.4.8</span> 中太仆</h4>
+<div class="outline-text-4" id="text-2-4-8">
 <p>
 掌皇太后舆马，不常置也。
 </p>
@@ -449,42 +841,42 @@
 </div>
 </div>
 <div id="outline-container-orgf79523a" class="outline-3">
-<h3 id="orgf79523a">廷尉（大理、作士）</h3>
-<div class="outline-text-3" id="text-orgf79523a">
+<h3 id="orgf79523a"><span class="section-number-3">2.5</span> 廷尉（大理、作士）</h3>
+<div class="outline-text-3" id="text-2-5">
 <p>
 秦官​掌刑辟。​​秩中二千石。​有正、左右监，秩皆千石。​景帝中六年更名大理，武帝建元四年复为廷尉。宣帝地节三年初置左右平，秩皆六百石。帝元寿二年复为大理。王莽改曰作士。
 </p>
 </div>
 </div>
 <div id="outline-container-org1a08efa" class="outline-3">
-<h3 id="org1a08efa">典客（大行令、大鸿胪、典乐）</h3>
-<div class="outline-text-3" id="text-org1a08efa">
+<h3 id="org1a08efa"><span class="section-number-3">2.6</span> 典客（大行令、大鸿胪、典乐）</h3>
+<div class="outline-text-3" id="text-2-6">
 <p>
 秦官​掌诸归义蛮夷，有丞。​​秩中二千石。​景帝中六年更名大行令，武帝太初元年更名大鸿胪。王莽改大鸿胪曰典乐。
 </p>
 </div>
 <div id="outline-container-org903b5d4" class="outline-4">
-<h4 id="org903b5d4">行人</h4>
-<div class="outline-text-4" id="text-org903b5d4">
+<h4 id="org903b5d4"><span class="section-number-4">2.6.1</span> 行人</h4>
+<div class="outline-text-4" id="text-2-6-1">
 <p>
 武帝太初元年更名行人为大行令
 </p>
 </div>
 </div>
 <div id="outline-container-org09852d3" class="outline-4">
-<h4 id="org09852d3">译官</h4>
+<h4 id="org09852d3"><span class="section-number-4">2.6.2</span> 译官</h4>
 </div>
 <div id="outline-container-orgedce4d8" class="outline-4">
-<h4 id="orgedce4d8">别火</h4>
-<div class="outline-text-4" id="text-orgedce4d8">
+<h4 id="orgedce4d8"><span class="section-number-4">2.6.3</span> 别火</h4>
+<div class="outline-text-4" id="text-2-6-3">
 <p>
 狱令，主治改火之事。​武帝太初元年，初置别火。
 </p>
 </div>
 </div>
 <div id="outline-container-org40a47e4" class="outline-4">
-<h4 id="org40a47e4">郡邸长丞</h4>
-<div class="outline-text-4" id="text-org40a47e4">
+<h4 id="org40a47e4"><span class="section-number-4">2.6.4</span> 郡邸长丞</h4>
+<div class="outline-text-4" id="text-2-6-4">
 <p>
 诸郡在京师之邸，郡国朝宿之舍。​初，置郡国邸属少府，中属中尉，后属大鸿胪。
 </p>
@@ -492,115 +884,115 @@
 </div>
 </div>
 <div id="outline-container-org94721c2" class="outline-3">
-<h3 id="org94721c2">宗正</h3>
-<div class="outline-text-3" id="text-org94721c2">
+<h3 id="org94721c2"><span class="section-number-3">2.7</span> 宗正</h3>
+<div class="outline-text-3" id="text-2-7">
 <p>
 秦官​掌亲属，有丞。​​秩中二千石。​平帝元始四年更名宗伯。​王莽并其官于秩宗。
 </p>
 </div>
 <div id="outline-container-org7921e4f" class="outline-4">
-<h4 id="org7921e4f">都司空令丞</h4>
-<div class="outline-text-4" id="text-org7921e4f">
+<h4 id="org7921e4f"><span class="section-number-4">2.7.1</span> 都司空令丞</h4>
+<div class="outline-text-4" id="text-2-7-1">
 <p>
 都造砖瓦，用以修葺宫殿及各城门楼
 </p>
 </div>
 </div>
 <div id="outline-container-org8e78158" class="outline-4">
-<h4 id="org8e78158">内官长丞</h4>
-<div class="outline-text-4" id="text-org8e78158">
+<h4 id="org8e78158"><span class="section-number-4">2.7.2</span> 内官长丞</h4>
+<div class="outline-text-4" id="text-2-7-2">
 <p>
 初，内官属少府，中属主爵，后属宗正。
 </p>
 </div>
 </div>
 <div id="outline-container-orgfb40001" class="outline-4">
-<h4 id="orgfb40001">公主家令</h4>
+<h4 id="orgfb40001"><span class="section-number-4">2.7.3</span> 公主家令</h4>
 </div>
 <div id="outline-container-orgb9e0a6a" class="outline-4">
-<h4 id="orgb9e0a6a">公主门尉</h4>
+<h4 id="orgb9e0a6a"><span class="section-number-4">2.7.4</span> 公主门尉</h4>
 </div>
 </div>
 <div id="outline-container-org43286e5" class="outline-3">
-<h3 id="org43286e5">治粟内史（大农令、大司农）</h3>
-<div class="outline-text-3" id="text-org43286e5">
+<h3 id="org43286e5"><span class="section-number-3">2.8</span> 治粟内史（大农令、大司农）</h3>
+<div class="outline-text-3" id="text-2-8">
 <p>
 秦官。​掌谷货，有两丞。​​秩中二千石。​景帝后元年更名大农令，武帝太初元年更名大司农。王莽改大司农曰羲和，后更为纳言。
 </p>
 </div>
 <div id="outline-container-orgfaf5e11" class="outline-4">
-<h4 id="orgfaf5e11">五令丞</h4>
-<div class="outline-text-4" id="text-orgfaf5e11">
+<h4 id="orgfaf5e11"><span class="section-number-4">2.8.1</span> 五令丞</h4>
+<div class="outline-text-4" id="text-2-8-1">
 </div>
 <div id="outline-container-orgffab769" class="outline-5">
-<h5 id="orgffab769">太仓</h5>
-<div class="outline-text-5" id="text-orgffab769">
+<h5 id="orgffab769"><span class="section-number-5">2.8.1.1</span> 太仓</h5>
+<div class="outline-text-5" id="text-2-8-1-1">
 <p>
 京城储粮大仓
 </p>
 </div>
 </div>
-<div id="outline-container-orgdf8ae7c" class="outline-5">
-<h5 id="orgdf8ae7c">均输</h5>
-<div class="outline-text-5" id="text-orgdf8ae7c">
+<div id="outline-container-org8177062" class="outline-5">
+<h5 id="org8177062"><span class="section-number-5">2.8.1.2</span> 均输</h5>
+<div class="outline-text-5" id="text-2-8-1-2">
 <p>
 统一征收，买卖和运输货物，以调剂各地需求，郡国设均输官。
 </p>
 </div>
 </div>
 <div id="outline-container-org21e7b2e" class="outline-5">
-<h5 id="org21e7b2e">平准</h5>
-<div class="outline-text-5" id="text-org21e7b2e">
+<h5 id="org21e7b2e"><span class="section-number-5">2.8.1.3</span> 平准</h5>
+<div class="outline-text-5" id="text-2-8-1-3">
 <p>
 官府转输物资，平抑物价，由平准令掌管。
 </p>
 </div>
 </div>
 <div id="outline-container-org4db4bf1" class="outline-5">
-<h5 id="org4db4bf1">都内</h5>
-<div class="outline-text-5" id="text-org4db4bf1">
+<h5 id="org4db4bf1"><span class="section-number-5">2.8.1.4</span> 都内</h5>
+<div class="outline-text-5" id="text-2-8-1-4">
 <p>
 主管贡献方物及货币
 </p>
 </div>
 </div>
 <div id="outline-container-org686bcb3" class="outline-5">
-<h5 id="org686bcb3">籍田</h5>
-<div class="outline-text-5" id="text-org686bcb3">
+<h5 id="org686bcb3"><span class="section-number-5">2.8.1.5</span> 籍田</h5>
+<div class="outline-text-5" id="text-2-8-1-5">
 <p>
 初为帝王亲耕，并设仓，后因仓设官。
 </p>
 </div>
 </div>
 </div>
-<div id="outline-container-orge9a98e9" class="outline-4">
-<h4 id="orge9a98e9">两长丞</h4>
-<div class="outline-text-4" id="text-orge9a98e9">
+<div id="outline-container-org5597e79" class="outline-4">
+<h4 id="org5597e79"><span class="section-number-4">2.8.2</span> 两长丞</h4>
+<div class="outline-text-4" id="text-2-8-2">
 </div>
 <div id="outline-container-org7f351c6" class="outline-5">
-<h5 id="org7f351c6">干官</h5>
-<div class="outline-text-5" id="text-org7f351c6">
+<h5 id="org7f351c6"><span class="section-number-5">2.8.2.1</span> 干官</h5>
+<div class="outline-text-5" id="text-2-8-2-1">
 <p>
 掌铸钱事。​初，斡官属少府，中属主爵，后属大司农。
 </p>
 </div>
 </div>
 <div id="outline-container-org2890aa1" class="outline-5">
-<h5 id="org2890aa1">铁市</h5>
+<h5 id="org2890aa1"><span class="section-number-5">2.8.2.2</span> 铁市</h5>
 </div>
 </div>
 <div id="outline-container-orgd2df96c" class="outline-4">
-<h4 id="orgd2df96c">郡国诸仓</h4>
+<h4 id="orgd2df96c"><span class="section-number-4">2.8.3</span> 郡国诸仓</h4>
 </div>
 <div id="outline-container-org533a043" class="outline-4">
-<h4 id="org533a043">农监</h4>
+<h4 id="org533a043"><span class="section-number-4">2.8.4</span> 农监</h4>
 </div>
 <div id="outline-container-org01b5080" class="outline-4">
-<h4 id="org01b5080">都水六十五官长丞</h4>
+<h4 id="org01b5080"><span class="section-number-4">2.8.5</span> 都水六十五官长丞</h4>
 </div>
 <div id="outline-container-org7b80046" class="outline-4">
-<h4 id="org7b80046">搜粟都尉</h4>
-<div class="outline-text-4" id="text-org7b80046">
+<h4 id="org7b80046"><span class="section-number-4">2.8.6</span> 搜粟都尉</h4>
+<div class="outline-text-4" id="text-2-8-6">
 <p>
 武帝军官，不常置。
 </p>
@@ -608,134 +1000,134 @@
 </div>
 </div>
 <div id="outline-container-org1067bd2" class="outline-3">
-<h3 id="org1067bd2">少府</h3>
-<div class="outline-text-3" id="text-org1067bd2">
+<h3 id="org1067bd2"><span class="section-number-3">2.9</span> 少府</h3>
+<div class="outline-text-3" id="text-2-9">
 <p>
 秦官​掌山海池泽之税，以给供养，有六丞。​​秩中二千石。​王莽改少府曰共工。
 </p>
 </div>
 <div id="outline-container-org21e8409" class="outline-4">
-<h4 id="org21e8409">十六官令丞</h4>
-<div class="outline-text-4" id="text-org21e8409">
+<h4 id="org21e8409"><span class="section-number-4">2.9.1</span> 十六官令丞</h4>
+<div class="outline-text-4" id="text-2-9-1">
 </div>
 <div id="outline-container-orgd727460" class="outline-5">
-<h5 id="orgd727460">尚书</h5>
-<div class="outline-text-5" id="text-orgd727460">
+<h5 id="orgd727460"><span class="section-number-5">2.9.1.1</span> 尚书</h5>
+<div class="outline-text-5" id="text-2-9-1-1">
 <p>
 初掌殿内文书，后掌群臣章奏。
 </p>
 </div>
 </div>
 <div id="outline-container-org6298c76" class="outline-5">
-<h5 id="org6298c76">符节</h5>
-<div class="outline-text-5" id="text-org6298c76">
+<h5 id="org6298c76"><span class="section-number-5">2.9.1.2</span> 符节</h5>
+<div class="outline-text-5" id="text-2-9-1-2">
 <p>
 掌符节之事。
 </p>
 </div>
 </div>
-<div id="outline-container-org735efeb" class="outline-5">
-<h5 id="org735efeb">太医</h5>
-<div class="outline-text-5" id="text-org735efeb">
+<div id="outline-container-orga68d3e7" class="outline-5">
+<h5 id="orga68d3e7"><span class="section-number-5">2.9.1.3</span> 太医</h5>
+<div class="outline-text-5" id="text-2-9-1-3">
 <p>
 主治宫廷人员之病。
 </p>
 </div>
 </div>
 <div id="outline-container-orgd74f6b1" class="outline-5">
-<h5 id="orgd74f6b1">太官</h5>
-<div class="outline-text-5" id="text-orgd74f6b1">
+<h5 id="orgd74f6b1"><span class="section-number-5">2.9.1.4</span> 太官</h5>
+<div class="outline-text-5" id="text-2-9-1-4">
 <p>
 掌膳食，兼掌四时进献果实。​太官七丞。
 </p>
 </div>
 </div>
 <div id="outline-container-org1109722" class="outline-5">
-<h5 id="org1109722">汤官</h5>
-<div class="outline-text-5" id="text-org1109722">
+<h5 id="org1109722"><span class="section-number-5">2.9.1.5</span> 汤官</h5>
+<div class="outline-text-5" id="text-2-9-1-5">
 <p>
 供饼饵果实。
 </p>
 </div>
 </div>
 <div id="outline-container-org4bc6857" class="outline-5">
-<h5 id="org4bc6857">导官</h5>
-<div class="outline-text-5" id="text-org4bc6857">
+<h5 id="org4bc6857"><span class="section-number-5">2.9.1.6</span> 导官</h5>
+<div class="outline-text-5" id="text-2-9-1-6">
 <p>
 掌御用粮食。
 </p>
 </div>
 </div>
 <div id="outline-container-org4bd6588" class="outline-5">
-<h5 id="org4bd6588">乐府</h5>
-<div class="outline-text-5" id="text-org4bd6588">
+<h5 id="org4bd6588"><span class="section-number-5">2.9.1.7</span> 乐府</h5>
+<div class="outline-text-5" id="text-2-9-1-7">
 <p>
 主管宫廷、巡行、祭祀之音乐，兼采民歌及配曲。​乐府三丞。​绥和二年，哀帝省乐府。
 </p>
 </div>
 </div>
 <div id="outline-container-orga3349ad" class="outline-5">
-<h5 id="orga3349ad">若庐</h5>
-<div class="outline-text-5" id="text-orga3349ad">
+<h5 id="orga3349ad"><span class="section-number-5">2.9.1.8</span> 若庐</h5>
+<div class="outline-text-5" id="text-2-9-1-8">
 <p>
 主治库兵及诏狱。
 </p>
 </div>
 </div>
 <div id="outline-container-orgd443e7c" class="outline-5">
-<h5 id="orgd443e7c">考工室</h5>
-<div class="outline-text-5" id="text-orgd443e7c">
+<h5 id="orgd443e7c"><span class="section-number-5">2.9.1.9</span> 考工室</h5>
+<div class="outline-text-5" id="text-2-9-1-9">
 <p>
 主作兵器弓弩及织绶诸杂工。​武帝太初元年更名考工室为考工。
 </p>
 </div>
 </div>
 <div id="outline-container-org9df40e0" class="outline-5">
-<h5 id="org9df40e0">左弋</h5>
-<div class="outline-text-5" id="text-org9df40e0">
+<h5 id="org9df40e0"><span class="section-number-5">2.9.1.10</span> 左弋</h5>
+<div class="outline-text-5" id="text-2-9-1-10">
 <p>
 掌助弋射之事，兼造兵器。​武帝太初元年更名左弋为飞（次蜚）。​飞掌弋射，有九丞两尉。
 </p>
 </div>
 </div>
 <div id="outline-container-orge389652" class="outline-5">
-<h5 id="orge389652">居室</h5>
-<div class="outline-text-5" id="text-orge389652">
+<h5 id="orge389652"><span class="section-number-5">2.9.1.11</span> 居室</h5>
+<div class="outline-text-5" id="text-2-9-1-11">
 <p>
 拘禁犯人之所。​武帝太初元年更名居室为保宫
 </p>
 </div>
 </div>
 <div id="outline-container-org39bdd6e" class="outline-5">
-<h5 id="org39bdd6e">甘泉居室</h5>
-<div class="outline-text-5" id="text-org39bdd6e">
+<h5 id="org39bdd6e"><span class="section-number-5">2.9.1.12</span> 甘泉居室</h5>
+<div class="outline-text-5" id="text-2-9-1-12">
 <p>
 武帝太初元年更名为昆台。​昆台五丞。
 </p>
 </div>
 </div>
 <div id="outline-container-org9cbca2f" class="outline-5">
-<h5 id="org9cbca2f">左右司空</h5>
-<div class="outline-text-5" id="text-org9cbca2f">
+<h5 id="org9cbca2f"><span class="section-number-5">2.9.1.13</span> 左右司空</h5>
+<div class="outline-text-5" id="text-2-9-1-13">
 <p>
 主造陶瓦，兼石刻工艺。
 </p>
 </div>
 </div>
 <div id="outline-container-org22c1aea" class="outline-5">
-<h5 id="org22c1aea">东织</h5>
+<h5 id="org22c1aea"><span class="section-number-5">2.9.1.14</span> 东织</h5>
 </div>
 <div id="outline-container-orgc2fdd62" class="outline-5">
-<h5 id="orgc2fdd62">西织</h5>
-<div class="outline-text-5" id="text-orgc2fdd62">
+<h5 id="orgc2fdd62"><span class="section-number-5">2.9.1.15</span> 西织</h5>
+<div class="outline-text-5" id="text-2-9-1-15">
 <p>
 掌皇家丝帛织造，在未央宫。​河平元年省东织，更名西织为织室。
 </p>
 </div>
 </div>
 <div id="outline-container-org1cdfc91" class="outline-5">
-<h5 id="org1cdfc91">东园匠</h5>
-<div class="outline-text-5" id="text-org1cdfc91">
+<h5 id="org1cdfc91"><span class="section-number-5">2.9.1.16</span> 东园匠</h5>
+<div class="outline-text-5" id="text-2-9-1-16">
 <p>
 掌陵墓内器物制作和供应。
 </p>
@@ -743,28 +1135,28 @@
 </div>
 </div>
 <div id="outline-container-org6d86ee6" class="outline-4">
-<h4 id="org6d86ee6">三长丞</h4>
-<div class="outline-text-4" id="text-org6d86ee6">
+<h4 id="org6d86ee6"><span class="section-number-4">2.9.2</span> 三长丞</h4>
+<div class="outline-text-4" id="text-2-9-2">
 </div>
 <div id="outline-container-orgbb510db" class="outline-5">
-<h5 id="orgbb510db">庖人</h5>
-<div class="outline-text-5" id="text-orgbb510db">
+<h5 id="orgbb510db"><span class="section-number-5">2.9.2.1</span> 庖人</h5>
+<div class="outline-text-5" id="text-2-9-2-1">
 <p>
 掌宰割者。
 </p>
 </div>
 </div>
-<div id="outline-container-org7354fdb" class="outline-5">
-<h5 id="org7354fdb">都水</h5>
-<div class="outline-text-5" id="text-org7354fdb">
+<div id="outline-container-orga4faebc" class="outline-5">
+<h5 id="orga4faebc"><span class="section-number-5">2.9.2.2</span> 都水</h5>
+<div class="outline-text-5" id="text-2-9-2-2">
 <p>
 掌陂泽。
 </p>
 </div>
 </div>
-<div id="outline-container-org0005f1d" class="outline-5">
-<h5 id="org0005f1d">均官</h5>
-<div class="outline-text-5" id="text-org0005f1d">
+<div id="outline-container-orgba36f41" class="outline-5">
+<h5 id="orgba36f41"><span class="section-number-5">2.9.2.3</span> 均官</h5>
+<div class="outline-text-5" id="text-2-9-2-3">
 <p>
 掌少府均输事。
 </p>
@@ -772,71 +1164,71 @@
 </div>
 </div>
 <div id="outline-container-orgebe6e0e" class="outline-4">
-<h4 id="orgebe6e0e">上林中十池监</h4>
+<h4 id="orgebe6e0e"><span class="section-number-4">2.9.3</span> 上林中十池监</h4>
 </div>
 <div id="outline-container-org824ca5c" class="outline-4">
-<h4 id="org824ca5c">八官食丞</h4>
-<div class="outline-text-4" id="text-org824ca5c">
+<h4 id="org824ca5c"><span class="section-number-4">2.9.4</span> 八官食丞</h4>
+<div class="outline-text-4" id="text-2-9-4">
 </div>
 <div id="outline-container-orgfaf3d24" class="outline-5">
-<h5 id="orgfaf3d24">中书谒者令</h5>
-<div class="outline-text-5" id="text-orgfaf3d24">
+<h5 id="orgfaf3d24"><span class="section-number-5">2.9.4.1</span> 中书谒者令</h5>
+<div class="outline-text-5" id="text-2-9-4-1">
 <p>
 掌机要，由宦者充任。​成帝建始四年更名中书谒者令为中谒者令，初置尚书，员五人，有四丞。
 </p>
 </div>
 </div>
 <div id="outline-container-org09be6ac" class="outline-5">
-<h5 id="org09be6ac">黄门令</h5>
-<div class="outline-text-5" id="text-org09be6ac">
+<h5 id="org09be6ac"><span class="section-number-5">2.9.4.2</span> 黄门令</h5>
+<div class="outline-text-5" id="text-2-9-4-2">
 <p>
 主省中诸宦者
 </p>
 </div>
 </div>
 <div id="outline-container-org40ad1e6" class="outline-5">
-<h5 id="org40ad1e6">鉤盾令</h5>
-<div class="outline-text-5" id="text-org40ad1e6">
+<h5 id="org40ad1e6"><span class="section-number-5">2.9.4.3</span> 鉤盾令</h5>
+<div class="outline-text-5" id="text-2-9-4-3">
 <p>
 宦者典诸近池苑囿游观之处。​钩盾五丞两尉
 </p>
 </div>
 </div>
 <div id="outline-container-org16a9fd4" class="outline-5">
-<h5 id="org16a9fd4">尚方令</h5>
-<div class="outline-text-5" id="text-org16a9fd4">
+<h5 id="org16a9fd4"><span class="section-number-5">2.9.4.4</span> 尚方令</h5>
+<div class="outline-text-5" id="text-2-9-4-4">
 <p>
 掌管供应制造帝王所用器物。
 </p>
 </div>
 </div>
 <div id="outline-container-orgc95efd9" class="outline-5">
-<h5 id="orgc95efd9">御府令</h5>
-<div class="outline-text-5" id="text-orgc95efd9">
+<h5 id="orgc95efd9"><span class="section-number-5">2.9.4.5</span> 御府令</h5>
+<div class="outline-text-5" id="text-2-9-4-5">
 <p>
 宦者典宫婢作中衣服及补浣之属。
 </p>
 </div>
 </div>
 <div id="outline-container-org92e703d" class="outline-5">
-<h5 id="org92e703d">永巷令</h5>
-<div class="outline-text-5" id="text-org92e703d">
+<h5 id="org92e703d"><span class="section-number-5">2.9.4.6</span> 永巷令</h5>
+<div class="outline-text-5" id="text-2-9-4-6">
 <p>
 宦者典宫婢侍使。​武帝太初元年更名永巷为掖庭。​掖廷八丞。
 </p>
 </div>
 </div>
 <div id="outline-container-org3f1e457" class="outline-5">
-<h5 id="org3f1e457">内者令</h5>
-<div class="outline-text-5" id="text-org3f1e457">
+<h5 id="org3f1e457"><span class="section-number-5">2.9.4.7</span> 内者令</h5>
+<div class="outline-text-5" id="text-2-9-4-7">
 <p>
 掌客庭布张诸衣物。
 </p>
 </div>
 </div>
 <div id="outline-container-orga0dec86" class="outline-5">
-<h5 id="orga0dec86">宦者令</h5>
-<div class="outline-text-5" id="text-orga0dec86">
+<h5 id="orga0dec86"><span class="section-number-5">2.9.4.8</span> 宦者令</h5>
+<div class="outline-text-5" id="text-2-9-4-8">
 <p>
 管内廷宦者。​宦者七丞。
 </p>
@@ -844,19 +1236,19 @@
 </div>
 </div>
 <div id="outline-container-org46778f7" class="outline-4">
-<h4 id="org46778f7">仆射</h4>
-<div class="outline-text-4" id="text-org46778f7">
+<h4 id="org46778f7"><span class="section-number-4">2.9.5</span> 仆射</h4>
+<div class="outline-text-4" id="text-2-9-5">
 <p>
 首长之义。秦汉时凡侍中、尚书、博士、谒者、郎等官，都有仆射。
 </p>
 </div>
 </div>
 <div id="outline-container-org02253ff" class="outline-4">
-<h4 id="org02253ff">署长</h4>
+<h4 id="org02253ff"><span class="section-number-4">2.9.6</span> 署长</h4>
 </div>
 <div id="outline-container-org552e431" class="outline-4">
-<h4 id="org552e431">中黄门</h4>
-<div class="outline-text-4" id="text-org552e431">
+<h4 id="org552e431"><span class="section-number-4">2.9.7</span> 中黄门</h4>
+<div class="outline-text-4" id="text-2-9-7">
 <p>
 宦者掌给事中
 </p>
@@ -865,43 +1257,43 @@
 </div>
 </div>
 <div id="outline-container-org312bc1b" class="outline-2">
-<h2 id="org312bc1b">中尉（执金吾）</h2>
-<div class="outline-text-2" id="text-org312bc1b">
+<h2 id="org312bc1b"><span class="section-number-2">3</span> 中尉（执金吾）</h2>
+<div class="outline-text-2" id="text-3">
 <p>
 秦官​掌徼循京师。​秩中二千石。​有两丞、候、司马、千人。​武帝太初元年更名执金吾。
 </p>
 </div>
 <div id="outline-container-org6a1497e" class="outline-3">
-<h3 id="org6a1497e">四令丞</h3>
-<div class="outline-text-3" id="text-org6a1497e">
+<h3 id="org6a1497e"><span class="section-number-3">3.1</span> 四令丞</h3>
+<div class="outline-text-3" id="text-3-1">
 </div>
 <div id="outline-container-org9964de0" class="outline-4">
-<h4 id="org9964de0">中垒</h4>
-<div class="outline-text-4" id="text-org9964de0">
+<h4 id="org9964de0"><span class="section-number-4">3.1.1</span> 中垒</h4>
+<div class="outline-text-4" id="text-3-1-1">
 <p>
 ​两尉
 </p>
 </div>
 </div>
 <div id="outline-container-orgcb99b92" class="outline-4">
-<h4 id="orgcb99b92">寺互</h4>
-<div class="outline-text-4" id="text-orgcb99b92">
+<h4 id="orgcb99b92"><span class="section-number-4">3.1.2</span> 寺互</h4>
+<div class="outline-text-4" id="text-3-1-2">
 <p>
 初，寺互属少府，中属主爵，后属中尉。
 </p>
 </div>
 </div>
 <div id="outline-container-org701f56e" class="outline-4">
-<h4 id="org701f56e">武库</h4>
-<div class="outline-text-4" id="text-org701f56e">
+<h4 id="org701f56e"><span class="section-number-4">3.1.3</span> 武库</h4>
+<div class="outline-text-4" id="text-3-1-3">
 <p>
 三丞
 </p>
 </div>
 </div>
 <div id="outline-container-org472224d" class="outline-4">
-<h4 id="org472224d">都船</h4>
-<div class="outline-text-4" id="text-org472224d">
+<h4 id="org472224d"><span class="section-number-4">3.1.4</span> 都船</h4>
+<div class="outline-text-4" id="text-3-1-4">
 <p>
 主船之官。​三丞
 </p>
@@ -909,110 +1301,110 @@
 </div>
 </div>
 <div id="outline-container-org1090f3c" class="outline-3">
-<h3 id="org1090f3c">式道左右中侯</h3>
-<div class="outline-text-3" id="text-org1090f3c">
+<h3 id="org1090f3c"><span class="section-number-3">3.2</span> 式道左右中侯</h3>
+<div class="outline-text-3" id="text-3-2">
 <p>
 凡左、右、中三侯车驾出，掌在前清道。车驾还，持麾至宫门，门乃开。
 </p>
 </div>
 </div>
 <div id="outline-container-orge59eaf9" class="outline-3">
-<h3 id="orge59eaf9">侯丞</h3>
+<h3 id="orge59eaf9"><span class="section-number-3">3.3</span> 侯丞</h3>
 </div>
 <div id="outline-container-org36805ad" class="outline-3">
-<h3 id="org36805ad">左右京辅都尉</h3>
+<h3 id="org36805ad"><span class="section-number-3">3.4</span> 左右京辅都尉</h3>
 </div>
 <div id="outline-container-org11f004e" class="outline-3">
-<h3 id="org11f004e">尉丞兵卒</h3>
+<h3 id="org11f004e"><span class="section-number-3">3.5</span> 尉丞兵卒</h3>
 </div>
 </div>
 <div id="outline-container-org215f78f" class="outline-2">
-<h2 id="org215f78f">太子太傅、少傅</h2>
-<div class="outline-text-2" id="text-org215f78f">
+<h2 id="org215f78f"><span class="section-number-2">4</span> 太子太傅、少傅</h2>
+<div class="outline-text-2" id="text-4">
 <p>
 古官。
 </p>
 </div>
 <div id="outline-container-orge635a37" class="outline-3">
-<h3 id="orge635a37">太子门大夫</h3>
+<h3 id="orge635a37"><span class="section-number-3">4.1</span> 太子门大夫</h3>
 </div>
 <div id="outline-container-org7008c5f" class="outline-3">
-<h3 id="org7008c5f">率更令</h3>
-<div class="outline-text-3" id="text-org7008c5f">
+<h3 id="org7008c5f"><span class="section-number-3">4.2</span> 率更令</h3>
+<div class="outline-text-3" id="text-4-2">
 <p>
 主庶子舍人更值。
 </p>
 </div>
 </div>
-<div id="outline-container-org6caed32" class="outline-3">
-<h3 id="org6caed32">家令</h3>
-<div class="outline-text-3" id="text-org6caed32">
+<div id="outline-container-org0378f2b" class="outline-3">
+<h3 id="org0378f2b"><span class="section-number-3">4.3</span> 家令</h3>
+<div class="outline-text-3" id="text-4-3">
 <p>
 主仓狱。
 </p>
 </div>
 </div>
 <div id="outline-container-org8ce005b" class="outline-3">
-<h3 id="org8ce005b">家府</h3>
-<div class="outline-text-3" id="text-org8ce005b">
+<h3 id="org8ce005b"><span class="section-number-3">4.4</span> 家府</h3>
+<div class="outline-text-3" id="text-4-4">
 <p>
 比二千石。
 </p>
 </div>
 </div>
-<div id="outline-container-org7004ec1" class="outline-3">
-<h3 id="org7004ec1">仆</h3>
-<div class="outline-text-3" id="text-org7004ec1">
+<div id="outline-container-orga77b642" class="outline-3">
+<h3 id="orga77b642"><span class="section-number-3">4.5</span> 仆</h3>
+<div class="outline-text-3" id="text-4-5">
 <p>
 主马。
 </p>
 </div>
 </div>
 <div id="outline-container-org0131db5" class="outline-3">
-<h3 id="org0131db5">庶子</h3>
-<div class="outline-text-3" id="text-org0131db5">
+<h3 id="org0131db5"><span class="section-number-3">4.6</span> 庶子</h3>
+<div class="outline-text-3" id="text-4-6">
 <p>
 秩四百石，如中郎，无员。
 </p>
 </div>
 </div>
 <div id="outline-container-orga4cb633" class="outline-3">
-<h3 id="orga4cb633">先马</h3>
-<div class="outline-text-3" id="text-orga4cb633">
+<h3 id="orga4cb633"><span class="section-number-3">4.7</span> 先马</h3>
+<div class="outline-text-3" id="text-4-7">
 <p>
 前驱也。
 </p>
 </div>
 </div>
 <div id="outline-container-org6af49fc" class="outline-3">
-<h3 id="org6af49fc">舍人</h3>
+<h3 id="org6af49fc"><span class="section-number-3">4.8</span> 舍人</h3>
 </div>
 </div>
 <div id="outline-container-org0fe60c7" class="outline-2">
-<h2 id="org0fe60c7">将作少府（将作大匠）</h2>
-<div class="outline-text-2" id="text-org0fe60c7">
+<h2 id="org0fe60c7"><span class="section-number-2">5</span> 将作少府（将作大匠）</h2>
+<div class="outline-text-2" id="text-5">
 <p>
 秦官​掌治宫室。​有两丞、左右中候。​景帝中六年更名将作大匠。
 </p>
 </div>
 <div id="outline-container-org7a09b7d" class="outline-3">
-<h3 id="org7a09b7d">七令丞</h3>
-<div class="outline-text-3" id="text-org7a09b7d">
+<h3 id="org7a09b7d"><span class="section-number-3">5.1</span> 七令丞</h3>
+<div class="outline-text-3" id="text-5-1">
 </div>
 <div id="outline-container-orge7bebb0" class="outline-4">
-<h4 id="orge7bebb0">石库</h4>
+<h4 id="orge7bebb0"><span class="section-number-4">5.1.1</span> 石库</h4>
 </div>
 <div id="outline-container-org545edd0" class="outline-4">
-<h4 id="org545edd0">东园主章</h4>
-<div class="outline-text-4" id="text-org545edd0">
+<h4 id="org545edd0"><span class="section-number-4">5.1.2</span> 东园主章</h4>
+<div class="outline-text-4" id="text-5-1-2">
 <p>
 掌大材，以供东园大匠。​武帝太初元年更名东园主章为木工。
 </p>
 </div>
 </div>
 <div id="outline-container-org416850a" class="outline-4">
-<h4 id="org416850a">左右前后中校</h4>
-<div class="outline-text-4" id="text-org416850a">
+<h4 id="org416850a"><span class="section-number-4">5.1.3</span> 左右前后中校</h4>
+<div class="outline-text-4" id="text-5-1-3">
 <p>
 成帝阳朔三年省中候及左右前后中校五丞。
 </p>
@@ -1020,55 +1412,55 @@
 </div>
 </div>
 <div id="outline-container-org43fc18b" class="outline-3">
-<h3 id="org43fc18b">主章长丞</h3>
+<h3 id="org43fc18b"><span class="section-number-3">5.2</span> 主章长丞</h3>
 </div>
 </div>
 <div id="outline-container-orge1b698c" class="outline-2">
-<h2 id="orge1b698c">詹事</h2>
-<div class="outline-text-2" id="text-orge1b698c">
+<h2 id="orge1b698c"><span class="section-number-2">6</span> 詹事</h2>
+<div class="outline-text-2" id="text-6">
 <p>
 秦官。​掌皇后、太子家，有丞。​成帝鸿嘉三年省詹事官，并属大长秋。
 </p>
 </div>
 <div id="outline-container-org484509b" class="outline-3">
-<h3 id="org484509b">太子率更</h3>
-<div class="outline-text-3" id="text-org484509b">
+<h3 id="org484509b"><span class="section-number-3">6.1</span> 太子率更</h3>
+<div class="outline-text-3" id="text-6-1">
 <p>
 掌知漏刻，秩千石。
 </p>
 </div>
 </div>
-<div id="outline-container-org0378f2b" class="outline-3">
-<h3 id="org0378f2b">家令</h3>
-<div class="outline-text-3" id="text-org0378f2b">
+<div id="outline-container-orge529082" class="outline-3">
+<h3 id="orge529082"><span class="section-number-3">6.2</span> 家令</h3>
+<div class="outline-text-3" id="text-6-2">
 <p>
 主仓狱，秩千石。
 </p>
 </div>
 </div>
-<div id="outline-container-orga77b642" class="outline-3">
-<h3 id="orga77b642">仆</h3>
+<div id="outline-container-org30cb9ee" class="outline-3">
+<h3 id="org30cb9ee"><span class="section-number-3">6.3</span> 仆</h3>
 </div>
 <div id="outline-container-org9b754c9" class="outline-3">
-<h3 id="org9b754c9">中盾</h3>
+<h3 id="org9b754c9"><span class="section-number-3">6.4</span> 中盾</h3>
 </div>
 <div id="outline-container-orgba7ec01" class="outline-3">
-<h3 id="orgba7ec01">卫率</h3>
+<h3 id="orgba7ec01"><span class="section-number-3">6.5</span> 卫率</h3>
 </div>
 <div id="outline-container-org7e50a35" class="outline-3">
-<h3 id="org7e50a35">厨厩长丞</h3>
+<h3 id="org7e50a35"><span class="section-number-3">6.6</span> 厨厩长丞</h3>
 </div>
 <div id="outline-container-org64d3718" class="outline-3">
-<h3 id="org64d3718">诸宦官</h3>
-<div class="outline-text-3" id="text-org64d3718">
+<h3 id="org64d3718"><span class="section-number-3">6.7</span> 诸宦官</h3>
+<div class="outline-text-3" id="text-6-7">
 <p>
 皇后属官，统称为中官。
 </p>
 </div>
 </div>
 <div id="outline-container-orgd062db1" class="outline-3">
-<h3 id="orgd062db1">长信詹事</h3>
-<div class="outline-text-3" id="text-orgd062db1">
+<h3 id="orgd062db1"><span class="section-number-3">6.8</span> 长信詹事</h3>
+<div class="outline-text-3" id="text-6-8">
 <p>
 掌皇太后宫。以太后所居宫为名。​景帝中六年更名长信少府，平帝元始四年更名长乐少府。
 </p>
@@ -1076,23 +1468,23 @@
 </div>
 </div>
 <div id="outline-container-orge6eff86" class="outline-2">
-<h2 id="orge6eff86">将行（大长秋）</h2>
-<div class="outline-text-2" id="text-orge6eff86">
+<h2 id="orge6eff86"><span class="section-number-2">7</span> 将行（大长秋）</h2>
+<div class="outline-text-2" id="text-7">
 <p>
 秦官。​景帝中六年更名大长秋，或用中人，或用士人。
 </p>
 </div>
 </div>
 <div id="outline-container-orgb8ff165" class="outline-2">
-<h2 id="orgb8ff165">典属国</h2>
-<div class="outline-text-2" id="text-orgb8ff165">
+<h2 id="orgb8ff165"><span class="section-number-2">8</span> 典属国</h2>
+<div class="outline-text-2" id="text-8">
 <p>
 秦官。​掌蛮夷降者。​武帝元狩三年昆邪王降，复增属国，置都尉、丞、侯、千人。
 </p>
 </div>
 <div id="outline-container-orgbaadec3" class="outline-3">
-<h3 id="orgbaadec3">九译令</h3>
-<div class="outline-text-3" id="text-orgbaadec3">
+<h3 id="orgbaadec3"><span class="section-number-3">8.1</span> 九译令</h3>
+<div class="outline-text-3" id="text-8-1">
 <p>
 掌翻译。​成帝河平元年省并大鸿胪。
 </p>
@@ -1100,83 +1492,83 @@
 </div>
 </div>
 <div id="outline-container-org97feee9" class="outline-2">
-<h2 id="org97feee9">水衡都尉</h2>
-<div class="outline-text-2" id="text-org97feee9">
+<h2 id="org97feee9"><span class="section-number-2">9</span> 水衡都尉</h2>
+<div class="outline-text-2" id="text-9">
 <p>
 掌上林苑，有五丞。​武帝元鼎二年初置。​王莽改水衡都尉曰予虞。
 </p>
 </div>
 <div id="outline-container-org9854554" class="outline-3">
-<h3 id="org9854554">九官令丞</h3>
-<div class="outline-text-3" id="text-org9854554">
+<h3 id="org9854554"><span class="section-number-3">9.1</span> 九官令丞</h3>
+<div class="outline-text-3" id="text-9-1">
 </div>
 <div id="outline-container-orgc660944" class="outline-4">
-<h4 id="orgc660944">上林</h4>
-<div class="outline-text-4" id="text-orgc660944">
+<h4 id="orgc660944"><span class="section-number-4">9.1.1</span> 上林</h4>
+<div class="outline-text-4" id="text-9-1-1">
 <p>
 ​初属少府。
 </p>
 </div>
 </div>
-<div id="outline-container-org8177062" class="outline-4">
-<h4 id="org8177062">均输</h4>
-<div class="outline-text-4" id="text-org8177062">
+<div id="outline-container-org1a498e9" class="outline-4">
+<h4 id="org1a498e9"><span class="section-number-4">9.1.2</span> 均输</h4>
+<div class="outline-text-4" id="text-9-1-2">
 <p>
 掌上林苑中均输之事。
 </p>
 </div>
 </div>
 <div id="outline-container-orge5fa697" class="outline-4">
-<h4 id="orge5fa697">御羞</h4>
-<div class="outline-text-4" id="text-orge5fa697">
+<h4 id="orge5fa697"><span class="section-number-4">9.1.3</span> 御羞</h4>
+<div class="outline-text-4" id="text-9-1-3">
 <p>
 掌帝王膳馐原料。​初属少府。
 </p>
 </div>
 </div>
 <div id="outline-container-org6d3e5d3" class="outline-4">
-<h4 id="org6d3e5d3">禁圃</h4>
-<div class="outline-text-4" id="text-org6d3e5d3">
+<h4 id="org6d3e5d3"><span class="section-number-4">9.1.4</span> 禁圃</h4>
+<div class="outline-text-4" id="text-9-1-4">
 <p>
 掌禁苑种植事宜。
 </p>
 </div>
 </div>
 <div id="outline-container-org6ac2a39" class="outline-4">
-<h4 id="org6ac2a39">楫櫂</h4>
-<div class="outline-text-4" id="text-org6ac2a39">
+<h4 id="org6ac2a39"><span class="section-number-4">9.1.5</span> 楫櫂</h4>
+<div class="outline-text-4" id="text-9-1-5">
 <p>
 掌船之官。
 </p>
 </div>
 </div>
 <div id="outline-container-org95f67c7" class="outline-4">
-<h4 id="org95f67c7">钟官</h4>
-<div class="outline-text-4" id="text-org95f67c7">
+<h4 id="org95f67c7"><span class="section-number-4">9.1.6</span> 钟官</h4>
+<div class="outline-text-4" id="text-9-1-6">
 <p>
 主铸钱之官。
 </p>
 </div>
 </div>
 <div id="outline-container-org9f4c620" class="outline-4">
-<h4 id="org9f4c620">技巧</h4>
-<div class="outline-text-4" id="text-org9f4c620">
+<h4 id="org9f4c620"><span class="section-number-4">9.1.7</span> 技巧</h4>
+<div class="outline-text-4" id="text-9-1-7">
 <p>
 主刻范。​成帝建始二年省
 </p>
 </div>
 </div>
 <div id="outline-container-org27a7ee2" class="outline-4">
-<h4 id="org27a7ee2">六厩</h4>
-<div class="outline-text-4" id="text-org27a7ee2">
+<h4 id="org27a7ee2"><span class="section-number-4">9.1.8</span> 六厩</h4>
+<div class="outline-text-4" id="text-9-1-8">
 <p>
 成帝建始二年省
 </p>
 </div>
 </div>
 <div id="outline-container-org85ee704" class="outline-4">
-<h4 id="org85ee704">辩铜</h4>
-<div class="outline-text-4" id="text-org85ee704">
+<h4 id="org85ee704"><span class="section-number-4">9.1.9</span> 辩铜</h4>
+<div class="outline-text-4" id="text-9-1-9">
 <p>
 主原料。
 </p>
@@ -1184,27 +1576,27 @@
 </div>
 </div>
 <div id="outline-container-orgc9244d1" class="outline-3">
-<h3 id="orgc9244d1">衡官</h3>
-<div class="outline-text-3" id="text-orgc9244d1">
+<h3 id="orgc9244d1"><span class="section-number-3">9.2</span> 衡官</h3>
+<div class="outline-text-3" id="text-9-2">
 <p>
 主平其税人。​​初属少府。
 </p>
 </div>
 </div>
 <div id="outline-container-orga4da8e0" class="outline-3">
-<h3 id="orga4da8e0">水司空</h3>
+<h3 id="orga4da8e0"><span class="section-number-3">9.3</span> 水司空</h3>
 </div>
 <div id="outline-container-orgf19a53e" class="outline-3">
-<h3 id="orgf19a53e">都水农仓</h3>
-<div class="outline-text-3" id="text-orgf19a53e">
+<h3 id="orgf19a53e"><span class="section-number-3">9.4</span> 都水农仓</h3>
+<div class="outline-text-3" id="text-9-4">
 <p>
 掌上林苑中农仓。
 </p>
 </div>
 </div>
 <div id="outline-container-orgb682363" class="outline-3">
-<h3 id="orgb682363">甘泉上林都水七官丞</h3>
-<div class="outline-text-3" id="text-orgb682363">
+<h3 id="orgb682363"><span class="section-number-3">9.5</span> 甘泉上林都水七官丞</h3>
+<div class="outline-text-3" id="text-9-5">
 <p>
 上林有八丞十二尉，均输四丞，御羞两丞，都水三丞，禁圃两尉，甘泉上林四丞。
 </p>
@@ -1212,203 +1604,203 @@
 </div>
 </div>
 <div id="outline-container-org5964511" class="outline-2">
-<h2 id="org5964511">三辅</h2>
-<div class="outline-text-2" id="text-org5964511">
+<h2 id="org5964511"><span class="section-number-2">10</span> 三辅</h2>
+<div class="outline-text-2" id="text-10">
 <p>
 元鼎四年更置三辅都尉、都尉丞各一人。
 </p>
 </div>
 <div id="outline-container-orgb3c3e08" class="outline-3">
-<h3 id="orgb3c3e08">内史</h3>
-<div class="outline-text-3" id="text-orgb3c3e08">
+<h3 id="orgb3c3e08"><span class="section-number-3">10.1</span> 内史</h3>
+<div class="outline-text-3" id="text-10-1">
 <p>
 周官，秦因之。​掌治京师。​景帝二年分置左右内史。
 </p>
 </div>
 <div id="outline-container-org728ee4e" class="outline-4">
-<h4 id="org728ee4e">左内史（左冯翊）</h4>
-<div class="outline-text-4" id="text-org728ee4e">
+<h4 id="org728ee4e"><span class="section-number-4">10.1.1</span> 左内史（左冯翊）</h4>
+<div class="outline-text-4" id="text-10-1-1">
 </div>
 <div id="outline-container-org24b8ff4" class="outline-5">
-<h5 id="org24b8ff4">廪栖令丞尉</h5>
-<div class="outline-text-5" id="text-org24b8ff4">
+<h5 id="org24b8ff4"><span class="section-number-5">10.1.1.1</span> 廪栖令丞尉</h5>
+<div class="outline-text-5" id="text-10-1-1-1">
 <p>
 掌祭祀牺牲之属。
 </p>
 </div>
 </div>
 <div id="outline-container-org2878e9a" class="outline-5">
-<h5 id="org2878e9a">左都水</h5>
+<h5 id="org2878e9a"><span class="section-number-5">10.1.1.2</span> 左都水</h5>
 </div>
-<div id="outline-container-orgd5ed484" class="outline-5">
-<h5 id="orgd5ed484">铁官</h5>
+<div id="outline-container-org285fb20" class="outline-5">
+<h5 id="org285fb20"><span class="section-number-5">10.1.1.3</span> 铁官</h5>
 </div>
 <div id="outline-container-orged7de25" class="outline-5">
-<h5 id="orged7de25">云垒</h5>
+<h5 id="orged7de25"><span class="section-number-5">10.1.1.4</span> 云垒</h5>
 </div>
 <div id="outline-container-org26e1fb1" class="outline-5">
-<h5 id="org26e1fb1">长安四市四长丞</h5>
+<h5 id="org26e1fb1"><span class="section-number-5">10.1.1.5</span> 长安四市四长丞</h5>
 </div>
 </div>
 <div id="outline-container-org46089ec" class="outline-4">
-<h4 id="org46089ec">右内史（京兆尹）</h4>
-<div class="outline-text-4" id="text-org46089ec">
+<h4 id="org46089ec"><span class="section-number-4">10.1.2</span> 右内史（京兆尹）</h4>
+<div class="outline-text-4" id="text-10-1-2">
 <p>
 右内史武帝太初元年更名京兆尹。
 </p>
 </div>
 <div id="outline-container-orgbacf834" class="outline-5">
-<h5 id="orgbacf834">两令丞</h5>
-<div class="outline-text-5" id="text-orgbacf834">
+<h5 id="orgbacf834"><span class="section-number-5">10.1.2.1</span> 两令丞</h5>
+<div class="outline-text-5" id="text-10-1-2-1">
 </div>
-<ul class="org-ul">
+<ol class="org-ol">
 <li><a id="org9386d92"></a>长安令丞<br /></li>
 <li><a id="orge3be41b"></a>厨令丞<br />
-<div class="outline-text-6" id="text-orge3be41b">
+<div class="outline-text-6" id="text-10-1-2-1-2">
 <p>
 掌帝王巡幸境内离宫别馆时之供帐。
 </p>
 </div>
 </li>
-</ul>
+</ol>
 </div>
-<div id="outline-container-org778c8cf" class="outline-5">
-<h5 id="org778c8cf">两长丞</h5>
-<div class="outline-text-5" id="text-org778c8cf">
+<div id="outline-container-org7e6e347" class="outline-5">
+<h5 id="org7e6e347"><span class="section-number-5">10.1.2.2</span> 两长丞</h5>
+<div class="outline-text-5" id="text-10-1-2-2">
 </div>
-<ul class="org-ul">
-<li><a id="org4325e07"></a>都水<br /></li>
-<li><a id="org03503b5"></a>铁官<br /></li>
-</ul>
+<ol class="org-ol">
+<li><a id="org1a77a91"></a>都水<br /></li>
+<li><a id="orgc3de4ed"></a>铁官<br /></li>
+</ol>
 </div>
 </div>
 </div>
 <div id="outline-container-org98d7942" class="outline-3">
-<h3 id="org98d7942">主爵中尉（都尉、右扶风）</h3>
-<div class="outline-text-3" id="text-org98d7942">
+<h3 id="org98d7942"><span class="section-number-3">10.2</span> 主爵中尉（都尉、右扶风）</h3>
+<div class="outline-text-3" id="text-10-2">
 <p>
 秦官。​掌列侯。​景帝中六年更名都尉，武帝太初元年更名右扶风。治内史右地。列侯更属大鸿胪。
 </p>
 </div>
 <div id="outline-container-org8cae034" class="outline-4">
-<h4 id="org8cae034">掌畜令丞</h4>
+<h4 id="org8cae034"><span class="section-number-4">10.2.1</span> 掌畜令丞</h4>
 </div>
 <div id="outline-container-org4318f58" class="outline-4">
-<h4 id="org4318f58">四长丞</h4>
-<div class="outline-text-4" id="text-org4318f58">
+<h4 id="org4318f58"><span class="section-number-4">10.2.2</span> 四长丞</h4>
+<div class="outline-text-4" id="text-10-2-2">
 </div>
 <div id="outline-container-orga92f013" class="outline-5">
-<h5 id="orga92f013">右都水</h5>
+<h5 id="orga92f013"><span class="section-number-5">10.2.2.1</span> 右都水</h5>
 </div>
-<div id="outline-container-org285fb20" class="outline-5">
-<h5 id="org285fb20">铁官</h5>
+<div id="outline-container-orgee9b7bd" class="outline-5">
+<h5 id="orgee9b7bd"><span class="section-number-5">10.2.2.2</span> 铁官</h5>
 </div>
 <div id="outline-container-org594c38b" class="outline-5">
-<h5 id="org594c38b">厩</h5>
+<h5 id="org594c38b"><span class="section-number-5">10.2.2.3</span> 厩</h5>
 </div>
 <div id="outline-container-orgdc0f366" class="outline-5">
-<h5 id="orgdc0f366">雍厨</h5>
+<h5 id="orgdc0f366"><span class="section-number-5">10.2.2.4</span> 雍厨</h5>
 </div>
 </div>
 </div>
 </div>
 <div id="outline-container-org63ecdb2" class="outline-2">
-<h2 id="org63ecdb2">武职</h2>
-<div class="outline-text-2" id="text-org63ecdb2">
+<h2 id="org63ecdb2"><span class="section-number-2">11</span> 武职</h2>
+<div class="outline-text-2" id="text-11">
 </div>
 <div id="outline-container-orgce0a3fa" class="outline-3">
-<h3 id="orgce0a3fa">前后左右将军</h3>
-<div class="outline-text-3" id="text-orgce0a3fa">
+<h3 id="orgce0a3fa"><span class="section-number-3">11.1</span> 前后左右将军</h3>
+<div class="outline-text-3" id="text-11-1">
 <p>
 周末官，秦因之。​金印紫绶。皆掌兵及四夷。​有长史，秩千石。​皆周末官，秦因之，位上卿。汉不常置。或有前后，或有左右。
 </p>
 </div>
 </div>
 <div id="outline-container-orgfb5d386" class="outline-3">
-<h3 id="orgfb5d386">护军都尉（司寇）</h3>
-<div class="outline-text-3" id="text-orgfb5d386">
+<h3 id="orgfb5d386"><span class="section-number-3">11.2</span> 护军都尉（司寇）</h3>
+<div class="outline-text-3" id="text-11-2">
 <p>
 秦官。​武帝元狩四年属大司马，成帝绥和元年居大司马府比司直，哀帝元寿元年更名司寇，平帝元始元年更名护军。
 </p>
 </div>
 </div>
 <div id="outline-container-org6bdaf0a" class="outline-3">
-<h3 id="org6bdaf0a">司隶校尉</h3>
-<div class="outline-text-3" id="text-org6bdaf0a">
+<h3 id="org6bdaf0a"><span class="section-number-3">11.3</span> 司隶校尉</h3>
+<div class="outline-text-3" id="text-11-3">
 <p>
 周官。​武帝征和四年初置。持节，从中都官徒千二百人，捕巫蛊，督大奸猾。后罢其兵，察三辅、三河、弘农。元帝初元四年去节，成帝元延四年省。绥和二年，哀帝复置，但为司隶，属大司空，比司直。
 </p>
 </div>
 </div>
 <div id="outline-container-org55242f2" class="outline-3">
-<h3 id="org55242f2">城门校尉</h3>
-<div class="outline-text-3" id="text-org55242f2">
+<h3 id="org55242f2"><span class="section-number-3">11.4</span> 城门校尉</h3>
+<div class="outline-text-3" id="text-11-4">
 <p>
 掌京师城门屯兵。​有司马、十二城门候。
 </p>
 </div>
 </div>
 <div id="outline-container-orgdef1cdf" class="outline-3">
-<h3 id="orgdef1cdf">八校尉</h3>
-<div class="outline-text-3" id="text-orgdef1cdf">
+<h3 id="orgdef1cdf"><span class="section-number-3">11.5</span> 八校尉</h3>
+<div class="outline-text-3" id="text-11-5">
 <p>
 武帝初置，有丞、司马。
 </p>
 </div>
 <div id="outline-container-org929e779" class="outline-4">
-<h4 id="org929e779">中垒校尉</h4>
-<div class="outline-text-4" id="text-org929e779">
+<h4 id="org929e779"><span class="section-number-4">11.5.1</span> 中垒校尉</h4>
+<div class="outline-text-4" id="text-11-5-1">
 <p>
 掌北军垒门内，外掌西域。
 </p>
 </div>
 </div>
 <div id="outline-container-orgef9ebf2" class="outline-4">
-<h4 id="orgef9ebf2">屯骑校尉</h4>
-<div class="outline-text-4" id="text-orgef9ebf2">
+<h4 id="orgef9ebf2"><span class="section-number-4">11.5.2</span> 屯骑校尉</h4>
+<div class="outline-text-4" id="text-11-5-2">
 <p>
 掌骑士。
 </p>
 </div>
 </div>
 <div id="outline-container-org2c0dadc" class="outline-4">
-<h4 id="org2c0dadc">步兵校尉</h4>
-<div class="outline-text-4" id="text-org2c0dadc">
+<h4 id="org2c0dadc"><span class="section-number-4">11.5.3</span> 步兵校尉</h4>
+<div class="outline-text-4" id="text-11-5-3">
 <p>
 掌上林苑门屯兵。
 </p>
 </div>
 </div>
 <div id="outline-container-orge4180e8" class="outline-4">
-<h4 id="orge4180e8">越骑校尉越骑。</h4>
+<h4 id="orge4180e8"><span class="section-number-4">11.5.4</span> 越骑校尉越骑。</h4>
 </div>
 <div id="outline-container-org76998e3" class="outline-4">
-<h4 id="org76998e3">长水校尉</h4>
-<div class="outline-text-4" id="text-org76998e3">
+<h4 id="org76998e3"><span class="section-number-4">11.5.5</span> 长水校尉</h4>
+<div class="outline-text-4" id="text-11-5-5">
 <p>
 掌长水宣曲胡骑。
 </p>
 </div>
 </div>
 <div id="outline-container-orgface564" class="outline-4">
-<h4 id="orgface564">胡骑校尉</h4>
-<div class="outline-text-4" id="text-orgface564">
+<h4 id="orgface564"><span class="section-number-4">11.5.6</span> 胡骑校尉</h4>
+<div class="outline-text-4" id="text-11-5-6">
 <p>
 掌池阳胡骑，不常置。
 </p>
 </div>
 </div>
 <div id="outline-container-org0093ac4" class="outline-4">
-<h4 id="org0093ac4">射声校尉</h4>
-<div class="outline-text-4" id="text-org0093ac4">
+<h4 id="org0093ac4"><span class="section-number-4">11.5.7</span> 射声校尉</h4>
+<div class="outline-text-4" id="text-11-5-7">
 <p>
 掌待诏射声士。
 </p>
 </div>
 </div>
 <div id="outline-container-org46877ed" class="outline-4">
-<h4 id="org46877ed">虎贲校尉</h4>
-<div class="outline-text-4" id="text-org46877ed">
+<h4 id="org46877ed"><span class="section-number-4">11.5.8</span> 虎贲校尉</h4>
+<div class="outline-text-4" id="text-11-5-8">
 <p>
 掌轻车。​
 </p>
@@ -1416,32 +1808,32 @@
 </div>
 </div>
 <div id="outline-container-org2f1ef38" class="outline-3">
-<h3 id="org2f1ef38">西域都护加官</h3>
-<div class="outline-text-3" id="text-org2f1ef38">
+<h3 id="org2f1ef38"><span class="section-number-3">11.6</span> 西域都护加官</h3>
+<div class="outline-text-3" id="text-11-6">
 <p>
 宣帝地节二年初置，以骑都尉、谏大夫使护西域三十六国，有副校尉，秩比二千石，丞一人，司马、侯、千人各二人。
 </p>
 </div>
 </div>
 <div id="outline-container-orgbde443f" class="outline-3">
-<h3 id="orgbde443f">戊已校尉</h3>
-<div class="outline-text-3" id="text-orgbde443f">
+<h3 id="orgbde443f"><span class="section-number-3">11.7</span> 戊已校尉</h3>
+<div class="outline-text-3" id="text-11-7">
 <p>
 掌西域屯田事务。​元帝初元元年置，有丞、司马各一人，侯五人，秩比六百石。
 </p>
 </div>
 </div>
 <div id="outline-container-org20227aa" class="outline-3">
-<h3 id="org20227aa">奉车都尉</h3>
-<div class="outline-text-3" id="text-org20227aa">
+<h3 id="org20227aa"><span class="section-number-3">11.8</span> 奉车都尉</h3>
+<div class="outline-text-3" id="text-11-8">
 <p>
 掌御乘舆车。​武帝初置，秩比二千石。
 </p>
 </div>
 </div>
 <div id="outline-container-org1dafdae" class="outline-3">
-<h3 id="org1dafdae">驸马都尉</h3>
-<div class="outline-text-3" id="text-org1dafdae">
+<h3 id="org1dafdae"><span class="section-number-3">11.9</span> 驸马都尉</h3>
+<div class="outline-text-3" id="text-11-9">
 <p>
 掌驸马。​武帝初置，秩比二千石。
 </p>
@@ -1449,44 +1841,44 @@
 </div>
 </div>
 <div id="outline-container-org24aba2c" class="outline-2">
-<h2 id="org24aba2c">中朝官（内朝官）</h2>
-<div class="outline-text-2" id="text-org24aba2c">
+<h2 id="org24aba2c"><span class="section-number-2">12</span> 中朝官（内朝官）</h2>
+<div class="outline-text-2" id="text-12">
 </div>
 <div id="outline-container-orgb3a4608" class="outline-3">
-<h3 id="orgb3a4608">侍中</h3>
-<div class="outline-text-3" id="text-orgb3a4608">
+<h3 id="orgb3a4608"><span class="section-number-3">12.1</span> 侍中</h3>
+<div class="outline-text-3" id="text-12-1">
 <p>
 得入禁中。
 </p>
 </div>
 </div>
 <div id="outline-container-org6a0f983" class="outline-3">
-<h3 id="org6a0f983">左右曹诸吏</h3>
-<div class="outline-text-3" id="text-org6a0f983">
+<h3 id="org6a0f983"><span class="section-number-3">12.2</span> 左右曹诸吏</h3>
+<div class="outline-text-3" id="text-12-2">
 <p>
 诸曹受尚书事，诸吏得举法。
 </p>
 </div>
 </div>
 <div id="outline-container-org4e22efd" class="outline-3">
-<h3 id="org4e22efd">散骑</h3>
-<div class="outline-text-3" id="text-org4e22efd">
+<h3 id="org4e22efd"><span class="section-number-3">12.3</span> 散骑</h3>
+<div class="outline-text-3" id="text-12-3">
 <p>
 散骑骑马，并乘舆车，献可替否。
 </p>
 </div>
 </div>
 <div id="outline-container-orgd79940a" class="outline-3">
-<h3 id="orgd79940a">中常侍</h3>
-<div class="outline-text-3" id="text-orgd79940a">
+<h3 id="orgd79940a"><span class="section-number-3">12.4</span> 中常侍</h3>
+<div class="outline-text-3" id="text-12-4">
 <p>
 得入禁中。
 </p>
 </div>
 </div>
 <div id="outline-container-org693f61e" class="outline-3">
-<h3 id="org693f61e">给事中</h3>
-<div class="outline-text-3" id="text-org693f61e">
+<h3 id="org693f61e"><span class="section-number-3">12.5</span> 给事中</h3>
+<div class="outline-text-3" id="text-12-5">
 <p>
 掌顾问应对，位次中常侍。
 </p>
@@ -1494,32 +1886,32 @@
 </div>
 </div>
 <div id="outline-container-orgc9367d9" class="outline-2">
-<h2 id="orgc9367d9">监御史（刺史、牧）</h2>
-<div class="outline-text-2" id="text-orgc9367d9">
+<h2 id="orgc9367d9"><span class="section-number-2">13</span> 监御史（刺史、牧）</h2>
+<div class="outline-text-2" id="text-13">
 <p>
 秦官。​掌监郡。​汉省，丞相遣史刺州，不常置。​武帝元封年初置部刺史，掌奉诏条察州，秩六百石，员十三人。​成帝绥和元年更名牧，秩二千石。哀帝建平二年复为刺史，元寿二年复为牧。
 </p>
 </div>
 </div>
 <div id="outline-container-org0a9f5df" class="outline-2">
-<h2 id="org0a9f5df">郡县</h2>
-<div class="outline-text-2" id="text-org0a9f5df">
+<h2 id="org0a9f5df"><span class="section-number-2">14</span> 郡县</h2>
+<div class="outline-text-2" id="text-14">
 </div>
 <div id="outline-container-orge7113ff" class="outline-3">
-<h3 id="orge7113ff">郡</h3>
-<div class="outline-text-3" id="text-orge7113ff">
+<h3 id="orge7113ff"><span class="section-number-3">14.1</span> 郡</h3>
+<div class="outline-text-3" id="text-14-1">
 </div>
 <div id="outline-container-org234fa02" class="outline-4">
-<h4 id="org234fa02">郡守（太守）</h4>
-<div class="outline-text-4" id="text-org234fa02">
+<h4 id="org234fa02"><span class="section-number-4">14.1.1</span> 郡守（太守）</h4>
+<div class="outline-text-4" id="text-14-1-1">
 <p>
 秦官。​掌治其郡，秩二千石。​有丞，边郡又有长史，掌兵马，秩皆六百石。​景帝中二年更名太守。
 </p>
 </div>
 </div>
 <div id="outline-container-orgd5d8a32" class="outline-4">
-<h4 id="orgd5d8a32">郡尉（都尉）</h4>
-<div class="outline-text-4" id="text-orgd5d8a32">
+<h4 id="orgd5d8a32"><span class="section-number-4">14.1.2</span> 郡尉（都尉）</h4>
+<div class="outline-text-4" id="text-14-1-2">
 <p>
 秦官。​掌佐守典武职甲卒。​秩比二千石。有丞，秩皆六百石。​景帝中二年更名都尉。
 </p>
@@ -1527,37 +1919,37 @@
 </div>
 </div>
 <div id="outline-container-org3d6a720" class="outline-3">
-<h3 id="org3d6a720">边郡</h3>
-<div class="outline-text-3" id="text-org3d6a720">
+<h3 id="org3d6a720"><span class="section-number-3">14.2</span> 边郡</h3>
+<div class="outline-text-3" id="text-14-2">
 </div>
 <div id="outline-container-org3d98899" class="outline-4">
-<h4 id="org3d98899">关都尉</h4>
-<div class="outline-text-4" id="text-org3d98899">
+<h4 id="org3d98899"><span class="section-number-4">14.2.1</span> 关都尉</h4>
+<div class="outline-text-4" id="text-14-2-1">
 <p>
 秦官。设于扼要之所。​
 </p>
 </div>
 <div id="outline-container-orgf1b28d4" class="outline-5">
-<h5 id="orgf1b28d4">关长</h5>
+<h5 id="orgf1b28d4"><span class="section-number-5">14.2.1.1</span> 关长</h5>
 </div>
 <div id="outline-container-org6009097" class="outline-5">
-<h5 id="org6009097">关尉</h5>
+<h5 id="org6009097"><span class="section-number-5">14.2.1.2</span> 关尉</h5>
 </div>
 <div id="outline-container-orgc28ead2" class="outline-5">
-<h5 id="orgc28ead2">关丞</h5>
+<h5 id="orgc28ead2"><span class="section-number-5">14.2.1.3</span> 关丞</h5>
 </div>
 </div>
 <div id="outline-container-orgec2fb4a" class="outline-4">
-<h4 id="orgec2fb4a">农都尉</h4>
-<div class="outline-text-4" id="text-orgec2fb4a">
+<h4 id="orgec2fb4a"><span class="section-number-4">14.2.2</span> 农都尉</h4>
+<div class="outline-text-4" id="text-14-2-2">
 <p>
 主屯田植谷。
 </p>
 </div>
 </div>
 <div id="outline-container-org06633ad" class="outline-4">
-<h4 id="org06633ad">属国都尉</h4>
-<div class="outline-text-4" id="text-org06633ad">
+<h4 id="org06633ad"><span class="section-number-4">14.2.3</span> 属国都尉</h4>
+<div class="outline-text-4" id="text-14-2-3">
 <p>
 安置降附者，掌管属国事务。
 </p>
@@ -1565,64 +1957,64 @@
 </div>
 </div>
 <div id="outline-container-org5796960" class="outline-3">
-<h3 id="org5796960">县</h3>
-<div class="outline-text-3" id="text-org5796960">
+<h3 id="org5796960"><span class="section-number-3">14.3</span> 县</h3>
+<div class="outline-text-3" id="text-14-3">
 </div>
 <div id="outline-container-orgb1b8513" class="outline-4">
-<h4 id="orgb1b8513">县令、县长</h4>
-<div class="outline-text-4" id="text-orgb1b8513">
+<h4 id="orgb1b8513"><span class="section-number-4">14.3.1</span> 县令、县长</h4>
+<div class="outline-text-4" id="text-14-3-1">
 <p>
 皆秦官。​掌治其县。​万户以上为令，秩千石至六百石。减万户为长，秩五百石至三百石。
 </p>
 </div>
 <div id="outline-container-org9eefca2" class="outline-5">
-<h5 id="org9eefca2">长吏</h5>
-<div class="outline-text-5" id="text-org9eefca2">
+<h5 id="org9eefca2"><span class="section-number-5">14.3.1.1</span> 长吏</h5>
+<div class="outline-text-5" id="text-14-3-1-1">
 </div>
-<ul class="org-ul">
+<ol class="org-ol">
 <li><a id="org8c3b2cc"></a>县丞<br />
-<div class="outline-text-6" id="text-org8c3b2cc">
+<div class="outline-text-6" id="text-14-3-1-1-1">
 <p>
 秩四百石至二百石。
 </p>
 </div>
 </li>
 <li><a id="org4d63b92"></a>县尉<br />
-<div class="outline-text-6" id="text-org4d63b92">
+<div class="outline-text-6" id="text-14-3-1-1-2">
 <p>
 秩四百石至二百石。
 </p>
 </div>
 </li>
-</ul>
+</ol>
 </div>
 <div id="outline-container-org5b210c5" class="outline-5">
-<h5 id="org5b210c5">少吏</h5>
-<div class="outline-text-5" id="text-org5b210c5">
+<h5 id="org5b210c5"><span class="section-number-5">14.3.1.2</span> 少吏</h5>
+<div class="outline-text-5" id="text-14-3-1-2">
 </div>
-<ul class="org-ul">
+<ol class="org-ol">
 <li><a id="org70511e5"></a>斗食<br />
-<div class="outline-text-6" id="text-org70511e5">
+<div class="outline-text-6" id="text-14-3-1-2-1">
 <p>
 百石以下
 </p>
 </div>
 </li>
 <li><a id="org88c951e"></a>佐史<br /></li>
-</ul>
+</ol>
 </div>
 </div>
 <div id="outline-container-org74f07ec" class="outline-4">
-<h4 id="org74f07ec">亭长</h4>
-<div class="outline-text-4" id="text-org74f07ec">
+<h4 id="org74f07ec"><span class="section-number-4">14.3.2</span> 亭长</h4>
+<div class="outline-text-4" id="text-14-3-2">
 </div>
 <div id="outline-container-org226c33a" class="outline-5">
-<h5 id="org226c33a">乡</h5>
-<div class="outline-text-5" id="text-org226c33a">
+<h5 id="org226c33a"><span class="section-number-5">14.3.2.1</span> 乡</h5>
+<div class="outline-text-5" id="text-14-3-2-1">
 </div>
-<ul class="org-ul">
+<ol class="org-ol">
 <li><a id="orgd0428f9"></a>三老<br />
-<div class="outline-text-6" id="text-orgd0428f9">
+<div class="outline-text-6" id="text-14-3-2-1-1">
 <p>
 三老掌教化。
 </p>
@@ -1630,26 +2022,26 @@
 </li>
 <li><a id="orgc2562cf"></a>有秩<br /></li>
 <li><a id="orgd23c99b"></a>啬夫<br />
-<div class="outline-text-6" id="text-orgd23c99b">
+<div class="outline-text-6" id="text-14-3-2-1-3">
 <p>
 啬夫职听论，收赋税。兼为吏民移请过所。手续是由乡到县，经县丞批发。与有秩类似。
 </p>
 </div>
 </li>
 <li><a id="orgdba24be"></a>游徼<br />
-<div class="outline-text-6" id="text-orgdba24be">
+<div class="outline-text-6" id="text-14-3-2-1-4">
 <p>
 游徼徼循禁贼盗。
 </p>
 </div>
 </li>
-</ul>
+</ol>
 </div>
 </div>
 </div>
 <div id="outline-container-org9138526" class="outline-3">
-<h3 id="org9138526">国、邑、道</h3>
-<div class="outline-text-3" id="text-org9138526">
+<h3 id="org9138526"><span class="section-number-3">14.4</span> 国、邑、道</h3>
+<div class="outline-text-3" id="text-14-4">
 <p>
 列侯所食县曰国，皇太后、皇后、公主所食曰邑，有蛮夷曰道。
 </p>

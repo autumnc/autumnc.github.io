@@ -55,6 +55,8 @@ nav{
 .menu>li{
     float: left;
     padding-right: 25px;
+    background-color: black;
+    color: rgba(255, 255, 255, 255.80);
 }
 
 .menu>li>a{
