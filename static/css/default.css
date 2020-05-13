@@ -13,6 +13,8 @@ a{
 header{
     display: block;
     font-weight: bold;
+    background-color: black;
+    color: rgba(255, 255, 255, 255.80);
     margin-top: 30px;
     margin-bottom: 30px;
     margin-left: auto;
@@ -26,7 +28,7 @@ nav{
     margin-left: auto;
     margin-right: auto;
     background-color: black;
-    color:white;
+    color: rgba(255, 255, 255, 255.80);
 }
 
 #bar{
@@ -36,7 +38,7 @@ nav{
     list-style-type: none;
     border: 1px dashed black;
     background-color: black;
-    color:white;
+    color: rgba(255, 255, 255, 255.80);
 }
 
 .menu{
