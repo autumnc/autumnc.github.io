@@ -48,7 +48,8 @@ nav{
     list-style-type: none;
     padding-left: 0;
     padding-bottom: 25px;
-    color: #444;
+    background-color: black;
+    color: rgba(255, 255, 255, 255.80);
 }
 
 .menu>li{
