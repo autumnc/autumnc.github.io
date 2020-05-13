@@ -25,7 +25,7 @@ nav{
     text-transform: uppercase;
     font-size: 30px;
     text-decoration: none;
-    margin-left: 5 auto;
+    margin-left: 10px;
     margin-right: auto;
     background-color: black;
     color: rgba(255, 255, 255, 255.80);
@@ -44,6 +44,7 @@ nav{
     font-size:17px;
     text-transform: uppercase;
     list-style-type: none;
+    margin-left: 10px;
     padding-left: 5px;
     padding-bottom: 25px;
     background-color: black;
@@ -52,6 +53,7 @@ nav{
 
 .menu>li{
     float: left;
+    margin-left: 10px;
     padding-right: 25px;
     background-color: black;
     color: rgba(255, 255, 255, 255.80);
@@ -59,6 +61,7 @@ nav{
 
 .menu>li>a{
     text-decoration: none;
+    margin-left: 10px;
     background-color: black;
     color: rgba(255, 255, 255, 255.80);
 }
