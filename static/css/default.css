@@ -58,8 +58,7 @@ nav{
 
 .menu>li>a{
     text-decoration: none;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 5px;
     background-color: black;
     color: rgba(255, 255, 255, 255.80);
 }
