@@ -24,7 +24,7 @@ header{
 
 nav{
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 28px;
     text-decoration: none;
     margin-left: 5px;
     background-color: black;
@@ -140,5 +140,4 @@ pre {
 @media screen and (max-width: 1026px) {
 
     body { width: 96%; }
-    nav { width: 96%; }
 }
