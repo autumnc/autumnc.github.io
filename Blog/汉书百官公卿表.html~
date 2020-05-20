@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2020-05-20 Wed 14:52 -->
+<!-- 2020-05-15 Fri 10:23 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>汉书百官公卿表</title>
@@ -17,7 +17,7 @@
     <ul class="menu">
         <li><a href="/">Index</a></li>
         <li><a href="/Photo/index.html">Photo</a></li>
-        <li><a href="https://github.com/autumnc">Tech</a></li>
+        <li><a href="https://github.com/autumnc">Git</a></li>
         <li><a href="/about.html">About</a></li>
     </ul>
 </header>
@@ -130,8 +130,8 @@
 </p>
 </div>
 </li>
-<li><a id="org57dcdd3"></a>太医<br />
-<div class="outline-text-5" id="text-org57dcdd3">
+<li><a id="org5c67a72"></a>太医<br />
+<div class="outline-text-5" id="text-org5c67a72">
 <p>
 掌医药
 </p>
@@ -139,17 +139,17 @@
 </li>
 </ul>
 </li>
-<li><a id="orgca961b6"></a>两长丞<br />
+<li><a id="org3d48808"></a>两长丞<br />
 <ul class="org-ul">
-<li><a id="org49d3505"></a>都水<br />
-<div class="outline-text-5" id="text-org49d3505">
+<li><a id="org490abe0"></a>都水<br />
+<div class="outline-text-5" id="text-org490abe0">
 <p>
 总掌治水
 </p>
 </div>
 </li>
-<li><a id="orgc54d8e7"></a>均官<br />
-<div class="outline-text-5" id="text-orgc54d8e7">
+<li><a id="org4317670"></a>均官<br />
+<div class="outline-text-5" id="text-org4317670">
 <p>
 掌均输
 </p>
@@ -501,8 +501,8 @@
 </p>
 </div>
 </li>
-<li><a id="org4fd2d20"></a>均输<br />
-<div class="outline-text-5" id="text-org4fd2d20">
+<li><a id="org2d2e613"></a>均输<br />
+<div class="outline-text-5" id="text-org2d2e613">
 <p>
 统一征收，买卖和运输货物，以调剂各地需求，郡国设均输官。
 </p>
@@ -531,7 +531,7 @@
 </li>
 </ul>
 </li>
-<li><a id="orgaf79476"></a>两长丞<br />
+<li><a id="orgf5bac4c"></a>两长丞<br />
 <ul class="org-ul">
 <li><a id="org18c4605"></a>干官<br />
 <div class="outline-text-5" id="text-org18c4605">
@@ -578,8 +578,8 @@
 </p>
 </div>
 </li>
-<li><a id="orgb297fed"></a>太医<br />
-<div class="outline-text-5" id="text-orgb297fed">
+<li><a id="org57dcdd3"></a>太医<br />
+<div class="outline-text-5" id="text-org57dcdd3">
 <p>
 主治宫廷人员之病。
 </p>
@@ -681,15 +681,15 @@
 </p>
 </div>
 </li>
-<li><a id="org0977403"></a>都水<br />
-<div class="outline-text-5" id="text-org0977403">
+<li><a id="org39201b3"></a>都水<br />
+<div class="outline-text-5" id="text-org39201b3">
 <p>
 掌陂泽。
 </p>
 </div>
 </li>
-<li><a id="org6b880be"></a>均官<br />
-<div class="outline-text-5" id="text-org6b880be">
+<li><a id="orgc54d8e7"></a>均官<br />
+<div class="outline-text-5" id="text-orgc54d8e7">
 <p>
 掌少府均输事。
 </p>
@@ -845,8 +845,8 @@
 </p>
 </div>
 </li>
-<li><a id="orgd10f49f"></a>家令<br />
-<div class="outline-text-3" id="text-orgd10f49f">
+<li><a id="orgc501904"></a>家令<br />
+<div class="outline-text-3" id="text-orgc501904">
 <p>
 主仓狱。
 </p>
@@ -859,8 +859,8 @@
 </p>
 </div>
 </li>
-<li><a id="orgc9a806c"></a>仆<br />
-<div class="outline-text-3" id="text-orgc9a806c">
+<li><a id="org6d429d9"></a>仆<br />
+<div class="outline-text-3" id="text-org6d429d9">
 <p>
 主马。
 </p>
@@ -928,14 +928,14 @@
 </p>
 </div>
 </li>
-<li><a id="org84d00f2"></a>家令<br />
-<div class="outline-text-3" id="text-org84d00f2">
+<li><a id="orgd10f49f"></a>家令<br />
+<div class="outline-text-3" id="text-orgd10f49f">
 <p>
 主仓狱，秩千石。
 </p>
 </div>
 </li>
-<li><a id="orga6944c7"></a>仆<br /></li>
+<li><a id="orgc9a806c"></a>仆<br /></li>
 <li><a id="org0fa4a56"></a>中盾<br /></li>
 <li><a id="orgcc9802d"></a>卫率<br /></li>
 <li><a id="orgff9f5f5"></a>厨厩长丞<br /></li>
@@ -997,8 +997,8 @@
 </p>
 </div>
 </li>
-<li><a id="orgdeb1dc1"></a>均输<br />
-<div class="outline-text-4" id="text-orgdeb1dc1">
+<li><a id="org4fd2d20"></a>均输<br />
+<div class="outline-text-4" id="text-org4fd2d20">
 <p>
 掌上林苑中均输之事。
 </p>
@@ -1104,7 +1104,7 @@
 </div>
 </li>
 <li><a id="orge13d8e3"></a>左都水<br /></li>
-<li><a id="orgd4f3a7f"></a>铁官<br /></li>
+<li><a id="org9dd8bad"></a>铁官<br /></li>
 <li><a id="orgc5998b3"></a>云垒<br /></li>
 <li><a id="org3212dfc"></a>长安四市四长丞<br /></li>
 </ul>
@@ -1128,10 +1128,10 @@
 </li>
 </ul>
 </li>
-<li><a id="org2362b4f"></a>两长丞<br />
+<li><a id="orgca961b6"></a>两长丞<br />
 <ul class="org-ul">
-<li><a id="org5db8115"></a>都水<br /></li>
-<li><a id="org0526dff"></a>铁官<br /></li>
+<li><a id="org49d3505"></a>都水<br /></li>
+<li><a id="org126f48a"></a>铁官<br /></li>
 </ul>
 </li>
 </ul>
@@ -1149,7 +1149,7 @@
 <li><a id="org9732f09"></a>四长丞<br />
 <ul class="org-ul">
 <li><a id="org4f662cc"></a>右都水<br /></li>
-<li><a id="orgfd9274e"></a>铁官<br /></li>
+<li><a id="orgd4f3a7f"></a>铁官<br /></li>
 <li><a id="orgbb14d2b"></a>厩<br /></li>
 <li><a id="orga4c756a"></a>雍厨<br /></li>
 </ul>

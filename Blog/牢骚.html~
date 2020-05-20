@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2020-05-20 Wed 14:52 -->
+<!-- 2020-05-15 Fri 10:23 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>&lrm;</title>
@@ -17,7 +17,7 @@
     <ul class="menu">
         <li><a href="/">Index</a></li>
         <li><a href="/Photo/index.html">Photo</a></li>
-        <li><a href="https://github.com/autumnc">Tech</a></li>
+        <li><a href="https://github.com/autumnc">Git</a></li>
         <li><a href="/about.html">About</a></li>
     </ul>
 </header>
