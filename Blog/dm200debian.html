@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2020-05-26 Tue 22:53 -->
+<!-- 2020-05-26 Tue 22:55 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Dm200中文系统研究</title>
@@ -28,27 +28,27 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org2bbc37b">前言</a></li>
-<li><a href="#org1363303">基础系统</a></li>
-<li><a href="#orga9a29aa">中文系统</a></li>
+<li><a href="#org7fbcd55">前言</a></li>
+<li><a href="#org4b1c31c">基础系统</a></li>
+<li><a href="#org1f3283b">中文系统</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org2bbc37b" class="outline-2">
-<h2 id="org2bbc37b">前言</h2>
-<div class="outline-text-2" id="text-org2bbc37b">
+<div id="outline-container-org7fbcd55" class="outline-2">
+<h2 id="org7fbcd55">前言</h2>
+<div class="outline-text-2" id="text-org7fbcd55">
 </div>
 <ul class="org-ul">
-<li><a id="org9238153"></a>Dm200 简介<br />
-<div class="outline-text-3" id="text-org9238153">
+<li><a id="org517adb0"></a>Dm200 简介<br />
+<div class="outline-text-3" id="text-org517adb0">
 <p>
 Pomera dm200 是日本人出的一个纯文字处理功能的小机子，特点是键盘手感好，无线功能齐全，虽然原系统显示是黑白但实际是彩色的屏幕还有纯日文的系统，是的，连英文界面都不存在。好在有个日本大牛捣腾出了可以用的 debian 系统，而且是全功能的，这意味着虽然先天不足，但是通过后天的捣腾，中文是可以被支持的。尽管是曲线救国，好歹还是能用的。
 </p>
 </div>
 <ul class="org-ul">
-<li><a id="org57089bc"></a>特点和问题：<br />
-<div class="outline-text-5" id="text-org57089bc">
+<li><a id="org8cac71d"></a>特点和问题：<br />
+<div class="outline-text-5" id="text-org8cac71d">
 <ul class="org-ul">
 <li>sd卡：官网说是支持到32g的卡，我装系统用的也是32g的卡，不支持uhs，实测好像是这样。卡是大卡，也可以用卡套装小卡，如果没有接触不良的话差别好像不大，不过为了降低风险我用的还是大卡。</li>
 <li>键盘：虽然是日文格局，但是适应起来门槛不高，只要手感好，什么都不是问题，而且 linux 可以随便捣腾键盘映射。比一般键盘多了几个功能键，正好用在tmux和emacs的映射上。</li>
@@ -63,13 +63,13 @@ Pomera dm200 是日本人出的一个纯文字处理功能的小机子，特点�
 </li>
 </ul>
 </div>
-<div id="outline-container-org1363303" class="outline-2">
-<h2 id="org1363303">基础系统</h2>
-<div class="outline-text-2" id="text-org1363303">
+<div id="outline-container-org4b1c31c" class="outline-2">
+<h2 id="org4b1c31c">基础系统</h2>
+<div class="outline-text-2" id="text-org4b1c31c">
 </div>
 <ul class="org-ul">
-<li><a id="orgc148b7c"></a>安装 debian 系统<br />
-<div class="outline-text-3" id="text-orgc148b7c">
+<li><a id="org9d4a144"></a>安装 debian 系统<br />
+<div class="outline-text-3" id="text-org9d4a144">
 <p>
 参考资料：
 一堆日文网站，全靠google－translate。
@@ -81,15 +81,15 @@ Pomera dm200 是日本人出的一个纯文字处理功能的小机子，特点�
 </li>
 </ul>
 </div>
-<div id="outline-container-orga9a29aa" class="outline-2">
-<h2 id="orga9a29aa">中文系统</h2>
-<div class="outline-text-2" id="text-orga9a29aa">
+<div id="outline-container-org1f3283b" class="outline-2">
+<h2 id="org1f3283b">中文系统</h2>
+<div class="outline-text-2" id="text-org1f3283b">
 </div>
 <ul class="org-ul">
-<li><a id="orgf36d01d"></a>需满足几点要求<br />
+<li><a id="orgb3bdc7d"></a>需满足几点要求<br />
 <ul class="org-ul">
-<li><a id="org52e54b7"></a>中文显示<br />
-<div class="outline-text-4" id="text-org52e54b7">
+<li><a id="orgcd6f6df"></a>中文显示<br />
+<div class="outline-text-4" id="text-orgcd6f6df">
 <ul class="org-ul">
 <li>fbterm</li>
 </ul>
@@ -104,23 +104,23 @@ Pomera dm200 是日本人出的一个纯文字处理功能的小机子，特点�
 </p>
 </div>
 </li>
-<li><a id="orgcaa3fd9"></a>中文输入法<br />
-<div class="outline-text-4" id="text-orgcaa3fd9">
+<li><a id="orgb3d9835"></a>中文输入法<br />
+<div class="outline-text-4" id="text-orgb3d9835">
 <p>
 两种方案 
 </p>
 </div>
 <ul class="org-ul">
-<li><a id="org02f7a65"></a>fbterm相结合的输入法<br />
-<div class="outline-text-5" id="text-org02f7a65">
+<li><a id="org15b73aa"></a>fbterm相结合的输入法<br />
+<div class="outline-text-5" id="text-org15b73aa">
 <ul class="org-ul">
 <li>uim-fep：虽然能打中文，但是仅仅只是能用，用起来体验极差，日本人弄的系统默认用这个，偶尔在终端打字可能用得上，我不用。</li>
 <li>yong输入法：一开始的选择，优点是速度快，缺点是可定制性差，配置文件影响的是X下面的输入法，fbterm下面的yong输入法并没有全部读取配置文件，颜色什么的只能通过源码修改。还有在终端下和vim搭配有点不大稳定，但是和emacs搭配好像还挺好的，暂时没发现太大的问题。</li>
 </ul>
 </div>
 </li>
-<li><a id="org9c136ce"></a>编辑器内嵌的输入法<br />
-<div class="outline-text-5" id="text-org9c136ce">
+<li><a id="org436eaa8"></a>编辑器内嵌的输入法<br />
+<div class="outline-text-5" id="text-org436eaa8">
 <ul class="org-ul">
 <li>vim插件vimim</li>
 </ul>
@@ -138,8 +138,8 @@ emacs－rime：据说速度快，但是得重新编译emacs，还有一堆东西
 </li>
 </ul>
 </li>
-<li><a id="org841218a"></a>文本编辑器<br />
-<div class="outline-text-4" id="text-org841218a">
+<li><a id="org3a4a096"></a>文本编辑器<br />
+<div class="outline-text-4" id="text-org3a4a096">
 <p>
 两大神器：
 </p>
@@ -157,8 +157,8 @@ emacs－rime：据说速度快，但是得重新编译emacs，还有一堆东西
 </p>
 </div>
 </li>
-<li><a id="org4682279"></a>文本同步与共享<br />
-<div class="outline-text-4" id="text-org4682279">
+<li><a id="org9854c14"></a>文本同步与共享<br />
+<div class="outline-text-4" id="text-org9854c14">
 <dl class="org-dl">
 <dt>本机模式</dt><dd>基于文件系统共享</dd>
 <dt>(no term)</dt><dd>网络模式</dd>
@@ -167,14 +167,14 @@ emacs－rime：据说速度快，但是得重新编译emacs，还有一堆东西
 </li>
 </ul>
 </li>
-<li><a id="orgfbf7cd3"></a>纯控制台模式（无 X window）<br />
+<li><a id="org471d84d"></a>纯控制台模式（无 X window）<br />
 <ul class="org-ul">
-<li><a id="orgdb913c6"></a>方案 1<br /></li>
-<li><a id="orgff6afbb"></a>方案2<br /></li>
+<li><a id="org358fe03"></a>方案 1<br /></li>
+<li><a id="org7752f09"></a>方案2<br /></li>
 </ul>
 </li>
 
-<li><a id="org31224ec"></a>X Window<br /></li>
+<li><a id="org85226e6"></a>X Window<br /></li>
 </ul>
 </div>
 </div>
