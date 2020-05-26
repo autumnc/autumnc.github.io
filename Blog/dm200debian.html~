@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2020-05-26 Tue 22:53 -->
+<!-- 2020-05-26 Tue 01:06 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Dm200中文系统研究</title>
@@ -115,7 +115,7 @@ Pomera dm200 是日本人出的一个纯文字处理功能的小机子，特点�
 <div class="outline-text-5" id="text-org02f7a65">
 <ul class="org-ul">
 <li>uim-fep：虽然能打中文，但是仅仅只是能用，用起来体验极差，日本人弄的系统默认用这个，偶尔在终端打字可能用得上，我不用。</li>
-<li>yong输入法：一开始的选择，优点是速度快，缺点是可定制性差，配置文件影响的是X下面的输入法，fbterm下面的yong输入法并没有全部读取配置文件，颜色什么的只能通过源码修改。还有在终端下和vim搭配有点不大稳定，但是和emacs搭配好像还挺好的，暂时没发现太大的问题。</li>
+<li>yong输入法：一开始的选择，优点是速度快，缺点是可定制性差还有在终端下有点不大稳定。</li>
 </ul>
 </div>
 </li>
@@ -125,13 +125,13 @@ Pomera dm200 是日本人出的一个纯文字处理功能的小机子，特点�
 <li>vim插件vimim</li>
 </ul>
 <p>
-速度太慢放弃。真的是慢，没法用。
+速度太慢放弃。
 </p>
 <ul class="org-ul">
 <li>emas插件</li>
 </ul>
 <p>
-pyim：现阶段采用的方案，缺点是启动emacs之后第一次切换略慢，之后就顺畅了。还有如果想要流畅，最好选择用minibuffer的方式，但是容易被其他信息覆盖。
+pyim：现阶段采用的方案，缺点是启动emacs之后第一次切换略慢，之后就顺畅了。
 emacs－rime：据说速度快，但是得重新编译emacs，还有一堆东西得重新折腾，尝试过，编译全部很顺利，一运行就崩溃，暂时不清楚问题出在哪里。
 </p>
 </div>
@@ -140,21 +140,10 @@ emacs－rime：据说速度快，但是得重新编译emacs，还有一堆东西
 </li>
 <li><a id="org841218a"></a>文本编辑器<br />
 <div class="outline-text-4" id="text-org841218a">
-<p>
-两大神器：
-</p>
 <ul class="org-ul">
 <li>Vim</li>
-</ul>
-<p>
-速度快，编辑功能强大，但是之前有一段时间我用起来很容易崩溃，怀疑是和输入法配合的问题，现在我只用它来写写配置文件，中文处理基本上交给了emacs。
-</p>
-<ul class="org-ul">
 <li>Emacs</li>
 </ul>
-<p>
-有强大的org-mode，配合deft管理笔记不要太好用。org-capture可以随时捕捉灵感，journal写写日记，一个软件就齐全了。缺点是配置相对复杂，不过一次配置，受益无穷，还是值得的。
-</p>
 </div>
 </li>
 <li><a id="org4682279"></a>文本同步与共享<br />
