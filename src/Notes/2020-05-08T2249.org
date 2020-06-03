@@ -1,0 +1,23 @@
+#+TITLE: 笔记设置
+
+* 重新设置笔记
+关联了org-mode和deft，同时进入org-mode的时候会自动进入writeroom的模式。感觉org-mode启动略慢，其它还好。
+
+** DONE 用deft来管理
+ - 文件管理
+ - 搜索
+ - 配合org-mode
+ - 快捷键
+   
+** neotree 目录式管理
+- 快捷键F8调出neotree模式
+- 快速定位到当前编辑的文件位置
+
+* TODO 计划
+** 学习org模式
+ - 快捷键
+** 快捷键方面在hydra和which-key中选择一个
+- hydra 功能强大，可自定义，但是定义起来比较麻烦
+- which-key 简单但是快捷键清单多的时候也是麻烦
+- hydra可以参考网上现成的配置，但是得另开一个配置文件了，否则太乱了。
+
