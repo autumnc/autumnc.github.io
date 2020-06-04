@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2020-05-31 Sun 00:11 -->
+<!-- 2020-06-05 Fri 01:41 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Dm200中文系统研究</title>
@@ -40,7 +40,11 @@
 <li><a href="#org018d47c">基础系统</a>
 <ul>
 <li><a href="#orge8bf6fe">安装 debian 系统</a></li>
-<li><a href="#orgbdefd8a">补充</a></li>
+<li><a href="#orgbdefd8a">补充</a>
+<ul>
+<li><a href="#org25a7bf9">按键自定义</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li><a href="#org2e724ca">中文系统</a>
@@ -53,7 +57,7 @@
 <li><a href="#org9fecd97">fbterm相结合的输入法</a></li>
 <li><a href="#org4f7fe92">编辑器内嵌的输入法</a>
 <ul>
-<li><a href="#orgfde5e8e">vim插件vimim</a></li>
+<li><a href="#orgf55ee32">vim插件vimim ::</a></li>
 <li><a href="#orgca6dfe0">emacs插件 ::</a></li>
 </ul>
 </li>
@@ -65,7 +69,12 @@
 <li><a href="#org733c1b2">Emacs</a></li>
 </ul>
 </li>
-<li><a href="#orgd8cff09">文本同步与共享</a></li>
+<li><a href="#orgd8cff09">文本同步与共享</a>
+<ul>
+<li><a href="#orgb3018ae">本机模式</a></li>
+<li><a href="#org5a7cd2c">网络模式</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li><a href="#org6c06fef">纯控制台模式（无 X window）</a>
@@ -136,6 +145,32 @@ Pomera dm200 是日本人出的一个纯文字处理功能的小机子，特点�
 </div>
 <div id="outline-container-orgbdefd8a" class="outline-3">
 <h3 id="orgbdefd8a">补充</h3>
+<div class="outline-text-3" id="text-orgbdefd8a">
+</div>
+<div id="outline-container-org25a7bf9" class="outline-4">
+<h4 id="org25a7bf9">按键自定义</h4>
+<div class="outline-text-4" id="text-org25a7bf9">
+<p>
+dm200是日文按键布局，相比一般的键盘而言多了几个按键，我把他们重新映射了一下，以方便emacs里面使用。<br />
+keymaps 0-255<br />
+keycode 41=Caps_Lock<br />
+keycode 116=F12<br />
+keycode 125=PageUp<br />
+keycode 92=End<br />
+keycode 94=Home<br />
+keycode 93=PageDown<br />
+keycode 58=F11<br />
+说明：<br />
+</p>
+<ul class="org-ul">
+<li>全角/半角汉字　我把它设置成F11键，然后和Capslock对调了，这个键比较远，对于中文而言，大写锁定很少会用到，反倒是Capslock占了个好位置。<br /></li>
+<li>Menu按键，原系统里面的菜单键，我定义成了PageUp键，上翻页挺方便。<br /></li>
+<li>一个纯日文的按键，在右边ctrl旁边，改成PageDown键，刚好和Menu键组成一对，好记也好用。<br /></li>
+<li>无变换键，改成Home键，对于光标快速移动很方便。<br /></li>
+<li>前候补变换键，改成End键，又刚好组成一对。<br /></li>
+</ul>
+</div>
+</div>
 </div>
 </div>
 <div id="outline-container-org2e724ca" class="outline-2">
@@ -149,10 +184,11 @@ Pomera dm200 是日本人出的一个纯文字处理功能的小机子，特点�
 <div id="outline-container-org393d239" class="outline-4">
 <h4 id="org393d239">中文显示</h4>
 <div class="outline-text-4" id="text-org393d239">
-<ul class="org-ul">
-<li>fbterm：现阶段最成熟的方案<br /></li>
-<li>kmscon：尝试了编译，没成功。<br /></li>
-</ul>
+<dl class="org-dl">
+<dt>fbterm</dt><dd>现阶段最成熟的方案<br /></dd>
+<dt>kmscon</dt><dd>尝试了编译，没成功<br /></dd>
+<dt>mlterm</dt><dd>据说有个控制台版本，mlterm-fb，支持CJK，但是由于fbterm有yong输入法，所以没试，用这个就只能用emacs里面的输入法了。<br /></dd>
+</dl>
 </div>
 </div>
 <div id="outline-container-orgd971d7e" class="outline-4">
@@ -175,9 +211,9 @@ Pomera dm200 是日本人出的一个纯文字处理功能的小机子，特点�
 <h5 id="org4f7fe92">编辑器内嵌的输入法</h5>
 <div class="outline-text-5" id="text-org4f7fe92">
 </div>
-<div id="outline-container-orgfde5e8e" class="outline-6">
-<h6 id="orgfde5e8e">vim插件vimim</h6>
-<div class="outline-text-6" id="text-orgfde5e8e">
+<div id="outline-container-orgf55ee32" class="outline-6">
+<h6 id="orgf55ee32">vim插件vimim ::</h6>
+<div class="outline-text-6" id="text-orgf55ee32">
 <p>
 速度太慢放弃。真的是慢，没法用。<br />
 </p>
@@ -221,10 +257,24 @@ emacs－rime：据说速度快，但是得重新编译emacs，还有一堆东西
 <div id="outline-container-orgd8cff09" class="outline-4">
 <h4 id="orgd8cff09">文本同步与共享</h4>
 <div class="outline-text-4" id="text-orgd8cff09">
-<dl class="org-dl">
-<dt>本机模式</dt><dd>基于文件系统共享<br /></dd>
-<dt>网络模式</dt><dd>暂时先用git同步<br /></dd>
-</dl>
+</div>
+<div id="outline-container-orgb3018ae" class="outline-5">
+<h5 id="orgb3018ae">本机模式</h5>
+<div class="outline-text-5" id="text-orgb3018ae">
+<p>
+卡里有个fat分区，是专门用来和原系统交换文件用的，可以直接mount，好像也可以在原系统里面直接用usb直接连电脑拷文件，在debian里面不行。<br />
+</p>
+</div>
+</div>
+<div id="outline-container-org5a7cd2c" class="outline-5">
+<h5 id="org5a7cd2c">网络模式</h5>
+<div class="outline-text-5" id="text-org5a7cd2c">
+<p>
+-　emacs支持evernote-mode，分享文本还是很方便的。:: 国内使用可以把主机改成印象笔记，速度快一些。<br />
+-　用git同步 :: 这个适合整个文件的同步，git很强大，可以有很多种利用方式，我就存点东西，写个博客。<br />
+-　网络粘贴板 :: 可以用ubuntu-pastbin之类的网络粘贴板，也可以用netcat模式的termbin，对于临时复制粘贴文本我采用tibiji.com这种网站，配合w3m还是挺方便的，尤其是emacs里面的w3m，直接编辑，交换文本完全无缝。<br />
+</p>
+</div>
 </div>
 </div>
 </div>
