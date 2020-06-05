@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html><head>
+<title>三家诗集解笔记</title>
+
+<meta charset="utf-8">
+<meta name="X-UA-Compatible" content="IE=edge">
+<meta name="google-site-verification" content="">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<meta content="telephone=no" name="format-detection">
+<meta name="description" content="">
+<meta name="renderer" content="webkit">
+<meta name="theme-color" content="#ffffff">
+
+
+
+
+<script src="/vendor/js/jquery.min.js" ></script>
+<script src="/vendor/js/popper.min.js" ></script>
+<script src="/vendor/js/bootstrap.min.js" ></script>
+<script src="/vendor/js/smooth-scroll.polyfills.min.js" ></script>
+<link type="text/css" rel="stylesheet" href="/vendor/css/bootstrap.min.css">
+<script src="/vendor/js/vue.min.js" ></script>
+
+
+
+
+<link rel="stylesheet" href="http://example.org/scss/journal.min.47aa1ffb60880ad8c72feecd6962a14331eca7a7a30e08354a1ca91009b8bc5b.css" integrity="sha256-R6of&#43;2CICtjHL&#43;7NaWKhQzHsp6ejDgg1ShypEAm4vFs=" media="screen">
+
+
+
+<link rel="stylesheet" href="http://example.org/scss/dark-mode.min.b13808e7c98cd5aa981a3822fd3421e26f1015876bb15a3fbf8ed5991c382367.css" integrity="sha256-sTgI58mM1aqYGjgi/TQh4m8QFYdrsVo/v47VmRw4I2c=" media="screen">
+
+
+<script src="http://example.org//js/loadCSS.js"></script>
+<script>
+  loadCSS("https://fonts.googleapis.com/css?family=Lora|Montserrat|Fira+Mono|Noto+Serif+SC|Material+Icons");
+</script>
+
+
+
+
+  
+    <script src="http://example.org//js/toc-collapse.js"></script>
+  
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+<script src="/vendor/js/md5.min.js"></script>
+<script>
+  var gitalk = new Gitalk({
+  clientID: 'your client id',
+  clientSecret: 'your client secret',
+  repo: 'autumnc.github.io',
+  owner: 'autumnc',
+  admin: ['autumnc'],
+  id: md5(location.pathname),
+  distractionFreeMode: 'false'
+  });
+  window.onload = function () {
+        gitalk.render('gitalk-container')
+  }
+</script>
+
+
+
+
+
+
+
+
+</head><body>
+    	<div id="app"><div ref="sideContainer" class="side-container">
+    
+    <a class="a-block nav-head false" href="http://example.org/">
+    
+        <div class="nav-title">
+            言窟
+        </div>
+        
+        <div class="nav-subtitle">
+            寓言十九，重言十七，卮言日出，和以天倪。
+        </div>
+        
+    </a>
+
+    <div class="nav-link-list">
+        
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/tech">
+                技术
+            </a>
+            
+        
+            
+            
+            
+                
+            
+            
+            
+            <a class="a-block nav-link-item active" href="/notes">
+                笔记
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/digest">
+                摘抄
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/index.xml">
+                RSS
+            </a>
+            
+        
+    </div>
+
+    
+
+    <div class="nav-footer">
+        
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
+<br>
+移植自 <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	2020 言窟
+	
+
+    </div>
+    
+</div><div ref="extraContainer" class="extra-container">
+    
+    
+    <div class="toc animated-visibility" :class="{ invisible: scrollY <= 140 }">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- 目录 -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								<ul class="collapse" data-toggle="collapse">
+							
+						
+						
+							<li>
+								<a href="#%e5%85%b3%e9%9b%8e%e4%b9%89" onclick="collapseOthers(`#关雎义-nav`)" id="关雎义-nav">
+									关雎义
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e5%85%b3%e9%9b%8e%e4%b8%80%e8%a7%a3" onclick="collapseOthers(`#关雎一解-nav`)" id="关雎一解-nav">
+									关雎一解
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e5%85%b3%e9%9b%8e%e5%8f%8a%e5%85%b6%e5%ae%83" onclick="collapseOthers(`#关雎及其它-nav`)" id="关雎及其它-nav">
+									关雎及其它
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e8%91%9b%e8%a6%83%e5%8f%8a%e5%85%b6%e5%ae%83" onclick="collapseOthers(`#葛覃及其它-nav`)" id="葛覃及其它-nav">
+									葛覃及其它
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e8%91%9b%e8%a6%83%e4%b9%8b%e5%bd%92%e5%ae%81" onclick="collapseOthers(`#葛覃之归宁-nav`)" id="葛覃之归宁-nav">
+									葛覃之归宁
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e8%9e%bd%e6%96%af" onclick="collapseOthers(`#螽斯-nav`)" id="螽斯-nav">
+									螽斯
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e5%8d%b7%e8%80%b3" onclick="collapseOthers(`#卷耳-nav`)" id="卷耳-nav">
+									卷耳
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e6%a1%83%e5%a4%ad" onclick="collapseOthers(`#桃夭-nav`)" id="桃夭-nav">
+									桃夭
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e5%85%94%e7%bd%9d" onclick="collapseOthers(`#兔罝-nav`)" id="兔罝-nav">
+									兔罝
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+    
+    <div class="pagination">
+        <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
+            <i class="material-icons pagination-action-icon">
+                keyboard_arrow_up
+            </i>
+        </a>
+        
+        <a class="pagination-action" v-on:click="toggleDarkMode">
+            <i class="material-icons pagination-action-icon" v-if="isDarkMode">
+                brightness_4
+            </i>
+            <i class="material-icons pagination-action-icon" v-else="isDarkMode">
+                brightness_7
+            </i>
+        </a>
+        
+        
+    </div>
+</div><div class="single-column-drawer-container" ref="drawer"
+     v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
+    <div class="drawer-content">
+        <div class="drawer-menu">
+            
+            
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/tech">
+                    技术
+                </a>
+                
+            
+                
+                
+                
+                    
+                
+                
+                
+                <a class="a-block drawer-menu-item active" href="/notes">
+                    笔记
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/digest">
+                    摘抄
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/index.xml">
+                    RSS
+                </a>
+                
+            
+            
+            <div class="toc">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- 目录 -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								<ul class="collapse" data-toggle="collapse">
+							
+						
+						
+							<li>
+								<a href="#%e5%85%b3%e9%9b%8e%e4%b9%89" onclick="collapseOthers(`#关雎义-nav`)" id="关雎义-nav">
+									关雎义
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e5%85%b3%e9%9b%8e%e4%b8%80%e8%a7%a3" onclick="collapseOthers(`#关雎一解-nav`)" id="关雎一解-nav">
+									关雎一解
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e5%85%b3%e9%9b%8e%e5%8f%8a%e5%85%b6%e5%ae%83" onclick="collapseOthers(`#关雎及其它-nav`)" id="关雎及其它-nav">
+									关雎及其它
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e8%91%9b%e8%a6%83%e5%8f%8a%e5%85%b6%e5%ae%83" onclick="collapseOthers(`#葛覃及其它-nav`)" id="葛覃及其它-nav">
+									葛覃及其它
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e8%91%9b%e8%a6%83%e4%b9%8b%e5%bd%92%e5%ae%81" onclick="collapseOthers(`#葛覃之归宁-nav`)" id="葛覃之归宁-nav">
+									葛覃之归宁
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e8%9e%bd%e6%96%af" onclick="collapseOthers(`#螽斯-nav`)" id="螽斯-nav">
+									螽斯
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e5%8d%b7%e8%80%b3" onclick="collapseOthers(`#卷耳-nav`)" id="卷耳-nav">
+									卷耳
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e6%a1%83%e5%a4%ad" onclick="collapseOthers(`#桃夭-nav`)" id="桃夭-nav">
+									桃夭
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e5%85%94%e7%bd%9d" onclick="collapseOthers(`#兔罝-nav`)" id="兔罝-nav">
+									兔罝
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+            
+        </div>
+    </div>
+</div>
+<transition name="fade">
+    <div v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if="isDrawerOpen" v-on:click="toggleDrawer"></div>
+</transition>
+<nav ref="navBar" class="navbar sticky-top navbar-light single-column-nav-container">
+    <div ref="navBackground" class="nav-background"></div>
+    <div class="container container-narrow nav-content">
+        <button id="nav_dropdown_btn" class="nav-dropdown-toggle" type="button" v-on:click="toggleDrawer">
+            <i class="material-icons">
+                menu
+            </i>
+        </button>
+        <a ref="navTitle" class="navbar-brand" href="http://example.org/">
+            言窟
+        </a>
+        
+        <button type="button" class="nav-darkmode-toggle" v-on:click="toggleDarkMode">
+            <i class="material-icons" v-if="isDarkMode">
+                brightness_4
+            </i>
+            <i class="material-icons" v-else="isDarkMode">
+                brightness_7
+            </i>
+        </button>
+        
+    </div>
+</nav>
+<div class="single-column-header-container" ref="pageHead"
+     v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
+    <a href="http://example.org/">
+        <div class="single-column-header-title">言窟</div>
+        
+        <div class="single-column-header-subtitle">寓言十九，重言十七，卮言日出，和以天倪。</div>
+        
+
+    </a>
+</div>
+            <div id="content">
+<div ref="streamContainer" class="stream-container">
+    <div class="post-list-container post-list-container-shadow">
+        <div class="post">
+            
+            
+            
+
+            <div class="post-head-wrapper-text-only"
+                
+            >
+                <div class="post-title">
+                    三家诗集解笔记
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2020-06-06 00:00
+                        </time>
+                        
+
+                        
+                            <i class="material-icons" style="">folder</i>
+                                <a href="/categories/">[笔记]</a>
+                                &nbsp;
+                        
+
+                        
+                            <i class="material-icons" style="">label</i>
+                            
+                                <a href="/tags/%E8%AF%97%E7%BB%8F">诗经</a>
+                                &nbsp;
+                            
+                                <a href="/tags/%E7%BB%8F%E5%AD%A6">经学</a>
+                                &nbsp;
+                            
+                                <a href="/tags/%E5%8F%A4%E7%B1%8D">古籍</a>
+                                &nbsp;
+                            
+                                <a href="/tags/%E7%AC%94%E8%AE%B0">笔记</a>
+                                &nbsp;
+                            
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <h2 id="关雎义">关雎义</h2>
+<p>诗关雎篇，毛诗以为后妃之德，为王化之始。其所言后妃之德者：一则为幽闲后宫，与王情义至而有别，盖不淫于色者也，此“关关雎鸠”之义。二则为不妒，不妒者，伊毛诗所言为求贤也？求贤者，后妃为王求淑女也，此“寤寐求之”之义。幽闲可也，求贤则可商榷也。此直以后妃为掮客，甚为可笑也。观史上所谓“不妒”之掮客后妃者，鲜有善终者也，此受老毛之流毒而致误终身也。依三家义言，此盖臣下刺上之诗也。盖康王之时，天子不早朝，淫于色而荒于政，臣下以求理想之后妃讽君上之失，盖理想之后妃者，幽闲于內，和好众匹，辅助王事而不淫于色者也。求之思之者，士子拟王意也，求思得此淑女以为王后妃也。所谓“参差荇菜，左右流之”者，于是时，后妃淫于色而荒于本分事，盖求择荇菜以成祭事乃后妃之事业，举此一事以该后妃之失也。士子寤寐忧思窈窕淑女以助王事业也。按此义，似三家诗为长，毛诗之义盖合于天子之心意者也，故得以传之。三家诗之义必不为后世天子所好。</p>
+<h2 id="关雎一解">关雎一解</h2>
+<p>关雎之一义：礼记昏义曰：“古者妇人先嫁三月，祖庙未毁，教于公宫，祖庙既毁，教于宗室。教以妇德，妇言，妇容，妇功。教成祭之，牲用鱼，芼之以苹藻，所以成妇顺也。”荇菜与苹藻者，皆水生之菜，采之以为菹以供祭祀。按此，关雎所言或为重后妃之教欤？盖女之未嫁者为窈窕幽居者乎？既求之则需教以三月，关雎三言荇菜者，此义乎？一言以求，盖君子求淑女而定此婚事也，然虽定而需教以三月，故君子虽寤寐思此婚事，乃至辗转反侧，然需待女教而后能成事也。而言以采，盖淑女之教將成，君子仍平和待之，故琴瑟以友也。三言芼之者，女教已成，成此仪式，钟鼓而祭也。此直所言，若依毛诗，盖该言后妃之教也，而非后妃之德也。盖人非生而为后妃者，需与王者婚聘以成也，既有婚聘，则需教之以成后妃也。此诗重教而非重德者也。要之，此诗亦不单为后妃言也，天下之窈窕淑女皆然也。</p>
+<h2 id="关雎及其它">关雎及其它</h2>
+<p>今日读书，忽觉甚有必要记日记，一则练文字，改懒下笔之毛病，一则记片刻之所思，人生在世，倏忽万念，或有价值或无价值，少则片刻，多则四五日即如流水，逝之无辙迹。故可记之以备来日之参考。近几日读三家诗，有些知识或值得参考：</p>
+<ul>
+<li>先谦以为京氏易，尚书洪范五行，诗五始说等或有共同源头，此论可考。</li>
+<li>关雎篇，毛诗以为后妃之德，三家诗皆以为刺，刺康王也，一家以为防微杜渐。</li>
+</ul>
+<p>关训为通，关关为雎鸟情感之交通，训为拟声为后出之说。</p>
+<ul>
+<li>窈窕非仅为好义，亦有后妃幽居内宫之义。窈训为幽深之义。</li>
+<li>好逑三家诗为好仇，好训为和，仇为怨偶，谓淑女和后妃之怨，此亦一解，然与前君子不相连贯。</li>
+<li>荇菜为葅可资祭祀。</li>
+<li>左右训为佐佑，为助义，谓窈窕淑女以为佐助。</li>
+<li>痦寐义实为不寐。</li>
+<li>服训为事，谓思此事以致于不能寐也。</li>
+</ul>
+<p>悠哉为悠，训为忧，求之不得心有忧戚也。</p>
+<ul>
+<li>辗转三家诗为展转，展转反侧互训。</li>
+<li>芼或训为择，然齐诗以为祭祀时荇菜覆三牲之上为芼，亦备一说。昏义中有此礼。</li>
+<li>钟鼓乐之，韩诗为鼓钟乐之，以鼓为动词，即非钟鼓而为钟磬，为房中之乐，非祭祀之乐。</li>
+</ul>
+<h2 id="葛覃及其它">葛覃及其它</h2>
+<p>近两日学葛覃，葛覃所言，亦与女子婚仪相关。所谓“言告师氏，言告言归”即是女子为期三月之教也。颇觉史学知识之不足，假以时日需补全，先秦至宋前历史皆当善加留意也。前学高僧传续高僧传而学无所得，一则学力不足，二则为正史知识不足也，此深可戒。今日寻一书曰撒玛尔罕德金桃：唐代舶来品研究，应颇有趣。待阅读器到可供一阅。</p>
+<h2 id="葛覃之归宁">葛覃之归宁</h2>
+<p>诗葛覃依服之所训不同有二解。依毛诗，训为整，则二段女子尚未出嫁，三段为女子学于师氏，师氏教浣衣汙私及归宁父母也，毛诗以为所言者后妃也。若依齐诗，则服训为本字，即女子采葛以为衣，君子服之而无厌倦也。按此说则二段女子已然出嫁，合于维叶莫莫之文，一段为不失时，二段女子出嫁以应成就之兴，三段为已出嫁之后，女师即为姆，依昏义公羊传知姆当随女往夫家，则此段所言即为此女收拾整洁自身，告别师氏，归宁父母也。按此，此诗所述当为大夫家婚事也，诸侯夫人不得归宁，惟自大夫妻岁一归宁耳。此说当胜于毛诗之说。</p>
+<h2 id="螽斯">螽斯</h2>
+<p>美哉螽斯之贺也，子孙多且贤也，富贵之家，所患者，一无子嗣继承，二者多败儿，败儿甚于无儿，故有螽斯之作也。三段皆以螽斯羽起兴，即已含子孙众多之义。初言宜尔子孙振振兮，盖振振者，有为之象也；次言宜尔子孙绳绳兮，则绳绳者，戒慎之貌也；终言宜尔子孙蛰蛰兮，蛰蛰者，内心安静而能各得其所也。为人者，行事戒慎，外有为而内安静，庶几乎？有此子孙，能无福乎？美哉，螽斯之贺也。</p>
+<h2 id="卷耳">卷耳</h2>
+<p>卷耳，访贤之诗也，初段伤不得贤人置彼周行也，若卷耳易得而不能顷筐也。后三段述骑马访贤之事也。虺頽，玄黄，瘏，痡盖谓事业之难也，然君子虽事难而终不弃，终段曰云何盱矣，盱者仰望也，君子仰望远途之艰难而不畏，可谓弘毅者也。沽酒而酌彼金罍，酌彼兕觥，盖非但用贤人也，友之也。维以不永伤，维以不永怀者，忧无贤友也，思之怀之，冀而友之也。</p>
+<h2 id="桃夭">桃夭</h2>
+<p>诗桃夭三章，盖非同义相叠加者也，其所言同中有异乎？初章灼灼其华者，女色也，宜其室家者，或就夫言也，盖女子之灼灼明媚利于夫妇之和美也。二章有蕡且实者，或解为妇德，以为此女妇德盈于内也。有此妇德者善理于家室，故曰宜其家室。然此章亦可解为此女易有子嗣也，若桃之有花有实也。依此解则以为此女子有利于夫家之延嗣也。三章述桃叶之蓁蓁者，喻家族之昌盛也，盖此女非但能安夫身安己身，亦能安一家之人也。盖之子于归者，于婚礼之中女性而言，初章言夫之幸，二章言子孙之幸，三章言家族之幸。此诗或与樛木俱为婚礼之词，然立意略有偏差。</p>
+<h2 id="兔罝">兔罝</h2>
+<p>兔罝三章，毛诗以为美，韩诗以为刺，然所述者本为一事，即殷纣之贤人退处山林，网禽兽而食之，文王举闳夭，泰颠于罝网之中。就此一事，依古意，则诗之所作者重在前事，即此二贤人不终事王朝而为公侯腹心，一则恶于此事故作此诗也，二则伤天下无道贤人无所施为也。依毛诗意，则采他国之诗系之召南之下，美文王之能得贤也。至于言此篇为后妃之化则全是附会。肃肃者，安于贫贱而不殆于道，故能肃肃也。贤人所为者网兔也，低贱之事也，然为此低贱之事尚能肃肃，盖为道不殆，不自弃者也。此篇之兴各有所本，初章以椓击兔罝比武夫之扞城也，以椓击示武勇也。次章以九达之道比此武夫能通达斡旋于诸国也，此章之好仇盖释为和好众怨之义也。终章以中林之隐蔽比此贤人内秀于中，名实如一，故能为公侯腹心之谋也。如此贤人，武能定国，文能安邦，能德兼备，然终老山林，不得为用，天下之无道亦甚矣，良可叹也，终于资敌也，此文王之幸也。</p>
+
+                    
+                    <HR width="100%" id="EOF">
+		    <p style="color:#777;">最后修改于 2020-06-06</p>
+                    
+                </div>
+            </div>
+            
+            
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts" href="http://example.org/tech/dm200debian/">
+			下回<br>Dm200中文系统研究
+                </a>
+                
+                
+                
+                <a class="older-posts" href="http://example.org/notes/%E5%91%A8%E6%98%93%E6%AD%A3%E4%B9%89/">
+			上回<br>周易正义笔记
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+
+
+<div id="gitalk-container"></div>
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+            </div><div id="single-column-footer">
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
+<br>
+移植自 <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	2020 言窟
+	
+</div>
+            </div>
+    <script>
+let app;
+
+app = new Vue({
+    el: '#app',
+    data: {
+        scrollY: 0,
+        navOpacity: 0,
+        isDrawerOpen: false,
+        mounted: false,
+        isDarkMode: false
+    },
+    methods: {
+            sgn(t, x) {
+                let k = 1. / (1. - 2 * t);
+                if (x <= t) return 0;
+                else if (x >= 1 - t) return 1;
+                else {
+                    return k * (x - t);
+                }
+            },
+            handleScroll() {
+                this.scrollY = window.scrollY;
+                this.navOpacity = this.sgn(.0, Math.min(1, Math.max(0, window.scrollY / (this.pageHeadHeight() - this.navBarHeight() * 0.8))));
+                const {navBar, navBackground, navTitle, extraContainer, streamContainer} = this.$refs;
+
+                if (this.navOpacity >= 1) {
+                    navBackground.style.opacity = 1;
+                    navTitle.style.opacity = 1;
+                } else {
+                    navBackground.style.opacity = 0;
+                    navTitle.style.opacity = 0;
+                }
+            },
+            handleResize() {
+                const {navBar, navBackground, navTitle, extraContainer, streamContainer} = this.$refs;
+                extraContainer.style.left = (streamContainer.offsetWidth - extraContainer.offsetWidth) + 'px';
+            },
+            navBarHeight() {
+                return this.$refs.navBar.offsetHeight;
+            },
+            pageHeadHeight() {
+                return this.$refs.pageHead.offsetHeight;
+            },
+            toggleDrawer() {
+                this.isDrawerOpen = !this.isDrawerOpen;
+                document.getElementsByTagName('html')[0].style.overflow = this.isDrawerOpen ? 'hidden' : 'unset';
+            },
+            closeDrawer() {
+                this.isDrawerOpen = false;
+                document.getElementsByTagName('html')[0].style.overflow = this.isDrawerOpen ? 'hidden' : 'unset';
+            },
+            toggleDarkMode() {
+                this.isDarkMode = !this.isDarkMode;
+                if (this.isDarkMode==true){
+                    document.cookie = "night=1;path=/";
+                    document.body.classList.add("night");
+                } else {
+                    document.cookie = "night=0;path=/";
+                    document.body.classList.remove("night");
+                }
+            }
+    },
+    created() {
+        window.addEventListener('scroll', this.handleScroll);
+        window.addEventListener('resize', this.handleResize);
+        window._nonDesktop = function () {
+            let check = false;
+            (function (a) {
+                if (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino|android|ipad|playbook|silk/i.test(a) || /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(a.substr(0, 4))) check = true;
+            })(navigator.userAgent || navigator.vendor || window.opera);
+            return check;
+        };
+        
+        var night = document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, "$1");
+        if (night==""){
+            if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                
+            }
+        }else{
+            
+            if (night=="1") {
+                this.toggleDarkMode();
+            }
+        }
+    },
+    mounted() {
+        this.handleScroll();
+        this.handleResize();
+        this.mounted = true;
+
+        
+    },
+    destroyed() {
+        window.removeEventListener('scroll', this.handleScroll);
+        window.removeEventListener('resize', this.handleResize);
+    }
+});
+</script>
+
+<script src="http://example.org//js/journal.js"></script>
+    </body>
+</html>
