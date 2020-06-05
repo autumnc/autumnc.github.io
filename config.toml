@@ -1,6 +1,6 @@
-baseURL = "https://example.com"
-languageCode = "en"
-DefaultContentLanguage = "en"
+baseURL = "https://autumnc.github.io"
+languageCode = "zh"
+DefaultContentLanguage = "zh"
 title = "言窟"
 theme = "anatole"
 summarylength = 10
@@ -53,19 +53,19 @@ url = "mailto:mail@alexbilz.com"
 [menu]
 
   [[menu.main]]
-  name = "Home"
-  identifier = "home"
-  weight = 100
-  url = "/"
-
-  [[menu.main]]
-  name = "Posts"
-  weight = 200
-  identifier = "posts"
-  url = "/post/"
-
-  [[menu.main]]
   name = "Notes"
-  weight = 300
-  identifier = "about"
+  identifier = "notes"
+  weight = 100
   url = "/notes/"
+
+  [[menu.main]]
+  name = "Digest"
+  weight = 200
+  identifier = "digest"
+  url = "/digest/"
+
+  [[menu.main]]
+  name = "RSS"
+  weight = 300
+  identifier = "rss"
+  url = "/index.xml"

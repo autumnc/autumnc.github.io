@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>系统 on 言窟</title>
-    <link>https://example.com/tags/%E7%B3%BB%E7%BB%9F/</link>
+    <link>https://autumnc.github.io/tags/%E7%B3%BB%E7%BB%9F/</link>
     <description>Recent content in 系统 on 言窟</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
+    <language>zh</language>
     <lastBuildDate>Sat, 06 Jun 2020 00:00:00 +0800</lastBuildDate>
     
-	<atom:link href="https://example.com/tags/%E7%B3%BB%E7%BB%9F/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://autumnc.github.io/tags/%E7%B3%BB%E7%BB%9F/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Dm200中文系统研究</title>
-      <link>https://example.com/tech/dm200debian/</link>
+      <link>https://autumnc.github.io/tech/dm200debian/</link>
       <pubDate>Sat, 06 Jun 2020 00:00:00 +0800</pubDate>
       
-      <guid>https://example.com/tech/dm200debian/</guid>
+      <guid>https://autumnc.github.io/tech/dm200debian/</guid>
       <description>前言  Dm200 简介  特点和问题：     基础系统  安装 debian 系统 补充  按键自定义     中文系统  需满足几点要求  中文显示 中文输入法  fbterm相结合的输入法 编辑器内嵌的输入法  vim插件vimim :: emacs插件 ::     文本编辑器  Vim Emacs   文本同步与共享  本机模式 网络模式     纯控制台模式（无 X window）  方案 1 方案2   X Window    前言 Dm200 简介 Pomera dm200 是日本人出的一个纯文字处理功能的小机子，特点是键盘手感好，无线功能齐全，虽然原系统显示是黑白但实际是彩色的屏幕，还有纯日文的操作系统，是的，原系统连英文界面都不存在。好在有个日本大牛捣腾出了可以用的 debian 系统，而且是全功能的，这意味着虽然先天不足，但是通过后天的捣腾，中文是可以被支持的。尽管是曲线救国，好歹是能用的。</description>
     </item>
     
