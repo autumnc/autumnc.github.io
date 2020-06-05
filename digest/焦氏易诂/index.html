@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html><head>
+<title></title>
+
+<meta charset="utf-8">
+<meta name="X-UA-Compatible" content="IE=edge">
+<meta name="google-site-verification" content="">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<meta content="telephone=no" name="format-detection">
+<meta name="description" content="">
+<meta name="renderer" content="webkit">
+<meta name="theme-color" content="#ffffff">
+
+
+
+
+<script src="/vendor/js/jquery.min.js" ></script>
+<script src="/vendor/js/popper.min.js" ></script>
+<script src="/vendor/js/bootstrap.min.js" ></script>
+<script src="/vendor/js/smooth-scroll.polyfills.min.js" ></script>
+<link type="text/css" rel="stylesheet" href="/vendor/css/bootstrap.min.css">
+<script src="/vendor/js/vue.min.js" ></script>
+
+
+
+
+<link rel="stylesheet" href="http://autumnc.github.io/scss/journal.min.47aa1ffb60880ad8c72feecd6962a14331eca7a7a30e08354a1ca91009b8bc5b.css" integrity="sha256-R6of&#43;2CICtjHL&#43;7NaWKhQzHsp6ejDgg1ShypEAm4vFs=" media="screen">
+
+
+
+<link rel="stylesheet" href="http://autumnc.github.io/scss/dark-mode.min.b13808e7c98cd5aa981a3822fd3421e26f1015876bb15a3fbf8ed5991c382367.css" integrity="sha256-sTgI58mM1aqYGjgi/TQh4m8QFYdrsVo/v47VmRw4I2c=" media="screen">
+
+
+<script src="http://autumnc.github.io/js/loadCSS.js"></script>
+<script>
+  loadCSS("https://fonts.googleapis.com/css?family=Lora|Montserrat|Fira+Mono|Noto+Serif+SC|Material+Icons");
+</script>
+
+
+
+
+  
+    <script src="http://autumnc.github.io/js/toc-collapse.js"></script>
+  
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+<script src="/vendor/js/md5.min.js"></script>
+<script>
+  var gitalk = new Gitalk({
+  clientID: 'your client id',
+  clientSecret: 'your client secret',
+  repo: 'autumnc.github.io',
+  owner: 'autumnc',
+  admin: ['autumnc'],
+  id: md5(location.pathname),
+  distractionFreeMode: 'false'
+  });
+  window.onload = function () {
+        gitalk.render('gitalk-container')
+  }
+</script>
+
+
+
+
+
+
+
+
+</head><body>
+    	<div id="app"><div ref="sideContainer" class="side-container">
+    
+    <a class="a-block nav-head false" href="http://autumnc.github.io">
+    
+        <div class="nav-title">
+            言窟
+        </div>
+        
+        <div class="nav-subtitle">
+            寓言十九，重言十七，卮言日出，和以天倪。
+        </div>
+        
+    </a>
+
+    <div class="nav-link-list">
+        
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/notes">
+                Notes
+            </a>
+            
+        
+            
+            
+            
+                
+            
+            
+            
+            <a class="a-block nav-link-item active" href="/digest">
+                Digest
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/tech">
+                Tech
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/categories">
+                Categories
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/tags">
+                Tags
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/index.xml">
+                RSS Feed
+            </a>
+            
+        
+    </div>
+
+    
+
+    <div class="nav-footer">
+        
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	2020 言窟
+	
+
+    </div>
+    
+</div><div ref="extraContainer" class="extra-container">
+    
+    
+    <div class="toc animated-visibility" :class="{ invisible: scrollY <= 140 }">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- CATALOG -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								<ul class="collapse" data-toggle="collapse">
+							
+						
+						
+							<li>
+								<a href="#%e7%84%a6%e6%b0%8f%e6%98%93%e8%af%82" onclick="collapseOthers(`#焦氏易诂-nav`)" id="焦氏易诂-nav">
+									焦氏易诂
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+    
+    <div class="pagination">
+        <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
+            <i class="material-icons pagination-action-icon">
+                keyboard_arrow_up
+            </i>
+        </a>
+        
+        <a class="pagination-action" v-on:click="toggleDarkMode">
+            <i class="material-icons pagination-action-icon" v-if="isDarkMode">
+                brightness_4
+            </i>
+            <i class="material-icons pagination-action-icon" v-else="isDarkMode">
+                brightness_7
+            </i>
+        </a>
+        
+        
+    </div>
+</div><div class="single-column-drawer-container" ref="drawer"
+     v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
+    <div class="drawer-content">
+        <div class="drawer-menu">
+            
+            
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/notes">
+                    Notes
+                </a>
+                
+            
+                
+                
+                
+                    
+                
+                
+                
+                <a class="a-block drawer-menu-item active" href="/digest">
+                    Digest
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/tech">
+                    Tech
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/categories">
+                    Categories
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/tags">
+                    Tags
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/index.xml">
+                    RSS Feed
+                </a>
+                
+            
+            
+            <div class="toc">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- CATALOG -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								<ul class="collapse" data-toggle="collapse">
+							
+						
+						
+							<li>
+								<a href="#%e7%84%a6%e6%b0%8f%e6%98%93%e8%af%82" onclick="collapseOthers(`#焦氏易诂-nav`)" id="焦氏易诂-nav">
+									焦氏易诂
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+            
+        </div>
+    </div>
+</div>
+<transition name="fade">
+    <div v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if="isDrawerOpen" v-on:click="toggleDrawer"></div>
+</transition>
+<nav ref="navBar" class="navbar sticky-top navbar-light single-column-nav-container">
+    <div ref="navBackground" class="nav-background"></div>
+    <div class="container container-narrow nav-content">
+        <button id="nav_dropdown_btn" class="nav-dropdown-toggle" type="button" v-on:click="toggleDrawer">
+            <i class="material-icons">
+                menu
+            </i>
+        </button>
+        <a ref="navTitle" class="navbar-brand" href="http://autumnc.github.io">
+            言窟
+        </a>
+        
+        <button type="button" class="nav-darkmode-toggle" v-on:click="toggleDarkMode">
+            <i class="material-icons" v-if="isDarkMode">
+                brightness_4
+            </i>
+            <i class="material-icons" v-else="isDarkMode">
+                brightness_7
+            </i>
+        </button>
+        
+    </div>
+</nav>
+<div class="single-column-header-container" ref="pageHead"
+     v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
+    <a href="http://autumnc.github.io">
+        <div class="single-column-header-title">言窟</div>
+        
+        <div class="single-column-header-subtitle">寓言十九，重言十七，卮言日出，和以天倪。</div>
+        
+
+    </a>
+</div>
+            <div id="content">
+<div ref="streamContainer" class="stream-container">
+    <div class="post-list-container post-list-container-shadow">
+        <div class="post">
+            
+            
+            
+
+            <div class="post-head-wrapper-text-only"
+                
+            >
+                <div class="post-title">
+                    
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2020-06-06 00:00
+                        </time>
+                        
+
+                        
+                            <i class="material-icons" style="">folder</i>
+                                <a href="/categories/">[摘抄]</a>
+                                &nbsp;
+                        
+
+                        
+                            <i class="material-icons" style="">label</i>
+                            
+                                <a href="/tags/%E6%91%98%E6%8A%84">摘抄</a>
+                                &nbsp;
+                            
+                                <a href="/tags/%E5%8F%A4%E7%B1%8D">古籍</a>
+                                &nbsp;
+                            
+                                <a href="/tags/%E5%84%92%E5%AD%A6">儒学</a>
+                                &nbsp;
+                            
+                                <a href="/tags/%E6%98%93%E5%AD%A6">易学</a>
+                                &nbsp;
+                            
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <h2 id="焦氏易诂">焦氏易诂</h2>
+<hr>
+<p>2017-07-17 12:33:37</p>
+<p>《渐之屯》云：“东山西山。”屯中爻艮山，震后天在东，故曰“东山”；上坎，坎西，故曰“西山”。</p>
+<p>注：</p>
+<p>先天後天混用？</p>
+<hr>
+<p>2017-07-24 00:28:12</p>
+<p>盖对象者，阳与阴相对，阴与阳相对。阴阳既相对，即常往来流通，合而为一，不能分析。覆象者，艮反为震，震反为艮，兑反为巽，巽反为兑，正倒虽不同而体则一。半象者，杭辛斋云：基于卦位。震初位，艮三位；震起艮止，中自然离，故离兼艮震，离位二也。巽位在四，兑位在上；兑见巽伏，中自然坎，故坎兼兑巽，坎位五也。</p>
+<hr>
+<p>2017-07-28 00:06:14</p>
+<p>然则阴阳二气，实不能分不能离，见阴即知阳。见阳即知阴。《易·彖》已如此。此由《易林》视本象与对象相通而推得之也。</p>
+<hr>
+<p>2017-07-28 00:08:36</p>
+<p>茲《易林·剥之复》云：“班马还师。”复下震，震为马，上坤、互坤亦为马，故曰“班马”。又《观之既济》、《夬之否》皆有此词，皆以多马班列取象。</p>
+<hr>
+<p>2017-07-28 00:09:02</p>
+<p>诚以屯下震、中爻坤、上坎皆有马象，马多而前后班列，故曰“班如”也。</p>
+<hr>
+<p>2017-07-28 00:10:19</p>
+<p>屯之即鹿，实麋鹿之鹿，取象震也。</p>
+<hr>
+<p>2017-07-28 00:14:03</p>
+<p>然则无虞者，言勿以鹿为微物而轻忽之，致空入林中而无所获也。</p>
+<hr>
+<p>2017-07-28 12:34:09</p>
+<p>自焦氏以坤为水，为江河，此象确定后，凡《易》言利涉大川者，皆迎刃而解。</p>
+<hr>
+<p>2017-07-28 12:42:05</p>
+<p>茲以坤为大川，需上坎，言阳往居坤中，得位，故利涉。</p>
+<hr>
+<p>2017-07-28 12:43:03</p>
+<p>自《左氏》谓谦为谗，更以谗释明夷之有言，《易林》本之，遇两兑口、两震言相背或相对者，不谓为谗佞，即谓为争讼。</p>
+<hr>
+<p>2017-07-28 23:14:50</p>
+<p>《彖》曰：“不利涉大川，入于渊也。”言阳来居坤中而在下，故曰“入渊”。渊者谓坤，不谓坎，入则谓阳入也。</p>
+<hr>
+<p>2017-07-28 23:17:25</p>
+<p>兑为舌，两舌谓坎上下正反两兑也。以是推讼之有言，亦以坎上下两兑口相背；以其居初，阴微势弱，故曰“小有言”也。</p>
+<hr>
+<p>2017-07-28 23:20:05</p>
+<p>先天坤居北，后天坎居北，水地合居，故曰“比”。比者，亲也，近也，和也，言水地合居一方，相亲近也。覆之则曰师。师，众也，言坎从坤居北，故势众也。皆合先后天象而立名。</p>
+<hr>
+<p>2017-07-28 23:29:09</p>
+<p>小畜之反目，亦以两半离相对为反目。而震、巽者，离之上下也。震夫巽妻，故曰“夫妻反目”。</p>
+<hr>
+<p>2017-07-29 23:42:24</p>
+<p>《易》既取象艮尾，而曰虎尾，则虎亦取象于艮也明矣。况谦三至五震，震为履，震上艮下，故曰“履虎尾”。若以坤为虎，则于象不合矣。</p>
+<hr>
+<p>2017-07-29 23:44:51</p>
+<p>而既、未济实无艮、兑、震、巽四象，皆用半象也。以茲悟《履·六三》“眇能视，跛能履”，亦以二、三为半离、半震，故《象》曰“不足”。不足者，言离、震未全见也。</p>
+<hr>
+<p>2017-07-30 12:05:06</p>
+<p>坤为河，二升五，正当坤水之中，故用以涉河，正所谓得尚于中行也</p>
+<hr>
+<p>2017-07-30 12:11:44</p>
+<p>包巟为大川，亦指坤象。不遐遗者，言二五相距虽遐远，然二必升五，不以远而不升也。朋亡者，阴以阳为朋；亡者，往也，逃也。</p>
+<hr>
+<p>2017-07-30 12:12:25</p>
+<p>言阳往居五，而为阴朋；五中位，即尚于中行也。</p>
+<hr>
+<p>2017-07-30 12:23:46</p>
+<p>不戒以孚者，言四及五上皆有应与，不必戒备，自然孚于下也。孚于下，则二五相升降，无不当位也。自汉以来，因小畜有富以其邻之语，于是以不富以其邻五字连读，致《易》义晦涩不明。岂知以其邻意与下属也。</p>
+<hr>
+<p>2017-07-30 12:27:30</p>
+<p>焦、京皆以复之“朋来无咎”为“崩来无咎”，因复震为反艮也，艮覆则山崩。</p>
+<hr>
+<p>2017-07-30 12:29:02</p>
+<p>艮为城，艮倒则城覆矣。隍者，城下池。中爻兑泽象也。城覆，则城头正在泽中也。</p>
+<hr>
+<p>2017-07-30 12:33:46</p>
+<p>阳遇阳，阴遇阴则窒；阳遇阴，阴遇阳则通，是《易林》之定例也。由是推之，《易》凡言“利有攸往”者，皆阳遇阴也，如《大畜·九三》是也；凡言“征凶”者，阳遇阳也，如《大壮·初九》是也。惟阴亦然，革六二前遇三阳，故曰“征吉”，曰“行有嘉”；《小畜·六四》上承二阳，则曰“有孚”，阴遇阳则通也。《颐·六二》曰“征凶”，《六五》“不可涉”，阴遇阴则阻也。</p>
+<hr>
+<p>2017-07-30 22:40:39</p>
+<p>惟《易》之道，扶阳不扶阴。凡遇阴通之处，不尽谓吉，且恐其过盛以危阳。</p>
+<hr>
+<p>2017-07-30 22:56:02</p>
+<p>。二阴为三阴所阻，故失四；三阴为二阴所隔，故失初。下震亦艮，上艮亦震，体同也，不分也。卦象来往反复，卦辞亦来往反复。</p>
+<hr>
+<p>2017-08-02 22:05:17</p>
+<p>噬嗑三爻之昔肉，四爻之乾胏，五爻之乾肉，皆坎象也。</p>
+<hr>
+<p>2017-08-02 22:09:24</p>
+<p>至于贯象，剥下有三坤，三鱼排叙而进，贯象自著。</p>
+<hr>
+<p>2017-08-02 22:12:42</p>
+<p>焦氏亦读朋为崩，与京氏同也。汉人无读崩者，独焦读与京同，授受分明矣。</p>
+<hr>
+<p>2017-08-02 22:16:49</p>
+<p>疾者，嫉也，患也，害也。坤为害，见于《系辞》，见于《孟氏逸象》。出入无疾者，言此一阳，入坤出震，得阴为朋友，阴阳之为朋友，自东汉以来无知者，皆以阴遇阴、阳遇阳为朋。近杭辛斋始谓阴以阳为朋，阳以阴为友，与《易林》暗合。</p>
+<hr>
+<p>2017-08-03 12:26:19</p>
+<p>出震成乾则复；入巽成坤则姤。复则冬至，姤则夏至也。</p>
+<hr>
+<p>2017-08-03 12:27:17</p>
+<p>复七日而反姤，姤七日而反复。复而姤，姤而复，循环不已。京房曰：“复者，六爻反复之称也。”复，一日临，二日泰，三日大壮，四日夬，五日乾，六日、七日则反姤；姤，一日遁，二日否，三日观，四日剥，五日坤，六日、七日则反复。共十四日，故复七日不能来复。故出入反复，皆兼复、姤言也。</p>
+<hr>
+<p>2017-08-03 12:29:35</p>
+<p>余说《易》，向无汉、宋之分，然最咎辅嗣扫象，以从此人不知《易》为何物，避难就易，祛实蹈虚，至程伊川遂出其大无畏之精神，哆口谈空，皆辅嗣作之俑。然辅嗣扫象，辅嗣尚知象，故其注往往由象而生，能与《易林》合，故取之。</p>
+<hr>
+<p>2017-08-05 12:10:54</p>
+<p>《史记·春申君传》作无望，言无所期望也。京房则以为大旱之卦，万物皆死，无所复望。《汉书·谷永传》，“处无妄之卦运”；《后汉书·崔骃传》，“值无妄之世”，亦皆义取无望。后马、郑皆从之。</p>
+<hr>
+<p>2017-08-05 12:14:44</p>
+<p>物与无妄者，物咸失其所望。《京房易传》以为大旱之卦，百谷草木咸就枯槁，万物皆死，无所复望。京氏之解，无一字不从象生。艮为火，大离为火，震为百谷草木，而离为枯槁。无云而雷，继以巽风，故万物咸死。</p>
+<hr>
+<p>2017-08-05 12:17:48</p>
+<p>乃至东汉，《易》象失传，虞翻等既不知艮火象，又不识大离象，诧大旱之说之无根，谓京氏及俗儒失之远矣。</p>
+<hr>
+<p>2017-08-07 22:40:53</p>
+<p>震为言语，人知之；震为口舌，能饮食，或疑之。乃《易林·井之师》云：“长舌作凶。”是震亦为舌，与兑同，特形较长耳。</p>
+<hr>
+<p>2017-08-07 22:43:25</p>
+<p>盖饮食者，人之所争，两口相对，争象尤著。争则怒，怒则斗；能节则争端息矣，故节饮食。</p>
+<hr>
+<p>2017-08-07 22:44:32</p>
+<p>损象云：“君子以惩忿窒欲。”惩忿即慎言语，窒欲即节饮食。损二至上亦颐也，可互为注脚也。</p>
+<hr>
+<p>2017-08-07 22:48:39</p>
+<p>《颐·初九》之“舍尔灵龟”，艮为龟，初九艮覆，故曰“舍尔灵龟”。与《巽·上九》之“丧斧”，《革·九四》之“改命”义同也，皆用覆也。</p>
+<hr>
+<p>2017-08-07 22:51:58</p>
+<p>凡《易林》言枯者，无不属离。</p>
+<hr>
+<p>2017-08-07 22:53:56</p>
+<p>离中虚故枯。乾为实、为金玉，虽老不枯也。</p>
+
+                    
+                    <HR width="100%" id="EOF">
+		    <p style="color:#777;">Last modified on 2020-06-06</p>
+                    
+                </div>
+            </div>
+            
+            
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts" href="http://autumnc.github.io/digest/%E6%B1%89%E4%B9%A6%E6%96%B0%E6%B3%A8/">
+			Next<br>
+                </a>
+                
+                
+                
+                <a class="older-posts" href="http://autumnc.github.io/digest/%E7%90%B4%E5%8F%B2/">
+			Previous<br>
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+
+
+<div id="gitalk-container"></div>
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+            </div><div id="single-column-footer">
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	2020 言窟
+	
+</div>
+            </div>
+    <script>
+let app;
+
+app = new Vue({
+    el: '#app',
+    data: {
+        scrollY: 0,
+        navOpacity: 0,
+        isDrawerOpen: false,
+        mounted: false,
+        isDarkMode: false
+    },
+    methods: {
+            sgn(t, x) {
+                let k = 1. / (1. - 2 * t);
+                if (x <= t) return 0;
+                else if (x >= 1 - t) return 1;
+                else {
+                    return k * (x - t);
+                }
+            },
+            handleScroll() {
+                this.scrollY = window.scrollY;
+                this.navOpacity = this.sgn(.0, Math.min(1, Math.max(0, window.scrollY / (this.pageHeadHeight() - this.navBarHeight() * 0.8))));
+                const {navBar, navBackground, navTitle, extraContainer, streamContainer} = this.$refs;
+
+                if (this.navOpacity >= 1) {
+                    navBackground.style.opacity = 1;
+                    navTitle.style.opacity = 1;
+                } else {
+                    navBackground.style.opacity = 0;
+                    navTitle.style.opacity = 0;
+                }
+            },
+            handleResize() {
+                const {navBar, navBackground, navTitle, extraContainer, streamContainer} = this.$refs;
+                extraContainer.style.left = (streamContainer.offsetWidth - extraContainer.offsetWidth) + 'px';
+            },
+            navBarHeight() {
+                return this.$refs.navBar.offsetHeight;
+            },
+            pageHeadHeight() {
+                return this.$refs.pageHead.offsetHeight;
+            },
+            toggleDrawer() {
+                this.isDrawerOpen = !this.isDrawerOpen;
+                document.getElementsByTagName('html')[0].style.overflow = this.isDrawerOpen ? 'hidden' : 'unset';
+            },
+            closeDrawer() {
+                this.isDrawerOpen = false;
+                document.getElementsByTagName('html')[0].style.overflow = this.isDrawerOpen ? 'hidden' : 'unset';
+            },
+            toggleDarkMode() {
+                this.isDarkMode = !this.isDarkMode;
+                if (this.isDarkMode==true){
+                    document.cookie = "night=1;path=/";
+                    document.body.classList.add("night");
+                } else {
+                    document.cookie = "night=0;path=/";
+                    document.body.classList.remove("night");
+                }
+            }
+    },
+    created() {
+        window.addEventListener('scroll', this.handleScroll);
+        window.addEventListener('resize', this.handleResize);
+        window._nonDesktop = function () {
+            let check = false;
+            (function (a) {
+                if (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino|android|ipad|playbook|silk/i.test(a) || /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(a.substr(0, 4))) check = true;
+            })(navigator.userAgent || navigator.vendor || window.opera);
+            return check;
+        };
+        
+        var night = document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, "$1");
+        if (night==""){
+            if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                
+            }
+        }else{
+            
+            if (night=="1") {
+                this.toggleDarkMode();
+            }
+        }
+    },
+    mounted() {
+        this.handleScroll();
+        this.handleResize();
+        this.mounted = true;
+
+        
+    },
+    destroyed() {
+        window.removeEventListener('scroll', this.handleScroll);
+        window.removeEventListener('resize', this.handleResize);
+    }
+});
+</script>
+
+<script src="http://autumnc.github.io/js/journal.js"></script>
+    </body>
+</html>
