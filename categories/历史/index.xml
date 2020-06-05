@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>历史 on 言窟</title>
+    <link>https://example.com/categories/%E5%8E%86%E5%8F%B2/</link>
+    <description>Recent content in 历史 on 言窟</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 06 Jun 2020 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://example.com/categories/%E5%8E%86%E5%8F%B2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://example.com/digest/%E4%B8%AD%E5%9B%BD%E5%88%B6%E5%BA%A6%E5%8F%B2/</link>
+      <pubDate>Sat, 06 Jun 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://example.com/digest/%E4%B8%AD%E5%9B%BD%E5%88%B6%E5%BA%A6%E5%8F%B2/</guid>
+      <description>中国制度史  2017-03-25 12:33:04
+然则官字古义与今不同，今所谓官，皆为政事所自出，古则政出于朝，官特为庋藏之处，与府库同耳。盖古者政简，不须分司而理，故可合谋之于朝。后世政治日繁，势须分职，而特设之机关遂多，各机关必皆有文书，故遂以藏文书之处之名名之也。
+ 2017-03-25 12:33:30
+然则司政令者不居官，居官者不司政令，故官在古代不尊，所尊者为爵。
+ 2017-03-25 12:34:00</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>易学 on 言窟</title>
+    <link>https://example.com/tags/%E6%98%93%E5%AD%A6/</link>
+    <description>Recent content in 易学 on 言窟</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 06 Jun 2020 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://example.com/tags/%E6%98%93%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://example.com/digest/%E5%91%A8%E6%98%93%E9%9B%86%E6%B3%A8/</link>
+      <pubDate>Sat, 06 Jun 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://example.com/digest/%E5%91%A8%E6%98%93%E9%9B%86%E6%B3%A8/</guid>
+      <description>周易集注 2017-12-20
+坤为地，故曰“迷”。言占者“君子”，先乾而行则失其主而迷错，后乾而行则得其主而利矣。盖造化之理，阴从阳以生物，待唱而和者也。
+ 2017-12-26
+“天造”者，如天所造作也。“草”者，如草不齐。“震为蕃”，草之象也。“昧”者，如天未明。“坎为月”，天尚未明，昧之象也。“坎”水内景，不明于外，亦昧之象也。
+ 2017-12-26
+上坎为云，故曰“云雷屯”。下坎为雨，故曰“雷雨”解。
+ 2017-12-26</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://example.com/digest/%E7%84%A6%E6%B0%8F%E6%98%93%E8%AF%82/</link>
+      <pubDate>Sat, 06 Jun 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://example.com/digest/%E7%84%A6%E6%B0%8F%E6%98%93%E8%AF%82/</guid>
+      <description>焦氏易诂  2017-07-17 12:33:37
+《渐之屯》云：“东山西山。”屯中爻艮山，震后天在东，故曰“东山”；上坎，坎西，故曰“西山”。
+注：
+先天後天混用？
+ 2017-07-24 00:28:12</description>
+    </item>
+    
+  </channel>
+</rss>
