@@ -36,7 +36,7 @@ url = "https://de.linkedin.com/"
 [[params.socialIcons]]
 icon = "fa-github"
 title = "GitHub"
-url = "https://github.com/lxndrblz/anatole/"
+url = "https://github.com/autumnc"
 
 [[params.socialIcons]]
 icon = "fa-instagram"
@@ -46,7 +46,7 @@ url = "https://www.instagram.com/"
 [[params.socialIcons]]
 icon = "fa-envelope"
 title = "e-mail"
-url = "mailto:mail@alexbilz.com"
+url = "mailto:yangwenzu@163.com"
 
 ## Menu items
 
@@ -63,6 +63,12 @@ url = "mailto:mail@alexbilz.com"
   weight = 200
   identifier = "digest"
   url = "/digest/"
+
+[[menu.main]]
+  name = "Tech"
+  weight = 200
+  identifier = "tech"
+  url = "/tech/"
 
   [[menu.main]]
   name = "RSS"
