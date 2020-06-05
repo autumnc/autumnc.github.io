@@ -6,12 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <meta name="generator" content="Hugo 0.71.1" />
-  <link rel="canonical" href="https://example.com/">
+  <link rel="canonical" href="https://example.com/tech/kindle%E5%81%9A%E4%B9%A6%E5%A4%87%E5%BF%98/">
 
-  
-    
-      <meta name="description" content="An accessibility-friendly Hugo theme, ported from the original Cupper project.">
-    
   
 
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -38,9 +34,7 @@
 
   
   
-    
-  
-  <title>言窟</title>
+  <title> | 言窟</title>
 </head>
 
   <body>
@@ -163,7 +157,7 @@
       
       
       
-      <a href="/" aria-current="page">
+      <a href="/" >
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
           <use xlink:href="#bookmark"></use>
         </svg>
@@ -231,8 +225,17 @@
         <div>
           
   <main id="main">
-    <h1>言窟</h1>
-    
+    <h1></h1>
+    <h2 id="kindle做书备忘">kindle做书备忘</h2>
+<ol>
+<li>原生宋体和楷体不适合直排。简体的字体就没考虑过竖排的情况，符号全是乱的。</li>
+<li>在元数据中把语言改为zh-TW，就可以调用内部的繁体宋体和黑体，可以支持直排。</li>
+<li>calibre 直接转mobi为azw3，语言会被强制改为简体中文，直排显示标点有问题。</li>
+<li>指定字体用Song T而不是serif来指代宋体，这个是内置的繁体字体。</li>
+<li>直排边距只有margin-top和margin-bottom起作用。</li>
+<li>可以用kindle unpack只提取出mobi中的kf8格式，文件可以进一步压缩。</li>
+</ol>
+
   </main>
 
           <footer role="contentinfo">
