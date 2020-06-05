@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="zh" data-theme="light"><head>
+    <title> autumnc | Dm200中文系统研究 </title>
+    <meta charset="utf-8"><meta name="generator" content="Hugo 0.71.1" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <meta name="description" content="寓言十九，重言十七，卮言日出，和以天倪。">
+    
+    <link rel="stylesheet" href="https://autumnc.github.io/css/style.min.67cd718c0a3c8009c771494d381fb7128246a454bd0518fed97cb65d257db948.css" integrity="sha256-Z81xjAo8gAnHcUlNOB&#43;3EoJGpFS9BRj&#43;2Xy2XSV9uUg=" crossorigin="anonymous" type="text/css">
+    
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    
+    <link rel="shortcut icon" href="https://autumnc.github.io/favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://autumnc.github.io/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://autumnc.github.io/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://autumnc.github.io/favicons/favicon-16x16.png">
+    <link rel="canonical" href="https://autumnc.github.io/tech/dm200debian/">
+    
+    
+    <script type="text/javascript" src="https://autumnc.github.io/js/anatole-header.min.c275265a259296f3dd50e8236a77fcbcadb1dbb9597d3045c675dcc2c7c58a93.js" integrity="sha256-wnUmWiWSlvPdUOgjanf8vK2x27lZfTBFxnXcwsfFipM=" crossorigin="anonymous"></script>
+</head><body><div class="sidebar animated fadeInDown">
+    <div class="logo-title">
+      <div class="title">
+        <img src="https://autumnc.github.io/images/profile.jpg" alt="profile picture">
+        <h3 title=""><a href="/">言窟</a></h3>
+        <div class="description">
+          <p>寓言十九，重言十七，卮言日出，和以天倪。</p>
+        </div>
+      </div>
+    </div>
+    <ul class="social-links">
+        
+        <li>
+        <a href="https://de.linkedin.com/" rel="me" aria-label="Linkedin">
+          <i class="fa fa-2x fa-linkedin" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+        <li>
+        <a href="https://github.com/lxndrblz/anatole/" rel="me" aria-label="GitHub">
+          <i class="fa fa-2x fa-github" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+        <li>
+        <a href="https://www.instagram.com/" rel="me" aria-label="instagram">
+          <i class="fa fa-2x fa-instagram" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+        <li>
+        <a href="mailto:mail@alexbilz.com" rel="me" aria-label="e-mail">
+          <i class="fa fa-2x fa-envelope" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+    </ul>
+    <div class="footer">
+        <div class="by_farbox">&copy; autumnc 2020 </div>
+      </div>
+    </div>
+</div><div class="main">
+            <div class="page-top animated fadeInDown">
+    <ul class="nav">
+        
+        
+        
+        <li><a  href="/notes/" title="">Notes</a></li>
+        
+        
+        <li><a  href="/digest/" title="">Digest</a></li>
+        
+        
+        <li><a  href="/index.xml" title="">RSS</a></li>
+        
+    </ul>
+    <div class="themeswitcher">
+        <a class="theme-switch" title="Switch Theme">
+            <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+        </a>
+    </div>
+</div>
+
+            <div class="autopagerize_page_element">
+                <div class="content">
+<div class="post animated fadeInDown">
+    <div class="post-content">
+
+      <div class="post-title">
+        <h3>Dm200中文系统研究
+        </h3>
+        
+        </div>
+
+    <!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<ul>
+<li><a href="#%E5%89%8D%E8%A8%80">前言</a>
+<ul>
+<li><a href="#dm200-%E7%AE%80%E4%BB%8B">Dm200 简介</a>
+<ul>
+<li><a href="#%E7%89%B9%E7%82%B9%E5%92%8C%E9%97%AE%E9%A2%98">特点和问题：</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#%E5%9F%BA%E7%A1%80%E7%B3%BB%E7%BB%9F">基础系统</a>
+<ul>
+<li><a href="#%E5%AE%89%E8%A3%85-debian-%E7%B3%BB%E7%BB%9F">安装 debian 系统</a></li>
+<li><a href="#%E8%A1%A5%E5%85%85">补充</a>
+<ul>
+<li><a href="#%E6%8C%89%E9%94%AE%E8%87%AA%E5%AE%9A%E4%B9%89">按键自定义</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#%E4%B8%AD%E6%96%87%E7%B3%BB%E7%BB%9F">中文系统</a>
+<ul>
+<li><a href="#%E9%9C%80%E6%BB%A1%E8%B6%B3%E5%87%A0%E7%82%B9%E8%A6%81%E6%B1%82">需满足几点要求</a>
+<ul>
+<li><a href="#%E4%B8%AD%E6%96%87%E6%98%BE%E7%A4%BA">中文显示</a></li>
+<li><a href="#%E4%B8%AD%E6%96%87%E8%BE%93%E5%85%A5%E6%B3%95">中文输入法</a>
+<ul>
+<li><a href="#fbterm%E7%9B%B8%E7%BB%93%E5%90%88%E7%9A%84%E8%BE%93%E5%85%A5%E6%B3%95">fbterm相结合的输入法</a></li>
+<li><a href="#%E7%BC%96%E8%BE%91%E5%99%A8%E5%86%85%E5%B5%8C%E7%9A%84%E8%BE%93%E5%85%A5%E6%B3%95">编辑器内嵌的输入法</a>
+<ul>
+<li><a href="#vim%E6%8F%92%E4%BB%B6vimim">vim插件vimim ::</a></li>
+<li><a href="#emacs%E6%8F%92%E4%BB%B6">emacs插件 ::</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#%E6%96%87%E6%9C%AC%E7%BC%96%E8%BE%91%E5%99%A8">文本编辑器</a>
+<ul>
+<li><a href="#vim">Vim</a></li>
+<li><a href="#emacs">Emacs</a></li>
+</ul>
+</li>
+<li><a href="#%E6%96%87%E6%9C%AC%E5%90%8C%E6%AD%A5%E4%B8%8E%E5%85%B1%E4%BA%AB">文本同步与共享</a>
+<ul>
+<li><a href="#%E6%9C%AC%E6%9C%BA%E6%A8%A1%E5%BC%8F">本机模式</a></li>
+<li><a href="#%E7%BD%91%E7%BB%9C%E6%A8%A1%E5%BC%8F">网络模式</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#%E7%BA%AF%E6%8E%A7%E5%88%B6%E5%8F%B0%E6%A8%A1%E5%BC%8F-%E6%97%A0-x-window">纯控制台模式（无 X window）</a>
+<ul>
+<li><a href="#%E6%96%B9%E6%A1%88-1">方案 1</a></li>
+<li><a href="#%E6%96%B9%E6%A1%882">方案2</a></li>
+</ul>
+</li>
+<li><a href="#x-window">X Window</a></li>
+</ul>
+</li>
+</ul>
+<!-- raw HTML omitted -->
+<h2 id="前言">前言</h2>
+<h3 id="dm200-简介">Dm200 简介</h3>
+<p>Pomera dm200 是日本人出的一个纯文字处理功能的小机子，特点是键盘手感好，无线功能齐全，虽然原系统显示是黑白但实际是彩色的屏幕，还有纯日文的操作系统，是的，原系统连英文界面都不存在。好在有个日本大牛捣腾出了可以用的 debian 系统，而且是全功能的，这意味着虽然先天不足，但是通过后天的捣腾，中文是可以被支持的。尽管是曲线救国，好歹是能用的。</p>
+<h4 id="特点和问题">特点和问题：</h4>
+<ul>
+<li>sd卡：官网说是支持到32g的卡，我装系统用的也是32g的卡，不支持uhs，实测好像是这样。卡是大卡，也可以用卡套装小卡，如果没有接触不良的话差别好像不大，不过为了降低风险我用的还是大卡。</li>
+<li>键盘：虽然是日文格局，但是适应起来门槛不高，只要手感好，什么都不是问题，而且 linux 可以随便捣腾键盘映射。比一般键盘多了几个功能键，正好用在tmux和emacs的映射上。</li>
+<li>电池：这个机子用的是 arm 的 cpu，还算是比较省电，linux 系统下面 10 个小时应该没什么问题。充电速度也还可以，不过休眠的时候充不进去电好像，还有在用原系统的时候充电，没法关机，得拔了充电线才能关机进入linux系统，可能和原系统的电源管理方案有关。</li>
+<li>无线功能：现阶段 wifi 和蓝牙支持应该都没什么大问题，但是据说如果同时开启的话会互相干扰，我没有试过蓝牙功能，具体情况不清楚，但是 wifi 用起来是没问题的。</li>
+<li>usb 问题：usb 接口除了用来充电之外，原装系统下好像可以插电脑传数据。除此之外，在 linux 下面其实是可以支持 otg 外接键盘鼠标的，但是有个问题，机子的 usb 接口是不带供电功能的，所以想带动外部设备得用那种带外部供电功能的 hub 才行。实测接鼠标是没问题的。</li>
+<li>休眠问题：现阶段的休眠功能并不完美，只能说是可用。只支持休眠到内存，没法挂起到硬盘，据说会导致 sd 卡分区 mount 不上的问题，我没试过。原系统有个warp功能，可以快速启动，有人想利用这个改造休眠功能，不过好像失败了。</li>
+</ul>
+<h2 id="基础系统">基础系统</h2>
+<h3 id="安装-debian-系统">安装 debian 系统</h3>
+<p>参考资料：一堆日文网站，全靠google－translate。</p>
+<dl>
+<dt><a href="http://hitoriblog.com/?p=51448#DM200">KING JIM ポメラDM200でEmacs、Vim、Ruby、Pythonが動くなんて素敵すぎる！</a></dt>
+<dd>这个网站是主要参考对象，内容很详细。</dd>
+<dt><a href="https://www.ekesete.net/log/?p=8940">Linux on Pomera DM200 人柱版 その2</a></dt>
+<dd>这个大神是做出这个系统的牛人，一切的源头。</dd>
+</dl>
+<p><a href="https://qiita.com/search?page=2&amp;q=dm200&amp;sort=">Qiita上面的一堆相关资料</a><br>
+不算特别多，但是好歹是日本人做的产品，研究也是日本人做得多一些。</p>
+<dl>
+<dt><a href="https://qiita.com/alt-core/items/d62c6447c607fbf6e8bf">pomera DM200 の Linux 化のメモ</a></dt>
+<dd></dd>
+<dt><a href="https://qiita.com/maruime%5Fno%5Falice/items/07633305fcaaa1f2a6fb">DM200 Linux の高速化を試みるメモ</a></dt>
+<dd>这个涉及到加速系统速度的设置，里面有一个驱动挺有用的。</dd>
+<dt><a href="https://qiita.com/alt-core/items/6b16f12ed196bcba1b58">キーボードしかないpomera DM200でも快適X Window環境</a></dt>
+<dd>这里有很多基于X的设置，包括如何不用鼠标也能操控X，Keynav这个软件挺有意思。</dd>
+</dl>
+<h3 id="补充">补充</h3>
+<h4 id="按键自定义">按键自定义</h4>
+<p>dm200是日文按键布局，相比一般的键盘而言多了几个按键，我把他们重新映射了一下，以方便emacs里面使用。<br>
+keymaps 0-255<br>
+keycode 41=Caps_Lock<br>
+keycode 116=F12<br>
+keycode 125=PageUp<br>
+keycode 92=End<br>
+keycode 94=Home<br>
+keycode 93=PageDown<br>
+keycode 58=F11<br>
+说明：</p>
+<ul>
+<li>全角/半角汉字　我把它设置成F11键，然后和Capslock对调了，这个键比较远，对于中文而言，大写锁定很少会用到，反倒是Capslock占了个好位置。</li>
+<li>Menu按键，原系统里面的菜单键，我定义成了PageUp键，上翻页挺方便。</li>
+<li>一个纯日文的按键，在右边ctrl旁边，改成PageDown键，刚好和Menu键组成一对，好记也好用。</li>
+<li>无变换键，改成Home键，对于光标快速移动很方便。</li>
+<li>前候补变换键，改成End键，又刚好组成一对。</li>
+</ul>
+<h2 id="中文系统">中文系统</h2>
+<h3 id="需满足几点要求">需满足几点要求</h3>
+<h4 id="中文显示">中文显示</h4>
+<dl>
+<dt>fbterm</dt>
+<dd>现阶段最成熟的方案</dd>
+<dt>kmscon</dt>
+<dd>尝试了编译，没成功</dd>
+<dt>mlterm</dt>
+<dd>据说有个控制台版本，mlterm-fb，支持CJK，但是由于fbterm有yong输入法，所以没试，用这个就只能用emacs里面的输入法了。</dd>
+</dl>
+<h4 id="中文输入法">中文输入法</h4>
+<p>两种方案</p>
+<h5 id="fbterm相结合的输入法">fbterm相结合的输入法</h5>
+<ul>
+<li>uim-fep：虽然能打中文，但是仅仅只是能用，用起来体验极差，日本人弄的系统默认用这个，偶尔在终端打字可能用得上，我不用，我尝试过自己转换码表，但是这东西好像对码表的大小有限制，码表一大起来，就崩给你看。</li>
+<li>yong输入法：优点是速度快，缺点是可定制性差，配置文件影响的是X下面的输入法，fbterm下面的yong输入法并没有全部读取配置文件，颜色什么的只能通过源码修改。还有在终端下和vim搭配有点不大稳定，现在怀疑是tf卡套接触不良的原因，因为换了大卡之后问题少了很多。yong输入法和emacs搭配好像还挺好的，暂时没发现太大的问题。</li>
+</ul>
+<h5 id="编辑器内嵌的输入法">编辑器内嵌的输入法</h5>
+<h6 id="vim插件vimim">vim插件vimim ::</h6>
+<p>速度太慢放弃。真的是慢，没法用。</p>
+<h6 id="emacs插件">emacs插件 ::</h6>
+<p>pyim：现阶段采用的方案，缺点是启动emacs之后第一次切换略慢，之后就顺畅了。还有如果想要流畅，最好选择用minibuffer的方式，但是容易被其他信息覆盖。<br>
+emacs－rime：据说速度快，但是得重新编译emacs，还有一堆东西得重新折腾，尝试过，编译全部很顺利，一运行就崩溃，暂时不清楚问题出在哪里。</p>
+<h4 id="文本编辑器">文本编辑器</h4>
+<p>两大神器：</p>
+<h5 id="vim">Vim</h5>
+<p>速度快，编辑功能强大，但是之前有一段时间我用起来很容易崩溃，怀疑是和输入法配合的问题，现在我只用它来写写配置文件，中文处理基本上交给了emacs。</p>
+<h5 id="emacs">Emacs</h5>
+<p>有强大的org-mode，配合deft管理笔记不要太好用。org-capture可以随时捕捉灵感，journal写写日记，一个软件就齐全了。缺点是配置相对复杂，不过一次配置，受益无穷，还是值得的。</p>
+<h4 id="文本同步与共享">文本同步与共享</h4>
+<h5 id="本机模式">本机模式</h5>
+<p>卡里有个fat分区，是专门用来和原系统交换文件用的，可以直接mount，好像也可以在原系统里面直接用usb直接连电脑拷文件，在debian里面不行。</p>
+<h5 id="网络模式">网络模式</h5>
+<p>-　emacs支持evernote-mode，分享文本还是很方便的。:: 国内使用可以把主机改成印象笔记，速度快一些。<br>
+-　用git同步 :: 这个适合整个文件的同步，git很强大，可以有很多种利用方式，我就存点东西，写个博客。<br>
+-　网络粘贴板 :: 可以用ubuntu-pastbin之类的网络粘贴板，也可以用netcat模式的termbin，对于临时复制粘贴文本我采用tibiji.com这种网站，配合w3m还是挺方便的，尤其是emacs里面的w3m，直接编辑，交换文本完全无缝。</p>
+<h3 id="纯控制台模式-无-x-window">纯控制台模式（无 X window）</h3>
+<h4 id="方案-1">方案 1</h4>
+<h4 id="方案2">方案2</h4>
+<h3 id="x-window">X Window</h3>
+
+    </div>
+    <div class="post-footer">
+      <div class="info">
+        
+<span class="separator"><a class="category" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a></span>
+
+        
+    <span class="separator"><a class="tag" href="/tags/linux/">Linux</a><a class="tag" href="/tags/%E7%B3%BB%E7%BB%9F/">系统</a><a class="tag" href="/tags/emacs/">emacs</a><a class="tag" href="/tags/cli/">cli</a><a class="tag" href="/tags/%E6%8A%80%E6%9C%AF/">技术</a></span>
+
+      </div>
+    </div>
+
+    
+</div>
+
+
+                </div>
+            </div>
+        </div>
+</body>
+
+
+
+<script type="text/javascript" src="https://autumnc.github.io/js/jquery.min.86b1e8f819ee2d9099a783e50b49dff24282545fc40773861f9126b921532e4c.js" integrity="sha256-hrHo&#43;BnuLZCZp4PlC0nf8kKCVF/EB3OGH5EmuSFTLkw=" crossorigin="anonymous"></script>
+
+
+
+
+<script type="text/javascript" src="https://autumnc.github.io/js/bundle.min.0f9c74cb78f13d1f15f33daff4037c70354f98acfbb97a6f61708966675c3cae.js" integrity="sha256-D5x0y3jxPR8V8z2v9AN8cDVPmKz7uXpvYXCJZmdcPK4=" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="https://autumnc.github.io/js/medium-zoom.min.92f21c856129f84aeb719459b3e6ac621a3032fd7b180a18c04e1d12083f8aba.js" integrity="sha256-kvIchWEp&#43;ErrcZRZs&#43;asYhowMv17GAoYwE4dEgg/iro=" crossorigin="anonymous"></script></html></body>
+
+</html>
