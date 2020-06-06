@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html><head>
+<title>阿毗达磨俱舍论</title>
+
+<meta charset="utf-8">
+<meta name="X-UA-Compatible" content="IE=edge">
+<meta name="google-site-verification" content="">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<meta content="telephone=no" name="format-detection">
+<meta name="description" content="">
+<meta name="renderer" content="webkit">
+<meta name="theme-color" content="#ffffff">
+
+
+
+
+<script src="/vendor/js/jquery.min.js" ></script>
+<script src="/vendor/js/popper.min.js" ></script>
+<script src="/vendor/js/bootstrap.min.js" ></script>
+<script src="/vendor/js/smooth-scroll.polyfills.min.js" ></script>
+<link type="text/css" rel="stylesheet" href="/vendor/css/bootstrap.min.css">
+<script src="/vendor/js/vue.min.js" ></script>
+
+
+
+
+<link rel="stylesheet" href="https://autumnc.github.io/scss/journal.min.47aa1ffb60880ad8c72feecd6962a14331eca7a7a30e08354a1ca91009b8bc5b.css" integrity="sha256-R6of&#43;2CICtjHL&#43;7NaWKhQzHsp6ejDgg1ShypEAm4vFs=" media="screen">
+
+
+
+<link rel="stylesheet" href="https://autumnc.github.io/scss/dark-mode.min.b13808e7c98cd5aa981a3822fd3421e26f1015876bb15a3fbf8ed5991c382367.css" integrity="sha256-sTgI58mM1aqYGjgi/TQh4m8QFYdrsVo/v47VmRw4I2c=" media="screen">
+
+
+<script src="https://autumnc.github.io/js/loadCSS.js"></script>
+<script>
+  loadCSS("https://fonts.googleapis.com/css?family=Lora|Montserrat|Fira+Mono|Noto+Serif+SC|Material+Icons");
+</script>
+
+
+
+
+  
+    <script src="https://autumnc.github.io/js/toc-collapse.js"></script>
+  
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+<script src="/vendor/js/md5.min.js"></script>
+<script>
+  var gitalk = new Gitalk({
+  clientID: 'your client id',
+  clientSecret: 'your client secret',
+  repo: 'autumnc.github.io',
+  owner: 'autumnc',
+  admin: ['autumnc'],
+  id: md5(location.pathname),
+  distractionFreeMode: 'false'
+  });
+  window.onload = function () {
+        gitalk.render('gitalk-container')
+  }
+</script>
+
+
+
+
+
+
+
+
+</head><body>
+    	<div id="app"><div ref="sideContainer" class="side-container">
+    
+    <a class="a-block nav-head false" href="https://autumnc.github.io">
+    
+        <div class="nav-title">
+            重言窟
+        </div>
+        
+        <div class="nav-subtitle">
+            此即彼亦非彼，在虚名之间，
+渐行渐远渐无形。
+        </div>
+        
+    </a>
+
+    <div class="nav-link-list">
+        
+        
+            
+            
+            
+                
+            
+            
+            
+            <a class="a-block nav-link-item active" href="/posts">
+                Archive
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/categories">
+                Categories
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/tags">
+                Tags
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/index.xml">
+                RSS Feed
+            </a>
+            
+        
+    </div>
+
+    
+
+    <div class="nav-footer">
+        
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
+<br>
+移植自 <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	This is a customized copyright.
+	
+
+    </div>
+    
+</div><div ref="extraContainer" class="extra-container">
+    
+    
+    <div class="toc animated-visibility" :class="{ invisible: scrollY <= 140 }">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- 目录 -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								<ul class="collapse" data-toggle="collapse">
+							
+						
+						
+							<li>
+								<a href="#%e9%98%bf%e6%af%97%e8%be%be%e7%a3%a8%e4%bf%b1%e8%88%8d%e8%ae%ba" onclick="collapseOthers(`#阿毗达磨俱舍论-nav`)" id="阿毗达磨俱舍论-nav">
+									阿毗达磨俱舍论
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+    
+    <div class="pagination">
+        <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
+            <i class="material-icons pagination-action-icon">
+                keyboard_arrow_up
+            </i>
+        </a>
+        
+        <a class="pagination-action" v-on:click="toggleDarkMode">
+            <i class="material-icons pagination-action-icon" v-if="isDarkMode">
+                brightness_4
+            </i>
+            <i class="material-icons pagination-action-icon" v-else="isDarkMode">
+                brightness_7
+            </i>
+        </a>
+        
+        
+    </div>
+</div><div class="single-column-drawer-container" ref="drawer"
+     v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
+    <div class="drawer-content">
+        <div class="drawer-menu">
+            
+            
+            
+                
+                
+                
+                    
+                
+                
+                
+                <a class="a-block drawer-menu-item active" href="/posts">
+                    Archive
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/categories">
+                    Categories
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/tags">
+                    Tags
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/index.xml">
+                    RSS Feed
+                </a>
+                
+            
+            
+            <div class="toc">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- 目录 -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								<ul class="collapse" data-toggle="collapse">
+							
+						
+						
+							<li>
+								<a href="#%e9%98%bf%e6%af%97%e8%be%be%e7%a3%a8%e4%bf%b1%e8%88%8d%e8%ae%ba" onclick="collapseOthers(`#阿毗达磨俱舍论-nav`)" id="阿毗达磨俱舍论-nav">
+									阿毗达磨俱舍论
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+            
+        </div>
+    </div>
+</div>
+<transition name="fade">
+    <div v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if="isDrawerOpen" v-on:click="toggleDrawer"></div>
+</transition>
+<nav ref="navBar" class="navbar sticky-top navbar-light single-column-nav-container">
+    <div ref="navBackground" class="nav-background"></div>
+    <div class="container container-narrow nav-content">
+        <button id="nav_dropdown_btn" class="nav-dropdown-toggle" type="button" v-on:click="toggleDrawer">
+            <i class="material-icons">
+                menu
+            </i>
+        </button>
+        <a ref="navTitle" class="navbar-brand" href="https://autumnc.github.io">
+            重言窟
+        </a>
+        
+        <button type="button" class="nav-darkmode-toggle" v-on:click="toggleDarkMode">
+            <i class="material-icons" v-if="isDarkMode">
+                brightness_4
+            </i>
+            <i class="material-icons" v-else="isDarkMode">
+                brightness_7
+            </i>
+        </button>
+        
+    </div>
+</nav>
+<div class="single-column-header-container" ref="pageHead"
+     v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
+    <a href="https://autumnc.github.io">
+        <div class="single-column-header-title">重言窟</div>
+        
+        <div class="single-column-header-subtitle">此即彼亦非彼，在虚名之间，
+渐行渐远渐无形。</div>
+        
+
+    </a>
+</div>
+            <div id="content">
+<div ref="streamContainer" class="stream-container">
+    <div class="post-list-container post-list-container-shadow">
+        <div class="post">
+            
+            
+            
+
+            <div class="post-head-wrapper-text-only"
+                
+            >
+                <div class="post-title">
+                    阿毗达磨俱舍论
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2014-06-25 00:00
+                        </time>
+                        
+
+                        
+                            <i class="material-icons" style="">folder</i>
+                                <a href="/categories/">[摘抄]</a>
+                                &nbsp;
+                        
+
+                        
+                            <i class="material-icons" style="">label</i>
+                            
+                                <a href="/tags/%E6%91%98%E6%8A%84">摘抄</a>
+                                &nbsp;
+                            
+                                <a href="/tags/%E4%BD%9B%E6%95%99">佛教</a>
+                                &nbsp;
+                            
+                                <a href="/tags/%E5%8F%A4%E7%B1%8D">古籍</a>
+                                &nbsp;
+                            
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <h2 id="阿毗达磨俱舍论">阿毗达磨俱舍论</h2>
+<hr>
+<p>2014-05-15 10:46:45</p>
+<p>唯佛世尊得永对治于一切境一切种冥。证不生法故称为灭。声闻独觉虽灭诸冥。以染无知毕竟未断故非一切种。</p>
+<hr>
+<p>2014-05-15 11:54:17</p>
+<p>如是总说无漏五蕴名为对法。此则胜义阿毗达磨。若说世俗阿毗达磨即能得此。诸慧及论。慧谓得此有漏修慧思闻生得慧及随行。论谓传生无漏慧教。</p>
+<hr>
+<p>2014-05-15 11:57:58</p>
+<p>若胜义法唯是涅槃。若法相法通四圣谛。此能对向或能对观。故称对法。</p>
+<hr>
+<p>2014-05-15 12:16:14</p>
+<p>有漏法云何。谓除道谛余有为法。所以者何。诸漏于中等随增故。缘灭道谛诸漏虽生。而不随增故非有漏。</p>
+<hr>
+<p>2014-05-15 12:29:40</p>
+<p>择灭即以离系为性。诸有漏法远离系缚证得解脱。名为择灭。择谓简择即慧差别。各别简择四圣谛故。择力所得灭名为择灭。</p>
+<hr>
+<p>2014-05-15 16:17:20</p>
+<p>依何义说灭无同类。依灭自无同类因义亦不与他。故作是说。</p>
+<p>注：</p>
+<p>？</p>
+<hr>
+<p>2014-05-15 12:39:07</p>
+<p>永碍当生得非择灭。谓能永碍未来法生。得灭异前名非择灭。得不因择但由阙缘。</p>
+<hr>
+<p>2014-05-15 16:17:30</p>
+<p>是彼类故。未来无妨。</p>
+<p>注：</p>
+<p>？</p>
+<hr>
+<p>2014-05-15 16:20:12</p>
+<p>或有唯蕴而非取蕴。谓无漏行。烦恼名取。蕴从取生故名取蕴。如草糠火。或蕴属取故名取蕴。如帝王臣。或蕴生取故名取蕴。如花果树。</p>
+<hr>
+<p>2014-05-15 16:23:59</p>
+<p>眼谓内处四大所造净色为性。</p>
+<hr>
+<p>2014-05-15 21:31:11</p>
+<p>执受大种为因声者。谓言手等所发音声。风林河等所发音声。名无执受大种为因。有情名声。谓语表业。余声则是非有情名。</p>
+<hr>
+<p>2014-05-16 11:10:08</p>
+<p>无表虽以色业为性如有表业。而非表示令他了知。故名无表。</p>
+<hr>
+<p>2014-05-16 11:11:47</p>
+<p>地水火风能持自相及所造色。故名为界。如是四界亦名大种。一切余色所依性故。体宽广故。或于地等增盛聚中。形相大故。或起种种大事用故。</p>
+<hr>
+<p>2014-05-16 11:12:46</p>
+<p>地界能持。水界能摄。火界能熟。风界能长。长谓增盛。或复流引。</p>
+<hr>
+<p>2014-05-16 11:13:52</p>
+<p>地界坚性。水界湿性。火界暖性。风界动性。由此能引大种造色。令其相续生至余方。</p>
+<hr>
+<p>2014-05-16 11:15:23</p>
+<p>地谓显形。色处为体。随世间想假立此名。由诸世间相示地者。以显形色。而相示故。水火亦然。风即风界。世间于动立风名故或如地等随世想名。</p>
+<hr>
+<p>2014-05-16 11:19:00</p>
+<p>何故此蕴无表为后说为色耶。由变坏故。</p>
+<p>注：</p>
+<p>由变坏说为色</p>
+<hr>
+<p>2014-05-16 11:20:24</p>
+<p>有说。变碍故名为色。</p>
+<hr>
+<p>2014-05-16 11:31:35</p>
+<p>受蕴谓三。领纳随触。即乐及苦不苦不乐。此复分别成六受身。谓眼触所生受乃至意触所生受。想蕴谓能取像为体。即能执取青黄长短男女怨亲苦乐等相。此复分别成六想身。应如受说。</p>
+<hr>
+<p>2014-05-16 11:32:41</p>
+<p>行名造作。思是业性造作义强。故为最胜。是故佛说若能造作有漏有为名行取蕴。</p>
+<hr>
+<p>2014-05-16 11:34:28</p>
+<p>即此所说受想行蕴。及无表色。三种无为。如是七法。于处门中立为法处。于界门中立为法界。</p>
+<hr>
+<p>2014-05-16 15:52:07</p>
+<p>各各了别彼彼境界。总取境相故名识蕴。</p>
+<hr>
+<p>2014-05-16 16:39:46</p>
+<p>应知如是所说识蕴。于处门中立为意处。于界门中立为七界。谓眼识界至意识界。即此六识转为意界。</p>
+<hr>
+<p>2014-05-16 16:29:35</p>
+<p>即六识身无间灭已。能生后识故名意界。</p>
+<hr>
+<p>2014-05-16 16:31:51</p>
+<p>如五识界。别有眼等五界为依。第六意识无别所依。为成此依故说意界。</p>
+<hr>
+<p>2014-05-16 16:33:44</p>
+<p>此中蕴摄一切有为。取蕴唯摄一切有漏。处界总摄一切法尽。</p>
+<hr>
+<p>2014-05-16 16:38:00</p>
+<p>由一色蕴意处法界。应知总摄一切法尽。</p>
+<p>注：</p>
+<p>蕴处界总摄一切法，蕴为色蕴，处为意处，界为法界。色蕴除无表色，意处摄六识尽，法界摄受想行蕴，无表及三无为。</p>
+<hr>
+<p>2014-05-16 16:49:46</p>
+<p>诸有为法和合聚义是蕴义。</p>
+<hr>
+<p>2014-05-16 16:52:47</p>
+<p>心心所法生长门义是处义。训释词者。谓能生长心心所法故名为处。是能生长彼作用义。法种族义是界义。如一山中有多铜铁金银等族说名多界。如是一身。或一相续有十八类诸法种族名十八界。</p>
+<hr>
+<p>2014-05-16 17:59:59</p>
+<p>有说。界声表种类义。谓十八法种类自性各别不同名十八界。</p>
+<hr>
+<p>2014-05-16 19:18:25</p>
+<p>如是一切略为一聚说名蕴故。是故如聚。蕴定假有。</p>
+<hr>
+<p>2014-05-17 09:54:48</p>
+<p>诤根有二。谓著诸欲及著诸见。此二受想。如其次第为最胜因。味受力故贪著诸欲。倒想力故贪著诸见。又生死法以受及想为最胜因。由耽著受起倒想故。生死轮回。</p>
+<hr>
+<p>2014-05-17 11:19:33</p>
+<p>色有对故诸蕴中粗。无色中粗唯受行相。故世说我手等痛言。待二想粗。男女等想易了知故。行粗过识。贪嗔等行易了知故。识最为细。总取境相难分别故。由此随粗立蕴次第。</p>
+<hr>
+<p>2014-05-17 11:22:42</p>
+<p>或随界别立蕴次第。谓欲界中有诸妙欲。色相显了。色界静虑有胜喜等。受相显了。三无色中取空等相。想相显了。第一有中思最为胜。行相显了。此即识住。识住其中显似世间田种次第。是故诸蕴次第如是。</p>
+<hr>
+<p>2014-05-17 16:29:02</p>
+<p>阿伽谓积集色。极能为碍故名阿伽。此空界色与彼相邻。是故说名邻阿伽色。有说。阿伽即空界色。此中无碍故名阿伽。即阿伽色余碍相邻。是故说名邻阿伽色。</p>
+<hr>
+<p>2014-05-17 17:54:53</p>
+<p>谓若所缘有对。定是境界有对。有虽境界有对而非所缘有对。谓眼等五根。</p>
+<hr>
+<p>2014-05-17 16:50:12</p>
+<p>障碍有对。谓十色界。自于他处被碍不生。</p>
+<hr>
+<p>2014-05-17 16:51:31</p>
+<p>境界有对。谓十二界法界一分。诸有境法于色等境。</p>
+<hr>
+<p>2014-05-17 16:48:45</p>
+<p>所缘有对。谓心心所于自所缘。境界所缘复有何别。若于彼法此有功能。即说彼为此法境界。心心所法执彼而起。彼于心等名为所缘。</p>
+<hr>
+<p>2014-05-17 17:57:03</p>
+<p>是处心欲生 他碍令不起应知是有对 无对此相违</p>
+<hr>
+<p>2014-05-17 19:18:07</p>
+<p>七心界与无贪等相应名善。贪等相应名为不善。余名无记。法界若是无贪等性相应等起择灭名善。若贪等性相应等起名为不善。余名无记。色界声界若善不善心力等起身语表摄。是善不善。余是无记。</p>
+<hr>
+<p>2014-05-17 20:29:06</p>
+<p>色界所系唯十四种。除香味境及鼻舌识。除香味者段食性故。离段食欲方得生彼。除鼻舌识无所缘故</p>
+<hr>
+<p>2014-05-17 20:54:14</p>
+<p>无色界系唯有后三。所谓意法及意识界。要离色欲于彼得生。故无色中无十色界依缘无故五识亦无。故唯后三无色界系。</p>
+<hr>
+<p>2014-05-17 21:15:11</p>
+<p>由此故言有寻伺地有四品法。一有寻有伺。谓除寻伺余相应法。二无寻唯伺。谓即是寻。三无寻无伺。谓即一切非相应法。四无伺唯寻。谓即是伺。余十色界寻伺俱无。常与寻伺不相应故。</p>
+<hr>
+<p>2014-05-17 23:38:21</p>
+<p>由此故言有寻伺地有四品法。一有寻有伺。谓除寻伺余相应法。二无寻唯伺。谓即是寻。三无寻无伺。谓即一切非相应法。四无伺唯寻。谓即是伺。余十色界寻伺俱无。常与寻伺不相应故。</p>
+<hr>
+<p>2014-05-17 21:16:43</p>
+<p>分别略有三种。一自性分别。二计度分别。三随念分别。由五识身虽有自性而无余二。</p>
+<hr>
+<p>2014-05-17 23:38:34</p>
+<p>分别略有三种。一自性分别。二计度分别。三随念分别。由五识身虽有自性而无余二。说无分别。</p>
+<hr>
+<p>2014-05-17 23:38:54</p>
+<p>意地散慧诸念为体。散谓非定。意识相应散慧。名为计度分别。若定若散意识相应诸念。名为随念分别。</p>
+<hr>
+<p>2014-05-17 21:17:40</p>
+<p>意识相应散慧。名为计度分别。若定若散意识相应诸念。名为随念分别。</p>
+<hr>
+<p>2014-05-17 23:39:12</p>
+<p>六识意界及法界摄诸心所法。名有所缘。能取境故。余十色界及法界摄不相应法。名无所缘。</p>
+<hr>
+<p>2014-05-17 21:20:33</p>
+<p>六识意界及法界摄诸心所法。名有所缘。能取境故。余十色界及法界摄不相应法。名无所缘。</p>
+<hr>
+<p>2014-05-17 23:44:06</p>
+<p>十八界中九无执受。前七心界及法界全。此八及声皆无执受。所余九界各通二门。谓有执受无执受故。</p>
+<hr>
+<p>2014-05-17 23:42:14</p>
+<p>执受者。此言何义。心心所法共所执持摄为依处名有执受。损益展转更相随故。即诸世间说有觉触。众缘所触觉乐等故。与此相违名无执受。</p>
+<hr>
+<p>2014-05-17 21:24:33</p>
+<p>心心所法共所执持摄为依处名有执受。损益展转更相随故。即诸世间说有觉触。众缘所触觉乐等故。与此相违名无执受。</p>
+<hr>
+<p>2014-05-17 23:59:19</p>
+<p>触界通二。谓大种及所造。大种有四。谓坚性等。所造有七。谓滑性等。依大种生故名所造。余九色界唯是所造。谓五色根色等四境。法界一分无表业色亦唯所造。余七心界法界一分。除无表色俱非二种。</p>
+<hr>
+<p>2014-05-18 00:39:36</p>
+<p>异熟因所生名异熟生。如牛所驾车名曰牛车。略去中言故作是说。或所造业至得果时变而能熟故名异熟。果从彼生名异熟生。彼所得果与因别类。而是所熟故名异熟。</p>
+<hr>
+<p>2014-05-18 00:43:58</p>
+<p>饮食资助眠睡等持胜缘所益名所长养。</p>
+<hr>
+<p>2014-05-18 09:52:36</p>
+<p>声有等流及所长养无异熟生。</p>
+<hr>
+<p>2014-05-19 11:50:46</p>
+<p>我依名内。外谓此余。我体既无内外何有。我执依止故。假说心为我。</p>
+<hr>
+<p>2014-05-19 12:08:04</p>
+<p>法同分者。谓一法界唯是同分。若境与识定为所缘。识于其中已生生法。此所缘境说名同分。</p>
+<hr>
+<p>2014-05-26 16:28:23</p>
+<p>何名同分彼同分耶。谓作自业不作自业。若作自业名为同分。不作自业名彼同分。</p>
+<hr>
+<p>2014-05-26 10:45:10</p>
+<p>色界为眼已正当见名同分色。彼同分色亦有四种。谓非眼见已正当灭及不生法。广说乃至触界亦尔。</p>
+<hr>
+<p>2014-05-26 16:35:46</p>
+<p>云何同分彼同分义。根境识三更相交涉故名为分。或复分者是己作用。或复分者是所生触。同有此分故名同分。与此相违名彼同分。由非同分与彼同分种类分同。名彼同分。</p>
+<hr>
+<p>2014-05-26 16:39:41</p>
+<p>八十八随眠及彼俱有法并随行得。皆见所断。诸余有漏皆修所断。一切无漏皆非所断。</p>
+<hr>
+<p>2014-05-26 18:36:05</p>
+<p>何等为八。谓身见等五染污见。世间正见。有学正见。无学正见。于法界中此八是见。所余非见。</p>
+<hr>
+<p>2014-05-26 18:34:41</p>
+<p>何故世间正见唯意识相应。以五识俱生慧不能决度故。审虑为先决度名见。五识俱慧无如是能。以无分别是故非见。</p>
+<hr>
+<p>2014-05-26 18:42:47</p>
+<p>非一切眼皆能现见。谁能现见。谓同分眼与识合位能见非余。</p>
+<hr>
+<p>2014-05-27 11:38:26</p>
+<p>一切极微实不相触。但由无间假立触名。</p>
+<hr>
+<p>2014-05-27 11:56:38</p>
+<p>无间灭意是过去依。此五识身所依各二。谓眼等五是别所依。意根为五通所依性。</p>
+<hr>
+<p>2014-05-27 16:36:35</p>
+<p>十八界中。色等五界如其次第眼等五识各一所识。又总皆是意识所识。如是五界各六识中二识所识。由此准知。余十三界一切唯是意识所识。非五识身所缘境故。</p>
+<hr>
+<p>2014-05-27 16:44:53</p>
+<p>最胜自在光显名根。</p>
+<hr>
+<p>2014-06-19 22:36:57</p>
+<p>眼等五根各于四事能为增上。一庄严身。二导养身。三生识等。四不共事。</p>
+<hr>
+<p>2014-06-19 22:36:49</p>
+<p>女男命意。各于二事能为增上。且女男根二增上者。一有情异。二分别异。</p>
+<hr>
+<p>2014-06-19 22:39:37</p>
+<p>命根二者。谓于众同分能续及能持。意根二者。谓能续后有及自在随行。</p>
+<hr>
+<p>2014-06-19 22:42:37</p>
+<p>乐等五受。信等八根。于染净中如次增上。乐等五受染增上者。贪等随眠所随增故。信等八根净增上者。诸清净法随生长故。</p>
+<hr>
+<p>2014-06-19 22:52:26</p>
+<p>三无漏根于得后后道涅槃等有增上用。言亦尔者。类显一一各能为根。谓未知当知根于得已知根道有增上用。已知根于得具知根道有增上用。具知根于得涅槃有增上用。非心未解脱能般涅槃故。</p>
+<hr>
+<p>2014-06-19 22:52:43</p>
+<p>见所断烦恼灭中。未知当知根有增上用。于修所断烦恼灭中。已知根有增上用。于现法乐住中。具知根有增上用。</p>
+<hr>
+<p>2014-06-19 22:57:06</p>
+<p>约流转还灭立二十二根。流转所依谓眼等六。生由女男从彼生故。住由命根仗彼住故。受用由五受因彼领纳故。约此建立前十四根。还灭位中即约此四义类别故立后八根。还灭所依谓信等五。于三无漏由初故生。由次故住。由后受用。</p>
+<hr>
+<p>2014-06-19 23:40:07</p>
+<p>身受内能摄益者名为乐根。及第三定心相应受能摄益者亦名乐根。第三定中无有身受。五识无故心悦名乐。即此心悦除第三定。于下三地名为喜根。第三静虑心悦安静离喜贪故唯名乐根。下三地中心悦粗动有喜贪故唯名喜根。</p>
+<hr>
+<p>2014-06-19 23:43:02</p>
+<p>舍无分别任运而生。是故立根身心合一。</p>
+<hr>
+<p>2014-06-20 11:01:11</p>
+<p>意乐喜舍信等五根。如是九根在于三道。如次建立三无漏根。</p>
+<hr>
+<p>2014-06-20 15:45:57</p>
+<p>具二义者。忧非无记。强思起故。亦非无漏。唯散地故。由此越次先说忧根定有异熟。眼等前八及最后三定无异熟。八无记故。三无漏故。</p>
+<hr>
+<p>2014-06-21 12:32:31</p>
+<p>色聚极细立微聚名。为显更无细于此者。此在欲界无声无根。八事俱生随一不减。云何八事。谓四大种及四所造色香味触。</p>
+<hr>
+<p>2014-06-21 14:06:44</p>
+<p>地谓行处。若此是彼所行处。即说此为彼法地。大法地故名为大地。此中若法大地所有名大地法。谓法恒于一切心有。</p>
+<hr>
+<p>2014-06-21 14:08:40</p>
+<p>想谓于境取差别相。思谓能令心有造作。触谓根境识和合生。能有触对。欲谓希求所作事业。</p>
+<hr>
+<p>2014-06-21 14:09:14</p>
+<p>胜解谓能于境印可。三摩地谓心一境性。</p>
+<hr>
+<p>2014-06-21 16:11:12</p>
+<p>心平等性无警觉性说名为舍。</p>
+<hr>
+<p>2014-06-21 16:43:05</p>
+<p>如是类法唯修所断。意识地起。无明相应。各别现行。故名为小烦恼地法。</p>
+<hr>
+<p>2014-06-21 17:00:33</p>
+<p>何等名为不共心品。谓此心品唯有无明。无有所余贪烦恼等。</p>
+<hr>
+<p>2014-06-21 17:02:23</p>
+<p>言不善见相应心者。谓此心中或有邪见。或有见取。或戒禁取。</p>
+<hr>
+<p>2014-06-22 00:21:31</p>
+<p>无敬无崇无所忌难无所随属说名无惭。即是恭敬所敌对法。为诸善士所诃厌法说名为罪。于此罪中不见怖畏说名无愧。</p>
+<hr>
+<p>2014-06-22 00:24:42</p>
+<p>有余师说。于所造罪自观无耻名曰无惭。观他无耻说名无愧。</p>
+<hr>
+<p>2014-06-22 09:59:22</p>
+<p>爱敬有二。谓缘于法补特伽罗。缘法爱敬通三界有。此中意说缘补特伽罗者。故欲色有。无色界无。</p>
+<hr>
+<p>2014-06-22 10:43:01</p>
+<p>慢谓对他心自举性。称量自他德类差别。心自举恃陵蔑于他故名为慢。憍谓染著自法为先令心傲逸无所顾性。</p>
+<hr>
+<p>2014-06-22 10:44:14</p>
+<p>集起故名心。思量故名意。了别故名识。</p>
+<hr>
+<p>2014-06-22 10:45:01</p>
+<p>净不净界种种差别故名为心。即此为他作所依止故名为意。作能依止故名为识。</p>
+<hr>
+<p>2014-06-22 10:49:38</p>
+<p>有五义故。谓心心所五义平等故说相应。所依所缘行相时事皆平等故。事平等者。一相应中如心体一。诸心所法各各亦尔。</p>
+<hr>
+<p>2014-06-22 10:52:55</p>
+<p>如是诸法心不相应非色等性。行蕴所摄。是故名心不相应行。</p>
+<hr>
+<p>2014-06-22 12:55:51</p>
+<p>于何法中有得非得。于自相续及二灭中。谓有为法若有堕在自相续中有得非得。非他相续。无有成就他身法故。非非相续。无有成就非情法故。且有为法决定如是。无为法中唯于二灭有得非得。一切有情无不成就非择灭者。</p>
+<hr>
+<p>2014-06-22 12:56:05</p>
+<p>如是谁成无漏法。谓一切有情。除初刹那具缚圣者及余一切具缚异生。诸余有情皆成择灭。</p>
+<hr>
+<p>2014-06-22 15:51:04</p>
+<p>断善者由邪见力损所依中善根种子。应知名断。非所依中善根种子毕竟被害说名为断。</p>
+<hr>
+<p>2014-06-22 15:55:03</p>
+<p>所依中唯有种子未拔未损增长自在。于如是位立成就名。</p>
+<hr>
+<p>2014-06-22 15:55:58</p>
+<p>此中何法名为种子。谓名与色于生自果。所有展转邻近功能。此由相续转变差别。何名转变。谓相续中前后异性。何名相续。谓因果性三世诸行。何名差别。谓有无间生果功能。</p>
+<hr>
+<p>2014-06-22 23:29:26</p>
+<p>曾未生圣法相续分位差别名异生性。</p>
+<hr>
+<p>2014-06-22 23:31:41</p>
+<p>以法生时并其自体三法俱起。第一本法。第二法得。第三得得。谓相续中法得起故成就本法及与得得。得得起故。成就法得。</p>
+<hr>
+<p>2014-06-23 11:40:18</p>
+<p>如是诸得极多集会。无对碍故互相容受。若不尔者。一有情得虚空不容。况第二等</p>
+<hr>
+<p>2014-06-23 11:43:00</p>
+<p>有别实物名为同分。谓诸有情展转类等。本论说此名众同分。此复二种。一无差别。二有差别。无差别者。谓诸有情有情同分。一切有情各等有故。有差别者。谓诸有情界地趣生种姓男女近事苾刍学无学等各别同分。一类有情各等有故。</p>
+<hr>
+<p>2014-06-23 13:20:08</p>
+<p>彼为恒无想为亦有想耶。生死位中多时有想。言无想者。由彼有情中间长时想不起故。</p>
+<hr>
+<p>2014-06-23 16:33:51</p>
+<p>二定差别相者。前无想定为求解脱。以出离想作意为先。此灭尽定为求静住。以止息想作意为先。前无想定在后静虑。此灭尽定唯在有顶。即是非想非非想处。此同前定性唯是善非无记染。善等起故。前无想定唯顺生受。此灭尽定通顺生后及不定受。谓约异熟有顺生受。或顺后受。或不定受。或全不受。谓若于下得般涅槃。此定所招何地几蕴。唯招有顶四蕴异熟。前无想定唯异生得。此灭尽定唯圣者得。非异生能起。怖畏断灭故。唯圣道力所能起故。现法涅槃胜解入故。</p>
+<hr>
+<p>2014-06-23 16:42:43</p>
+<p>无想定欲色二界皆得初起。灭定初起唯在人中。</p>
+<hr>
+<p>2014-06-23 16:52:13</p>
+<p>如是二定有多种异。谓地有异。第四静虑有顶地故。加行有异。出离止息想作意为先故。相续有异。异生圣者相续起故。异熟有异。无想有顶异熟果故。顺受有异。顺定不定生二受故。初起有异。二界人中最初起故。</p>
+<hr>
+<p>2014-06-24 00:07:11</p>
+<p>何法说名寿体。谓三界业所引同分住时势分说为寿体。由三界业所引同分住时势分相续决定随应住时。尔所时住故。此势分说为寿体。如谷种等所引乃至熟时势分。又如放箭所引乃至住时势分。</p>
+<hr>
+<p>2014-06-24 11:13:22</p>
+<p>谓彼诸行生力所迁。令从未来流入现在。异及灭相力所迁迫。令从现在流入过去。令其衰异及坏灭故。</p>
+<hr>
+<p>2014-06-24 15:34:59</p>
+<p>生生等者。谓四随相。生生住住异异灭灭。诸行有为由四本相。本相有为由四随相。</p>
+<hr>
+<p>2014-06-24 16:36:48</p>
+<p>诸行相续初起名生。终尽位中说名为灭。中间相续随转名住。此前后别名为住异。</p>
+<hr>
+<p>2014-06-24 16:42:15</p>
+<p>离执实有物四相亦成。云何得成。谓一一念本无今有名生。有已还无名灭。后后刹那嗣前前起名为住。即彼前后有差别故名住异。于前后念相似生时。前后相望非无差别。</p>
+<hr>
+<p>2014-06-24 16:41:45</p>
+<p>诸行相似相续生时。前后相望无多差别。故虽有异而见相似。</p>
+<hr>
+<p>2014-06-24 20:37:42</p>
+<p>生等唯假建立无别实物。为了诸行本无今有假立为生。</p>
+<hr>
+<p>2014-06-24 23:47:01</p>
+<p>名谓作想。如说色声香味等想。句者谓章。诠义究竟。如说诸行无常等章。或能辩了业用德时相应差别。此章称句。文者谓字。如说[褒-保+可]阿壹伊等字。</p>
+<hr>
+<p>2014-06-25 00:16:30</p>
+<p>声即是名。此名安布差别为颂。由如是义。说颂依名。</p>
+<hr>
+<p>2014-06-25 16:31:34</p>
+<p>毗婆沙师说。有别物为名等身。心不相应行蕴所摄。实而非假。</p>
+<hr>
+<p>2014-06-25 16:41:28</p>
+<p>如何有为唯除自体以一切法为能作因。应知此生时彼皆无障住。故彼于此是能作因。若于此生彼能为障。而不为障可立为因。</p>
+
+                    
+                    <HR width="100%" id="EOF">
+		    <p style="color:#777;">最后修改于 2020-06-06</p>
+                    
+                </div>
+            </div>
+            
+            
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts" href="https://autumnc.github.io/posts/kindle%E5%81%9A%E4%B9%A6%E5%A4%87%E5%BF%98/">
+			下回<br>Kindle 做书备忘
+                </a>
+                
+                
+                
+                <a class="older-posts" href="https://autumnc.github.io/posts/%E4%BF%B1%E8%88%8D%E8%AE%BA%E8%AE%B0/">
+			上回<br>俱舍論記
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+
+
+<div id="gitalk-container"></div>
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+            </div><div id="single-column-footer">
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
+<br>
+移植自 <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	This is a customized copyright.
+	
+</div>
+            </div>
+    <script>
+let app;
+
+app = new Vue({
+    el: '#app',
+    data: {
+        scrollY: 0,
+        navOpacity: 0,
+        isDrawerOpen: false,
+        mounted: false,
+        isDarkMode: false
+    },
+    methods: {
+            sgn(t, x) {
+                let k = 1. / (1. - 2 * t);
+                if (x <= t) return 0;
+                else if (x >= 1 - t) return 1;
+                else {
+                    return k * (x - t);
+                }
+            },
+            handleScroll() {
+                this.scrollY = window.scrollY;
+                this.navOpacity = this.sgn(.0, Math.min(1, Math.max(0, window.scrollY / (this.pageHeadHeight() - this.navBarHeight() * 0.8))));
+                const {navBar, navBackground, navTitle, extraContainer, streamContainer} = this.$refs;
+
+                if (this.navOpacity >= 1) {
+                    navBackground.style.opacity = 1;
+                    navTitle.style.opacity = 1;
+                } else {
+                    navBackground.style.opacity = 0;
+                    navTitle.style.opacity = 0;
+                }
+            },
+            handleResize() {
+                const {navBar, navBackground, navTitle, extraContainer, streamContainer} = this.$refs;
+                extraContainer.style.left = (streamContainer.offsetWidth - extraContainer.offsetWidth) + 'px';
+            },
+            navBarHeight() {
+                return this.$refs.navBar.offsetHeight;
+            },
+            pageHeadHeight() {
+                return this.$refs.pageHead.offsetHeight;
+            },
+            toggleDrawer() {
+                this.isDrawerOpen = !this.isDrawerOpen;
+                document.getElementsByTagName('html')[0].style.overflow = this.isDrawerOpen ? 'hidden' : 'unset';
+            },
+            closeDrawer() {
+                this.isDrawerOpen = false;
+                document.getElementsByTagName('html')[0].style.overflow = this.isDrawerOpen ? 'hidden' : 'unset';
+            },
+            toggleDarkMode() {
+                this.isDarkMode = !this.isDarkMode;
+                if (this.isDarkMode==true){
+                    document.cookie = "night=1;path=/";
+                    document.body.classList.add("night");
+                } else {
+                    document.cookie = "night=0;path=/";
+                    document.body.classList.remove("night");
+                }
+            }
+    },
+    created() {
+        window.addEventListener('scroll', this.handleScroll);
+        window.addEventListener('resize', this.handleResize);
+        window._nonDesktop = function () {
+            let check = false;
+            (function (a) {
+                if (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino|android|ipad|playbook|silk/i.test(a) || /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(a.substr(0, 4))) check = true;
+            })(navigator.userAgent || navigator.vendor || window.opera);
+            return check;
+        };
+        
+        var night = document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, "$1");
+        if (night==""){
+            if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                
+            }
+        }else{
+            
+            if (night=="1") {
+                this.toggleDarkMode();
+            }
+        }
+    },
+    mounted() {
+        this.handleScroll();
+        this.handleResize();
+        this.mounted = true;
+
+        
+    },
+    destroyed() {
+        window.removeEventListener('scroll', this.handleScroll);
+        window.removeEventListener('resize', this.handleResize);
+    }
+});
+</script>
+
+<script src="https://autumnc.github.io/js/journal.js"></script>
+    </body>
+</html>
