@@ -17,7 +17,7 @@
       <pubDate>Sat, 06 Jun 2020 00:00:00 +0800</pubDate>
       
       <guid>https://autumnc.github.io/posts/dm200debian/</guid>
-      <description>前言  Dm200 简介  特点和问题：     基础系统  安装 debian 系统 补充  按键自定义     中文系统  需满足几点要求  中文显示 中文输入法  fbterm相结合的输入法 编辑器内嵌的输入法  vim插件vimim :: emacs插件 ::     文本编辑器  Vim Emacs   文本同步与共享  本机模式 网络模式     纯控制台模式（无 X window）  方案 1 方案2   X Window    前言 Dm200 简介 Pomera dm200 是日本人出的一个纯文字处理功能的小机子，特点是键盘手感好，无线功能齐全，虽然原系统显示是黑白但实际是彩色的屏幕，还有纯日文的操作系统，是的，原系统连英文界面都不存在。好在有个日本大牛捣腾出了可以用的 debian 系统，而且是全功能的，这意味着虽然先天不足，但是通过后天的捣腾，中文是可以被支持的。尽管是曲线救国，好歹是能用的。</description>
+      <description>前言 Dm200 简介 特点和问题： 基础系统 安装 debian 系统 补充 按键自定义 中文系统 需满足几点要求 中文显示 中文输入法 fbterm相结合的输入法 编辑器内嵌的输入法 v</description>
     </item>
     
     <item>
@@ -26,7 +26,7 @@
       <pubDate>Sat, 06 Jun 2020 00:00:00 +0800</pubDate>
       
       <guid>https://autumnc.github.io/posts/%E5%AD%97%E4%BD%93%E5%A4%84%E7%90%86%E5%A4%87%E5%BF%98%E5%BD%95/</guid>
-      <description>字体修改备忘  补全可以把备用字体全部复制到目标字体中，选择保持相同字的映射就行了，之后再把没有映射的字符删掉就行了，比导出字集再补全要方便得多。 可以先把备用字体的某一字形先复制到目标字体中，通过微调来确定最终要修改的参数，然后一次性补全并微调，记得把参数保存好。 相近风格的字体要注意横竖的比例，横竖的粗细是一个很重要的风格，尽量找粗细风格一致的字体来补全，尽量少用微调来改变粗细。 微调粗化或者细化都很容易破坏字体的线条结构，移位和scale相对安全些。 两个字体中同一个字放在一起微调，能够更容易调成一致的风格，也比较容易看出风格的差异来。 灵活运用fontrepack和easyepub这两个软件能够事半功倍。 Word和Excel功能很强大，Unicode转换功能和Excel的排序以及条件格式功能相当好用。 正则表达式和称手的文本编辑器是必备。  </description>
+      <description>字体修改备忘 补全可以把备用字体全部复制到目标字体中，选择保持相同字的映射就行了，之后再把没有映射的字符删掉就行了，比导出字集再补全要方便得多</description>
     </item>
     
     <item>
@@ -35,7 +35,7 @@
       <pubDate>Sun, 15 Feb 2015 00:00:00 +0800</pubDate>
       
       <guid>https://autumnc.github.io/posts/kindle%E5%81%9A%E4%B9%A6%E5%A4%87%E5%BF%98/</guid>
-      <description>kindle做书备忘  原生宋体和楷体不适合直排。简体的字体就没考虑过竖排的情况，符号全是乱的。 在元数据中把语言改为zh-TW，就可以调用内部的繁体宋体和黑体，可以支持直排。 calibre 直接转mobi为azw3，语言会被强制改为简体中文，直排显示标点有问题。 指定字体用Song T而不是serif来指代宋体，这个是内置的繁体字体。 直排边距只有margin-top和margin-bottom起作用。 可以用kindle unpack只提取出mobi中的kf8格式，文件可以进一步压缩。  </description>
+      <description>kindle做书备忘 原生宋体和楷体不适合直排。简体的字体就没考虑过竖排的情况，符号全是乱的。 在元数据中把语言改为zh-TW，就可以调用内部的</description>
     </item>
     
   </channel>
