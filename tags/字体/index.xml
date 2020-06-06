@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>字体 on 言窟</title>
+    <link>https://autumnc.github.io/tags/%E5%AD%97%E4%BD%93/</link>
+    <description>Recent content in 字体 on 言窟</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>This is a customized copyright.</copyright>
+    <lastBuildDate>Sat, 06 Jun 2020 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://autumnc.github.io/tags/%E5%AD%97%E4%BD%93/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>字体修改备忘</title>
+      <link>https://autumnc.github.io/posts/%E5%AD%97%E4%BD%93%E5%A4%84%E7%90%86%E5%A4%87%E5%BF%98%E5%BD%95/</link>
+      <pubDate>Sat, 06 Jun 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://autumnc.github.io/posts/%E5%AD%97%E4%BD%93%E5%A4%84%E7%90%86%E5%A4%87%E5%BF%98%E5%BD%95/</guid>
+      <description>字体修改备忘  补全可以把备用字体全部复制到目标字体中，选择保持相同字的映射就行了，之后再把没有映射的字符删掉就行了，比导出字集再补全要方便得多。 可以先把备用字体的某一字形先复制到目标字体中，通过微调来确定最终要修改的参数，然后一次性补全并微调，记得把参数保存好。 相近风格的字体要注意横竖的比例，横竖的粗细是一个很重要的风格，尽量找粗细风格一致的字体来补全，尽量少用微调来改变粗细。 微调粗化或者细化都很容易破坏字体的线条结构，移位和scale相对安全些。 两个字体中同一个字放在一起微调，能够更容易调成一致的风格，也比较容易看出风格的差异来。 灵活运用fontrepack和easyepub这两个软件能够事半功倍。 Word和Excel功能很强大，Unicode转换功能和Excel的排序以及条件格式功能相当好用。 正则表达式和称手的文本编辑器是必备。  </description>
+    </item>
+    
+  </channel>
+</rss>

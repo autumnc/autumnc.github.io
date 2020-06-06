@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html><head>
+<title></title>
+
+<meta charset="utf-8">
+<meta name="X-UA-Compatible" content="IE=edge">
+<meta name="google-site-verification" content="">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<meta content="telephone=no" name="format-detection">
+<meta name="description" content="">
+<meta name="renderer" content="webkit">
+<meta name="theme-color" content="#ffffff">
+
+
+
+
+<script src="/vendor/js/jquery.min.js" ></script>
+<script src="/vendor/js/popper.min.js" ></script>
+<script src="/vendor/js/bootstrap.min.js" ></script>
+<script src="/vendor/js/smooth-scroll.polyfills.min.js" ></script>
+<link type="text/css" rel="stylesheet" href="/vendor/css/bootstrap.min.css">
+<script src="/vendor/js/vue.min.js" ></script>
+
+
+
+
+<link rel="stylesheet" href="https://autumnc.github.io/scss/journal.min.47aa1ffb60880ad8c72feecd6962a14331eca7a7a30e08354a1ca91009b8bc5b.css" integrity="sha256-R6of&#43;2CICtjHL&#43;7NaWKhQzHsp6ejDgg1ShypEAm4vFs=" media="screen">
+
+
+
+<link rel="stylesheet" href="https://autumnc.github.io/scss/dark-mode.min.b13808e7c98cd5aa981a3822fd3421e26f1015876bb15a3fbf8ed5991c382367.css" integrity="sha256-sTgI58mM1aqYGjgi/TQh4m8QFYdrsVo/v47VmRw4I2c=" media="screen">
+
+
+<script src="https://autumnc.github.io/js/loadCSS.js"></script>
+<script>
+  loadCSS("https://fonts.googleapis.com/css?family=Lora|Montserrat|Fira+Mono|Noto+Serif+SC|Material+Icons");
+</script>
+
+
+
+
+  
+    <script src="https://autumnc.github.io/js/toc-collapse.js"></script>
+  
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+<script src="/vendor/js/md5.min.js"></script>
+<script>
+  var gitalk = new Gitalk({
+  clientID: 'your client id',
+  clientSecret: 'your client secret',
+  repo: 'autumnc.github.io',
+  owner: 'autumnc',
+  admin: ['autumnc'],
+  id: md5(location.pathname),
+  distractionFreeMode: 'false'
+  });
+  window.onload = function () {
+        gitalk.render('gitalk-container')
+  }
+</script>
+
+
+
+
+
+
+
+
+</head><body>
+    	<div id="app"><div ref="sideContainer" class="side-container">
+    
+    <a class="a-block nav-head false" href="https://autumnc.github.io">
+    
+        <div class="nav-title">
+            言窟
+        </div>
+        
+        <div class="nav-subtitle">
+            寓言十九，重言十七，卮言日出，和以天倪。
+        </div>
+        
+    </a>
+
+    <div class="nav-link-list">
+        
+        
+            
+            
+            
+                
+            
+            
+            
+            <a class="a-block nav-link-item active" href="/posts">
+                Archive
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/categories">
+                Categories
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/tags">
+                Tags
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/index.xml">
+                RSS Feed
+            </a>
+            
+        
+    </div>
+
+    
+
+    <div class="nav-footer">
+        
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
+<br>
+移植自 <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	This is a customized copyright.
+	
+
+    </div>
+    
+</div><div ref="extraContainer" class="extra-container">
+    
+    
+    <div class="toc animated-visibility" :class="{ invisible: scrollY <= 140 }">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- 目录 -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								<ul class="collapse" data-toggle="collapse">
+							
+						
+						
+							<li>
+								<a href="#%e6%af%9b%e8%af%97%e6%ad%a3%e4%b9%89" onclick="collapseOthers(`#毛诗正义-nav`)" id="毛诗正义-nav">
+									毛诗正义
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+    
+    <div class="pagination">
+        <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
+            <i class="material-icons pagination-action-icon">
+                keyboard_arrow_up
+            </i>
+        </a>
+        
+        <a class="pagination-action" v-on:click="toggleDarkMode">
+            <i class="material-icons pagination-action-icon" v-if="isDarkMode">
+                brightness_4
+            </i>
+            <i class="material-icons pagination-action-icon" v-else="isDarkMode">
+                brightness_7
+            </i>
+        </a>
+        
+        
+    </div>
+</div><div class="single-column-drawer-container" ref="drawer"
+     v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
+    <div class="drawer-content">
+        <div class="drawer-menu">
+            
+            
+            
+                
+                
+                
+                    
+                
+                
+                
+                <a class="a-block drawer-menu-item active" href="/posts">
+                    Archive
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/categories">
+                    Categories
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/tags">
+                    Tags
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/index.xml">
+                    RSS Feed
+                </a>
+                
+            
+            
+            <div class="toc">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- 目录 -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								<ul class="collapse" data-toggle="collapse">
+							
+						
+						
+							<li>
+								<a href="#%e6%af%9b%e8%af%97%e6%ad%a3%e4%b9%89" onclick="collapseOthers(`#毛诗正义-nav`)" id="毛诗正义-nav">
+									毛诗正义
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+            
+        </div>
+    </div>
+</div>
+<transition name="fade">
+    <div v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if="isDrawerOpen" v-on:click="toggleDrawer"></div>
+</transition>
+<nav ref="navBar" class="navbar sticky-top navbar-light single-column-nav-container">
+    <div ref="navBackground" class="nav-background"></div>
+    <div class="container container-narrow nav-content">
+        <button id="nav_dropdown_btn" class="nav-dropdown-toggle" type="button" v-on:click="toggleDrawer">
+            <i class="material-icons">
+                menu
+            </i>
+        </button>
+        <a ref="navTitle" class="navbar-brand" href="https://autumnc.github.io">
+            言窟
+        </a>
+        
+        <button type="button" class="nav-darkmode-toggle" v-on:click="toggleDarkMode">
+            <i class="material-icons" v-if="isDarkMode">
+                brightness_4
+            </i>
+            <i class="material-icons" v-else="isDarkMode">
+                brightness_7
+            </i>
+        </button>
+        
+    </div>
+</nav>
+<div class="single-column-header-container" ref="pageHead"
+     v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
+    <a href="https://autumnc.github.io">
+        <div class="single-column-header-title">言窟</div>
+        
+        <div class="single-column-header-subtitle">寓言十九，重言十七，卮言日出，和以天倪。</div>
+        
+
+    </a>
+</div>
+            <div id="content">
+<div ref="streamContainer" class="stream-container">
+    <div class="post-list-container post-list-container-shadow">
+        <div class="post">
+            
+            
+            
+
+            <div class="post-head-wrapper-text-only"
+                
+            >
+                <div class="post-title">
+                    
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2020-06-06 00:00
+                        </time>
+                        
+
+                        
+                            <i class="material-icons" style="">folder</i>
+                                <a href="/categories/">[摘抄]</a>
+                                &nbsp;
+                        
+
+                        
+                            <i class="material-icons" style="">label</i>
+                            
+                                <a href="/tags/%E6%91%98%E6%8A%84">摘抄</a>
+                                &nbsp;
+                            
+                                <a href="/tags/%E5%8F%A4%E7%B1%8D">古籍</a>
+                                &nbsp;
+                            
+                                <a href="/tags/%E5%84%92%E5%AD%A6">儒学</a>
+                                &nbsp;
+                            
+                                <a href="/tags/%E8%AF%97%E7%BB%8F">诗经</a>
+                                &nbsp;
+                            
+                                <a href="/tags/%E7%BB%8F%E5%AD%A6">经学</a>
+                                &nbsp;
+                            
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <h2 id="毛诗正义">毛诗正义</h2>
+<hr>
+<p>2016-07-05 17:44:44</p>
+<p>國是風化之界，詩以當國為別，故謂之《國風》。其《雅》則天子之事，政教刑于四海，不須言國也。</p>
+<hr>
+<p>2016-07-05 17:46:01</p>
+<p>蓋跡其先封善否，參其詩之美惡，驗其時政得失，詳其國之大小，斟酌所宜，以為其次。</p>
+<hr>
+<p>2016-07-06 10:02:53</p>
+<p>此篇言後妃性行和諧，貞專化下，寤寐求賢，供奉職事，是後妃之德也。</p>
+<hr>
+<p>2016-07-06 10:09:36</p>
+<p>不言美後妃者，此詩之作，直是感其德澤，歌其性行，欲以發揚聖化，示語未知，非是褒賞後妃能為此行也。</p>
+<hr>
+<p>2016-07-06 10:37:47</p>
+<p>風訓諷也，教也。諷謂微加曉告，教謂殷勤誨示。</p>
+<hr>
+<p>2016-07-06 10:39:20</p>
+<p>蘊藏在心，謂之為志；發見於言，乃名為詩。</p>
+<hr>
+<p>2016-07-06 10:41:24</p>
+<p>包管萬慮，其名曰心；感物而動，乃呼為志。志之所適，外物感焉，言悅豫之志則和樂興而頌聲作，憂愁之志則哀傷起而怨刺生。</p>
+<hr>
+<p>2016-07-06 10:46:49</p>
+<p>在心為志，出口為言，誦言為詩，詠聲為歌，播於八音謂之為樂，皆始末之異名耳。</p>
+<hr>
+<p>2016-07-06 16:29:52</p>
+<p>商之為言章也，物成熟可章度也。角，觸也。物觸地而出，戴芒角也。宮，中也。居中央，暢四方，唱始施生，為四聲之綱也。徵，祉也，物盛大而蕃祉也。羽，宇也，物聚藏宇覆之也。</p>
+<p>注</p>
+<p>此释直以五音配四方四时而论义。</p>
+<hr>
+<p>2016-07-07 10:19:54</p>
+<p>人心感於物而後動，先王慎所以感之者，故作樂以和其聲。樂之感人深，其移風易俗</p>
+<hr>
+<p>2016-07-07 10:20:03</p>
+<p>志微、噍殺之音作而民思憂，廉直、莊誠之音作而民肅敬，寬裕、順成之音作而民慈愛，流僻、邪散之音作而民淫亂。</p>
+<hr>
+<p>2016-07-07 10:21:23</p>
+<p>禮者，稱人之情而為之節文，賢者俯而就之，不肖者企而及之，是下民之所行，非聖人之所行也。</p>
+<hr>
+<p>2016-07-07 10:22:19</p>
+<p>夫物之感人無窮，而人之好惡無節，則是物至而人化物也。人化物也者，則滅天理而窮人欲者也。於是有悖逆詐偽之心，有淫佚作亂之事。故先王制禮作樂為之節。</p>
+<hr>
+<p>2016-07-07 15:32:09</p>
+<p>上以風化下，下以風刺上</p>
+<hr>
+<p>2016-07-07 16:01:53</p>
+<p>奸聲感人而逆氣應之，逆氣成象而淫樂興焉。正聲感人而順氣應之，順氣成象而和樂興焉。</p>
+<hr>
+<p>2016-07-07 16:06:44</p>
+<p>民有剛柔緩急，音聲不同，系水土之風氣，故謂之風。好惡、取捨、動靜，隨君上之情欲，故謂之俗。</p>
+<p>注</p>
+<p>风俗之义</p>
+<hr>
+<p>2016-07-07 16:14:41</p>
+<p>詩是樂之心，樂為詩之聲，故詩、樂同其功也。然則詩、樂相將，無詩則無樂。</p>
+<hr>
+<p>2016-07-07 16:18:17</p>
+<p>風，言賢聖治道之遺化。賦之言鋪，直鋪陳今之政教善惡。比，見今之失，不敢斥言，取比類以言之。興，見今之美，嫌於媚諛，取善事以喻勸之。雅，正也，言今之正者，以為後世法。頌之言誦也，容也，誦今之德，廣以美之。</p>
+<hr>
+<p>2016-07-07 16:22:25</p>
+<p>比之與興，雖同是附讬外物，比顯而興隱。</p>
+<hr>
+<p>2016-07-07 17:14:50</p>
+<p>風、雅、頌同為政稱，而事有積漸，教化之道，必先諷動之，物情既悟，然後教化，使之齊正。言其風動之初，則名之曰風。指其齊正之後，則名之曰雅。風俗既齊，然後德能容物，故功成乃謂之頌。</p>
+<hr>
+<p>2016-07-07 17:17:53</p>
+<p>風、雅、頌者，詩篇之異體；賦、比、興者，詩文之異辭耳</p>
+<hr>
+<p>2016-07-07 21:19:13</p>
+<p>王者政教有小大，詩人述之亦有小大，故有小雅焉，有大雅焉。小雅所陳，有飲食賓客，賞勞群臣，燕賜以懷諸侯，征伐以強中國，樂得賢者，養育人材，於天子之政，皆小事也。大雅所陳，受命作周，代殷繼伐，荷先王之福祿，尊祖考以配天，醉酒飽德，能官用士，澤被昆蟲，仁及草木，於天子之政，皆大事也。詩人歌其大事，制為大體；述其小事，制為小體。體有大小，故分為二焉。</p>
+<hr>
+<p>2016-07-07 21:28:37</p>
+<p>“四始”者，鄭答張逸雲：“風也，小雅也，大雅也，頌也。人君行之則為興，廢之則為衰。”</p>
+<hr>
+<p>2016-07-07 21:32:18</p>
+<p>《詩緯·汎曆樞》雲：“《大明》在亥，水始也。《四牡》在寅，木始也。《嘉魚》在已，火始也。《鴻雁》在申，金始也。”與此不同者，緯文因金木水火有四始之義，以《詩》文讬之。</p>
+<hr>
+<p>2016-07-07 21:31:54</p>
+<p>鄭作《六藝論》，引《春秋緯·演孔圖》雲：“《詩》含五際、六情”者，鄭以《汎曆樞》雲午亥之際為革命，卯酉之際為改正。辰在天門，出入候聽。卯，《天保》也。酉，《祈父》也。午，《采芑》也。亥，《大明》也。然則亥為革命，一際也；亥又為天門出入候聽，二際也；卯為陰陽交際，三際也；午為陽謝陰興，四際也；酉為陰盛陽微，五際也。</p>
+<hr>
+<p>2016-07-07 21:37:03</p>
+<p>但文王所行，兼行先王之道，感文王之化為《周南》，感先王之化為《召南》，不言先王之教，無以知其然，故特著之也。</p>
+<hr>
+<p>2016-07-07 21:36:47</p>
+<p>文王以諸侯而有王者之化，述其本宜為風。</p>
+<hr>
+<p>2016-07-07 21:38:25</p>
+<p>文王末年，身實稱王，又不可以《國風》之詩系之王身。名無所系，詩不可棄，因二公為王行化，是故系之二公。</p>
+<hr>
+<p>2016-07-07 21:42:03</p>
+<p>是以《關雎》之篇，說後妃心之所樂，樂得此賢善之女，以配己之君子；心之所憂，憂在進舉賢女，不自淫恣其色；又哀傷處窈窕幽閒之女未得升進，思得賢才之人與之共事。</p>
+<hr>
+<p>2016-07-08 07:48:24</p>
+<p>此雎鳩之鳥，雖雌雄情至，猶能自別，退在河中之洲，不乘匹而相隨也，以興情至，性行和諧者，是後妃也。</p>
+<hr>
+<p>2016-07-08 09:02:43</p>
+<p>《禮記·祭統》曰：“水草之菹，陸產之醢，小物備矣。三牲之俎，八簋之實，美物備矣。昆蟲之異，草木之實，陰陽之物備矣。凡天之所生，地之所長，苟可薦者，莫不鹹在，示盡物也。”是祭必備庶物也。</p>
+<hr>
+<p>2016-07-09 09:56:22</p>
+<p>之、兮、矣、也之類，本取以為辭，雖在句中，不以為義，故處末者，皆字上為韻。</p>
+<hr>
+<p>2016-07-09 09:58:08</p>
+<p>然人志各異，作詩不同，必須聲韻諧和，曲應金石，亦有即將助句之字，以當聲韻之體者</p>
+<hr>
+<p>2016-07-11 11:07:16</p>
+<p>此言萋萋，取未成之時，喻女之少壯，故雲茂盛貌。下章指採用之時，故以“莫莫”為成就貌也。</p>
+<hr>
+<p>2016-07-11 11:10:53</p>
+<p>欲明總上於飛至集，終始恒鳴，以喻後妃在家與出嫁，常有聲稱達於遠方也。</p>
+<hr>
+<p>2016-07-11 11:14:24</p>
+<p>服，整也。女在父母之家，未知將所適，故習之以絺綌煩辱之事，乃能整治之無厭倦，是其性貞專。</p>
+<hr>
+<p>2016-07-11 11:18:32</p>
+<p>言後妃整治此葛以為絺綌之時，志無厭倦，是後妃之性貞專也。</p>
+<hr>
+<p>2016-07-11 11:26:54</p>
+<p>傳引此者，以王后、庶人之妻皆有所作，後妃在父母之家，未知將所適，雖葛之煩辱亦治之也。</p>
+<hr>
+<p>2016-07-11 12:24:51</p>
+<p>我告師氏者，我見教告于女師也，教告我以適人之道。重言我者，尊重師教也。</p>
+<hr>
+<p>2016-07-11 19:14:23</p>
+<p>姆，婦人五十無子，出而不復嫁，能以婦道教人者，若今時乳母矣。</p>
+<hr>
+<p>2016-07-11 23:39:27</p>
+<p>褘衣，從王祭先王。褕翟，祭先公。闕翟，祭群小祀。鞠衣以告桑。展衣，以禮見王及賓客。褖衣，以禦于王。</p>
+<hr>
+<p>2016-07-11 23:44:07</p>
+<p>婦人有歸宗，謂自其家之為宗者。大夫稱家，言大夫如此耳。夫人王后則不然也。天子諸侯位高，恐其專恣淫亂，故父母既沒，禁其歸寧。大夫以下，位卑畏威，故許之耳。</p>
+
+                    
+                    <HR width="100%" id="EOF">
+		    <p style="color:#777;">最后修改于 2020-06-06</p>
+                    
+                </div>
+            </div>
+            
+            
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts" href="https://autumnc.github.io/posts/%E6%9B%BE%E6%9C%89%E8%A5%BF%E9%A3%8E%E5%8D%8A%E7%82%B9%E9%A6%99/">
+			下回<br>
+                </a>
+                
+                
+                
+                <a class="older-posts" href="https://autumnc.github.io/posts/%E6%B1%89%E4%B9%A6%E6%96%B0%E6%B3%A8/">
+			上回<br>
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+
+
+<div id="gitalk-container"></div>
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+            </div><div id="single-column-footer">
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
+<br>
+移植自 <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	This is a customized copyright.
+	
+</div>
+            </div>
+    <script>
+let app;
+
+app = new Vue({
+    el: '#app',
+    data: {
+        scrollY: 0,
+        navOpacity: 0,
+        isDrawerOpen: false,
+        mounted: false,
+        isDarkMode: false
+    },
+    methods: {
+            sgn(t, x) {
+                let k = 1. / (1. - 2 * t);
+                if (x <= t) return 0;
+                else if (x >= 1 - t) return 1;
+                else {
+                    return k * (x - t);
+                }
+            },
+            handleScroll() {
+                this.scrollY = window.scrollY;
+                this.navOpacity = this.sgn(.0, Math.min(1, Math.max(0, window.scrollY / (this.pageHeadHeight() - this.navBarHeight() * 0.8))));
+                const {navBar, navBackground, navTitle, extraContainer, streamContainer} = this.$refs;
+
+                if (this.navOpacity >= 1) {
+                    navBackground.style.opacity = 1;
+                    navTitle.style.opacity = 1;
+                } else {
+                    navBackground.style.opacity = 0;
+                    navTitle.style.opacity = 0;
+                }
+            },
+            handleResize() {
+                const {navBar, navBackground, navTitle, extraContainer, streamContainer} = this.$refs;
+                extraContainer.style.left = (streamContainer.offsetWidth - extraContainer.offsetWidth) + 'px';
+            },
+            navBarHeight() {
+                return this.$refs.navBar.offsetHeight;
+            },
+            pageHeadHeight() {
+                return this.$refs.pageHead.offsetHeight;
+            },
+            toggleDrawer() {
+                this.isDrawerOpen = !this.isDrawerOpen;
+                document.getElementsByTagName('html')[0].style.overflow = this.isDrawerOpen ? 'hidden' : 'unset';
+            },
+            closeDrawer() {
+                this.isDrawerOpen = false;
+                document.getElementsByTagName('html')[0].style.overflow = this.isDrawerOpen ? 'hidden' : 'unset';
+            },
+            toggleDarkMode() {
+                this.isDarkMode = !this.isDarkMode;
+                if (this.isDarkMode==true){
+                    document.cookie = "night=1;path=/";
+                    document.body.classList.add("night");
+                } else {
+                    document.cookie = "night=0;path=/";
+                    document.body.classList.remove("night");
+                }
+            }
+    },
+    created() {
+        window.addEventListener('scroll', this.handleScroll);
+        window.addEventListener('resize', this.handleResize);
+        window._nonDesktop = function () {
+            let check = false;
+            (function (a) {
+                if (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino|android|ipad|playbook|silk/i.test(a) || /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(a.substr(0, 4))) check = true;
+            })(navigator.userAgent || navigator.vendor || window.opera);
+            return check;
+        };
+        
+        var night = document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, "$1");
+        if (night==""){
+            if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                
+            }
+        }else{
+            
+            if (night=="1") {
+                this.toggleDarkMode();
+            }
+        }
+    },
+    mounted() {
+        this.handleScroll();
+        this.handleResize();
+        this.mounted = true;
+
+        
+    },
+    destroyed() {
+        window.removeEventListener('scroll', this.handleScroll);
+        window.removeEventListener('resize', this.handleResize);
+    }
+});
+</script>
+
+<script src="https://autumnc.github.io/js/journal.js"></script>
+    </body>
+</html>
