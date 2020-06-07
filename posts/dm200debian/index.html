@@ -476,8 +476,8 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
 						
 						
 							<li>
-								<a href="#%e6%96%b9%e6%a1%88-1" onclick="collapseOthers(`#方案-1-nav`)" id="方案-1-nav">
-									方案 1
+								<a href="#fbterm" onclick="collapseOthers(`#fbterm-nav`)" id="fbterm-nav">
+									fbterm
 								</a>
 							</li>
 						
@@ -494,8 +494,26 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
 						
 						
 							<li>
-								<a href="#%e6%96%b9%e6%a1%882" onclick="collapseOthers(`#方案2-nav`)" id="方案2-nav">
-									方案2
+								<a href="#tmux" onclick="collapseOthers(`#tmux-nav`)" id="tmux-nav">
+									tmux
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#emacs" onclick="collapseOthers(`#emacs-nav`)" id="emacs-nav">
+									emacs
 								</a>
 							</li>
 						
@@ -938,8 +956,8 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
 						
 						
 							<li>
-								<a href="#%e6%96%b9%e6%a1%88-1" onclick="collapseOthers(`#方案-1-nav`)" id="方案-1-nav">
-									方案 1
+								<a href="#fbterm" onclick="collapseOthers(`#fbterm-nav`)" id="fbterm-nav">
+									fbterm
 								</a>
 							</li>
 						
@@ -956,8 +974,26 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
 						
 						
 							<li>
-								<a href="#%e6%96%b9%e6%a1%882" onclick="collapseOthers(`#方案2-nav`)" id="方案2-nav">
-									方案2
+								<a href="#tmux" onclick="collapseOthers(`#tmux-nav`)" id="tmux-nav">
+									tmux
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#emacs" onclick="collapseOthers(`#emacs-nav`)" id="emacs-nav">
+									emacs
 								</a>
 							</li>
 						
@@ -1119,7 +1155,7 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
 <li><a href="#fbterm%E7%9B%B8%E7%BB%93%E5%90%88%E7%9A%84%E8%BE%93%E5%85%A5%E6%B3%95">fbterm相结合的输入法</a></li>
 <li><a href="#%E7%BC%96%E8%BE%91%E5%99%A8%E5%86%85%E5%B5%8C%E7%9A%84%E8%BE%93%E5%85%A5%E6%B3%95">编辑器内嵌的输入法</a>
 <ul>
-<li><a href="#vim%E6%8F%92%E4%BB%B6vimim">vim插件vimim ::</a></li>
+<li><a href="#vim%E6%8F%92%E4%BB%B6vimim-%E9%80%9F%E5%BA%A6%E5%A4%AA%E6%85%A2%E6%94%BE%E5%BC%83-%E7%9C%9F%E7%9A%84%E6%98%AF%E6%85%A2-%E6%B2%A1%E6%B3%95%E7%94%A8">vim插件vimim :: 速度太慢放弃。真的是慢，没法用。</a></li>
 <li><a href="#emacs%E6%8F%92%E4%BB%B6">emacs插件 ::</a></li>
 </ul>
 </li>
@@ -1141,8 +1177,9 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
 </li>
 <li><a href="#%E7%BA%AF%E6%8E%A7%E5%88%B6%E5%8F%B0%E6%A8%A1%E5%BC%8F-%E6%97%A0-x-window">纯控制台模式（无 X window）</a>
 <ul>
-<li><a href="#%E6%96%B9%E6%A1%88-1">方案 1</a></li>
-<li><a href="#%E6%96%B9%E6%A1%882">方案2</a></li>
+<li><a href="#fbterm">fbterm</a></li>
+<li><a href="#tmux">tmux</a></li>
+<li><a href="#emacs">emacs</a></li>
 </ul>
 </li>
 <li><a href="#x-window">X Window</a></li>
@@ -1163,7 +1200,7 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
 <li>休眠问题：现阶段的休眠功能并不完美，只能说是可用。只支持休眠到内存，没法挂起到硬盘，据说会导致 sd 卡分区 mount 不上的问题，我没试过。原系统有个warp功能，可以快速启动，有人想利用这个改造休眠功能，不过好像失败了。</li>
 </ul>
 <h4 id="截图">截图</h4>
-<p>大概效果如下<br>
+<p>折腾完大概效果如下：<br>
 shell<br>
 <img src="/ox-hugo/shell.png" alt=""><br>
 orm-mode下的emacs<br>
@@ -1210,6 +1247,7 @@ keycode 58=F11<br>
 <li>一个纯日文的按键，在右边ctrl旁边，改成PageDown键，刚好和Menu键组成一对，好记也好用。</li>
 <li>无变换键，改成Home键，对于光标快速移动很方便。</li>
 <li>前候补变换键，改成End键，又刚好组成一对。</li>
+<li>这四个键我在emacs里面会大量利用，反正快捷键不嫌多。</li>
 </ul>
 <h2 id="中文系统">中文系统</h2>
 <h3 id="需满足几点要求">需满足几点要求</h3>
@@ -1226,15 +1264,16 @@ keycode 58=F11<br>
 <p>两种方案</p>
 <h5 id="fbterm相结合的输入法">fbterm相结合的输入法</h5>
 <ul>
-<li>uim-fep：虽然能打中文，但是仅仅只是能用，用起来体验极差，日本人弄的系统默认用这个，偶尔在终端打字可能用得上，我不用，我尝试过自己转换码表，但是这东西好像对码表的大小有限制，码表一大起来，就崩给你看。</li>
+<li>uim-fep：虽然能打中文，但是仅仅只是能用，用起来体验极差，日本人弄的系统默认用这个，偶尔在终端打字可能用得上，我不用，我尝试过自己转换码表，但是这东西好像对码表的大小有限制，码表一大起来，就崩给你看，应该可以做得更好，不过现阶段以我的能力做不到。</li>
 <li>yong输入法：优点是速度快，缺点是可定制性差，配置文件影响的是X下面的输入法，fbterm下面的yong输入法并没有全部读取配置文件，颜色什么的只能通过源码修改。还有在终端下和vim搭配有点不大稳定，现在怀疑是tf卡套接触不良的原因，因为换了大卡之后问题少了很多。yong输入法和emacs搭配好像还挺好的，暂时没发现太大的问题。</li>
 </ul>
 <h5 id="编辑器内嵌的输入法">编辑器内嵌的输入法</h5>
-<h6 id="vim插件vimim">vim插件vimim ::</h6>
-<p>速度太慢放弃。真的是慢，没法用。</p>
+<h6 id="vim插件vimim-速度太慢放弃-真的是慢-没法用">vim插件vimim :: 速度太慢放弃。真的是慢，没法用。</h6>
 <h6 id="emacs插件">emacs插件 ::</h6>
-<p>pyim：现阶段采用的方案，缺点是启动emacs之后第一次切换略慢，之后就顺畅了。还有如果想要流畅，最好选择用minibuffer的方式，但是容易被其他信息覆盖。<br>
-emacs－rime：据说速度快，但是得重新编译emacs，还有一堆东西得重新折腾，尝试过，编译全部很顺利，一运行就崩溃，暂时不清楚问题出在哪里。</p>
+<ul>
+<li>pyim：现阶段内部输入法采用的方案，缺点是启动emacs之后第一次切换略慢，之后就顺畅了。还有如果想要流畅，最好选择用minibuffer的方式，但是容易被其他信息覆盖。</li>
+<li>emacs－rime：据说速度快，但是得重新编译emacs，还有一堆东西得重新折腾，尝试过，编译全部很顺利，一运行就崩溃，暂时不清楚问题出在哪里。</li>
+</ul>
 <h4 id="文本编辑器">文本编辑器</h4>
 <p>两大神器：</p>
 <h5 id="vim">Vim</h5>
@@ -1243,19 +1282,20 @@ emacs－rime：据说速度快，但是得重新编译emacs，还有一堆东西
 <p>有强大的org-mode，配合deft管理笔记不要太好用。org-capture可以随时捕捉灵感，journal写写日记，一个软件就齐全了。缺点是配置相对复杂，不过一次配置，受益无穷，还是值得的。</p>
 <h4 id="文本同步与共享">文本同步与共享</h4>
 <h5 id="本机模式">本机模式</h5>
-<p>卡里有个fat分区，是专门用来和原系统交换文件用的，可以直接mount，好像也可以在原系统里面直接用usb直接连电脑拷文件，在debian里面不行。</p>
+<p>卡里有个fat分区，是专门用来和原系统交换文件用的，可以直接mount，好像也可以在原系统里面直接用usb直接连电脑拷文件，在debian里面不行，由于是fat格式，在windows系统下这个分区是可以直接读取出来的，所以相当于把tf卡当u盘使用是没问题的，不过频繁地拔卡插卡也不是个事，总体而言，还是网络模式靠谱一些。</p>
 <h5 id="网络模式">网络模式</h5>
 <p>-　emacs支持evernote-mode，分享文本还是很方便的。:: 国内使用可以把主机改成印象笔记，速度快一些。<br>
 -　用git同步 :: 这个适合整个文件的同步，git很强大，可以有很多种利用方式，我就存点东西，写个博客。<br>
 -　网络粘贴板 :: 可以用ubuntu-pastbin之类的网络粘贴板，也可以用netcat模式的termbin，对于临时复制粘贴文本我采用tibiji.com这种网站，配合w3m还是挺方便的，尤其是emacs里面的w3m，直接编辑，交换文本完全无缝。</p>
 <h3 id="纯控制台模式-无-x-window">纯控制台模式（无 X window）</h3>
-<h4 id="方案-1">方案 1</h4>
-<h4 id="方案2">方案2</h4>
+<h4 id="fbterm">fbterm</h4>
+<h4 id="tmux">tmux</h4>
+<h4 id="emacs">emacs</h4>
 <h3 id="x-window">X Window</h3>
 
                     
                     <HR width="100%" id="EOF">
-		    <p style="color:#777;">最后修改于 2020-06-07</p>
+		    <p style="color:#777;">最后修改于 2020-06-08</p>
                     
                 </div>
             </div>
