@@ -27,6 +27,7 @@
 &lt;li&gt;&lt;a href=&#34;#%E7%89%B9%E7%82%B9%E5%92%8C%E9%97%AE%E9%A2%98&#34;&gt;特点和问题：&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E6%88%AA%E5%9B%BE&#34;&gt;&lt;!-- raw HTML omitted --&gt;CANCELED&lt;!-- raw HTML omitted --&gt; 截图&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#%E5%9F%BA%E7%A1%80%E7%B3%BB%E7%BB%9F&#34;&gt;基础系统&lt;/a&gt;
@@ -92,6 +93,14 @@
 &lt;li&gt;usb 问题：usb 接口除了用来充电之外，原装系统下好像可以插电脑传数据。除此之外，在 linux 下面其实是可以支持 otg 外接键盘鼠标的，但是有个问题，机子的 usb 接口是不带供电功能的，所以想带动外部设备得用那种带外部供电功能的 hub 才行。实测接鼠标是没问题的。&lt;/li&gt;
 &lt;li&gt;休眠问题：现阶段的休眠功能并不完美，只能说是可用。只支持休眠到内存，没法挂起到硬盘，据说会导致 sd 卡分区 mount 不上的问题，我没试过。原系统有个warp功能，可以快速启动，有人想利用这个改造休眠功能，不过好像失败了。&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3 id=&#34;截图&#34;&gt;&lt;!-- raw HTML omitted --&gt;CANCELED&lt;!-- raw HTML omitted --&gt; 截图&lt;/h3&gt;
+&lt;p&gt;大概效果如下&lt;br&gt;
+shell&lt;br&gt;
+&lt;a href=&#34;https://autumnc.github.io/ox-hugo/shell.png&#34;&gt;shell&lt;/a&gt;&lt;br&gt;
+orm-mode下的emacs&lt;br&gt;
+&lt;a href=&#34;https://autumnc.github.io/ox-hugo/emacs.png&#34;&gt;emacs&lt;/a&gt;&lt;br&gt;
+输入法&lt;br&gt;
+&lt;a href=&#34;https://autumnc.github.io/ox-hugo/input.png&#34;&gt;input&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;基础系统&#34;&gt;基础系统&lt;/h2&gt;
 &lt;h3 id=&#34;安装-debian-系统&#34;&gt;安装 debian 系统&lt;/h3&gt;
 &lt;p&gt;参考资料：一堆日文网站，全靠google－translate。&lt;/p&gt;
